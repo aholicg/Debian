@@ -1,5 +1,7 @@
-background-color=#00f991fe
-text-color=#00301cff
-border-color=#006360ff
-border-radius=0px 5px 5px 5px
+background-color=#f98100e6
+text-color=#ffffffff
+border-size=2
+border-color=#fcf464ff
+border-radius=5
 default-timeout=5000
+icon=1
