@@ -2,8 +2,8 @@
 
 Dùng tạm đợi khi nào giỏi hơn rảnh hơn thì quay lại chiến với Nix :(
 
-WM: Niri
-Theme: Oomox/custom
+## WM: Niri
+## Theme: Oomox/custom
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3127aa92-8b24-48ca-83f6-db61c09c5939" />
 
