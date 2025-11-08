@@ -144,3 +144,4 @@ NC='\[\033[0m\]'
 PS1="${WHITE}[ ${GREY}\u${WHITE}@${GREEN}\h ${YELLOW}\W ${WHITE}]\$ ${NC}"
 
 # --- End Custom Bash Prompt ---
+. "$HOME/.cargo/env"
