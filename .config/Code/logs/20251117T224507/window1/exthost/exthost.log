@@ -1,0 +1,61 @@
+2025-11-17 22:45:11.742 [info] Extension host with pid 356812 started
+2025-11-17 22:45:11.742 [info] Skipping acquiring lock for /home/trang/.config/Code/User/workspaceStorage/53b6c388ab63f1f38dff78b483c76ba8.
+2025-11-17 22:45:12.518 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-17 22:45:12.575 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-17 22:45:12.609 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-17 22:45:14.278 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-11-17 22:45:14.364 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-17 22:45:14.776 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-17 22:45:14.914 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-17 22:45:15.075 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-17 22:45:15.237 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-17 22:45:15.854 [info] Eager extensions activated
+2025-11-17 22:45:16.024 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 22:45:16.028 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 22:45:16.059 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 22:45:18.978 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at XKt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-11-17 22:51:05.684 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-17 22:51:11.023 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 22:51:11.049 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 22:51:11.068 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 23:26:21.729 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-11-17 23:27:12.981 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-11-18 09:59:04.550 [error] Error: Regex parse error: missing closing parenthesis
+    at Aks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:566:39861)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3869:9643
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3869:7915
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3869:7257
+    at async $It.textSearch (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3869:6502)
+2025-11-18 16:58:12.787 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-18 16:58:13.614 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new eU (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120021)
+    at GS.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124631)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122125)
+    at Ty.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:76517)
+    at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:23219)
+    at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:791:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-11-18 16:58:13.616 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new eU (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120021)
+    at GS.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124631)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122125)
+    at Ty.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:76517)
+    at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:23219)
+    at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:791:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-11-18 16:58:13.617 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new eU (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120021)
+    at GS.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124631)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122125)
+    at Ty.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:76517)
+    at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:23219)
+    at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:791:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-11-18 16:58:13.841 [info] Extension host with pid 356812 exiting with code 0

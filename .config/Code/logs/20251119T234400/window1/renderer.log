@@ -1,0 +1,44 @@
+2025-11-19 23:44:03.559 [info] Started local extension host with pid 250207.
+2025-11-19 23:44:08.009 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-19 23:44:08.010 [error] [Extension Host] (node:250207) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-19 23:44:08.011 [error] [Extension Host] (node:250207) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-19 23:44:08.931 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-19 23:44:10.256 [info] [perf] Render performance baseline is 144ms
+2025-11-19 23:44:12.769 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-19 23:44:14.904 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-19 23:52:31.651 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.chatEditingSession
+2025-11-19 23:52:32.673 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-19 23:52:32.980 [info] Started local extension host with pid 255012.
+2025-11-19 23:52:34.649 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-19 23:52:34.774 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-19 23:52:35.866 [info] [perf] Render performance baseline is 56ms
+2025-11-19 23:52:36.315 [error] [Extension Host] (node:255012) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-19 23:52:36.319 [error] [Extension Host] (node:255012) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-19 23:52:38.469 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-19 23:52:40.105 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-19 23:53:54.076 [error] [Extension Host] (node:255012) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-11-20 00:07:28.561 [warning] [perf] Renderer reported VERY LONG TASK (788ms), starting profiling session 'a9828800-ce1c-4ced-89a8-914e727db899'
+2025-11-20 00:08:32.493 [error] [Extension Host] [AsyncCompletionManager] [7a710da5-d46d-41e8-b591-e60ef9b33326] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/trang/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/trang/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/trang/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/trang/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/trang/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/trang/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/trang/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/trang/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/trang/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-20 00:26:25.798 [warning] [perf] Renderer reported VERY LONG TASK (632ms), starting profiling session '2f869226-e7f3-4eaa-b075-302ea109e178'
+2025-11-20 00:31:44.416 [warning] [perf] Renderer reported VERY LONG TASK (947ms), starting profiling session '548f1475-9bc9-4f75-9a73-69071dc163c0'
+2025-11-20 00:31:44.725 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatSessionStore, join.chatEditingSession

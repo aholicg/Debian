@@ -1,0 +1,54 @@
+2025-11-18 21:37:42.346 [info] [main] Log level: Info
+2025-11-18 21:37:42.346 [info] [main] Validating found git in: "git"
+2025-11-18 21:37:42.346 [info] [main] Using git "2.47.3" from "git"
+2025-11-18 21:37:42.346 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-18 21:37:42.346 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-18 21:38:36.379 [info] [main] Log level: Info
+2025-11-18 21:38:36.389 [info] [main] Validating found git in: "git"
+2025-11-18 21:38:36.389 [info] [main] Using git "2.47.3" from "git"
+2025-11-18 21:38:36.389 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-18 21:38:36.390 [info] > git rev-parse --show-toplevel [14ms]
+2025-11-18 21:38:36.409 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-11-18 21:38:36.432 [info] [Model][openRepository] Opened repository (path): /home/trang/localnsv/mAIware-server
+2025-11-18 21:38:36.432 [info] [Model][openRepository] Opened repository (real path): /home/trang/localnsv/mAIware-server
+2025-11-18 21:38:36.432 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-18 21:38:36.484 [info] > git rev-parse --show-toplevel [12ms]
+2025-11-18 21:38:36.494 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-18 21:38:36.498 [info] > git config --get commit.template [39ms]
+2025-11-18 21:38:36.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [63ms]
+2025-11-18 21:38:39.823 [info] > git check-ignore -v -z --stdin [129ms]
+2025-11-18 21:38:39.916 [info] > git status -z -uall [45ms]
+2025-11-18 21:38:39.916 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [23ms]
+2025-11-18 21:38:40.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [238ms]
+2025-11-18 21:38:40.249 [info] > git config --get --local branch.cross-machine.vscode-merge-base [38ms]
+2025-11-18 21:38:40.257 [info] > git config --get commit.template [59ms]
+2025-11-18 21:38:40.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/cross-machine refs/remotes/origin/cross-machine [302ms]
+2025-11-18 21:38:40.616 [info] > git merge-base refs/heads/cross-machine refs/remotes/origin/cross-machine [49ms]
+2025-11-18 21:38:40.632 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6d27efbce03c5539af2ff292525ff02011d4d7b8...refs/remotes/origin/cross-machine -- [7ms]
+2025-11-18 21:38:40.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [18ms]
+2025-11-18 21:38:40.655 [info] > git status -z -uall [12ms]
+2025-11-18 21:38:40.655 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-18 21:39:12.023 [info] > git check-ignore -v -z --stdin [5ms]
+2025-11-18 21:39:13.405 [info] > git show --textconv :public/styles.css [19ms]
+2025-11-18 21:39:13.410 [info] > git ls-files --stage -- public/styles.css [6ms]
+2025-11-18 21:39:13.442 [info] > git cat-file -s 8645e394d1439f139ae21c0a8513917ab5b46711 [5ms]
+2025-11-18 21:40:18.999 [info] > git config --get commit.template [22ms]
+2025-11-18 21:40:19.031 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [7ms]
+2025-11-18 21:40:19.145 [info] > git status -z -uall [56ms]
+2025-11-18 21:40:19.151 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [26ms]
+2025-11-18 21:43:28.092 [info] > git config --get commit.template [2ms]
+2025-11-18 21:43:28.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [2ms]
+2025-11-18 21:43:28.131 [info] > git status -z -uall [12ms]
+2025-11-18 21:43:28.132 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-18 21:50:51.269 [info] > git config --get commit.template [1ms]
+2025-11-18 21:50:51.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [7ms]
+2025-11-18 21:50:51.323 [info] > git status -z -uall [14ms]
+2025-11-18 21:50:51.325 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-18 21:53:13.154 [info] > git show --textconv :public/dashboard.html [16ms]
+2025-11-18 21:53:13.156 [info] > git ls-files --stage -- public/dashboard.html [3ms]
+2025-11-18 21:53:13.166 [info] > git cat-file -s 731ea8724aa4b36f75fdb75999237141e4f97180 [2ms]
+2025-11-18 21:53:13.241 [info] > git blame --root --incremental a7ce89f17d50eadefad4dce54e4be94da975168c -- public/dashboard.html [14ms]
+2025-11-18 21:53:13.988 [info] > git config --get commit.template [21ms]
+2025-11-18 21:53:13.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [4ms]
+2025-11-18 21:53:14.029 [info] > git status -z -uall [21ms]
+2025-11-18 21:53:14.032 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]

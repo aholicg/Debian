@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mAIware Server Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <!-- Add Leaflet.js for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Add D3.js for force-directed graph -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-shield-virus"></i> mAIware Server</h1>
+            <p class="subtitle">Real-time Malware Analysis Dashboard</p>
+        </header>
+        
+        <div class="stats-grid" id="stats-grid">
+            <div class="stat-card info">
+                <i class="fas fa-laptop"></i>
+                <span class="stat-number" id="stat-clients">0</span>
+                <span class="stat-label">Active Clients</span>
+            </div>
+            <div class="stat-card info">
+                <i class="fas fa-chart-line"></i>
+                <span class="stat-number" id="stat-total">0</span>
+                <span class="stat-label">Total Scans</span>
+            </div>
+            <div class="stat-card malware">
+                <i class="fas fa-bug"></i>
+                <span class="stat-number" id="stat-malware">0</span>
+                <span class="stat-label">Malware</span>
+            </div>
+            <div class="stat-card suspicious">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span class="stat-number" id="stat-suspicious">0</span>
+                <span class="stat-label">Suspicious</span>
+            </div>
+            <div class="stat-card benign">
+                <i class="fas fa-check-circle"></i>
+                <span class="stat-number" id="stat-benign">0</span>
+                <span class="stat-label">Benign</span>
+            </div>
+        </div>
+        
+        <!-- NEW: Emerging Threat Intelligence Panel -->
+        <div class="eti-container">
+            <div class="eti-header">
+                <h2><i class="fas fa-exclamation-triangle"></i> Emerging Threat Intelligence (ETI)</h2>
+                <p class="eti-subtitle">Real-time actionable intelligence on active threats and indicators of compromise</p>
+                <div class="eti-summary">
+                    <span class="eti-badge" id="eti-total">0 Total Threats</span>
+                    <span class="eti-badge recent" id="eti-recent">0 Last 24h</span>
+                </div>
+            </div>
+            
+            <div class="eti-grid">
+                <div class="eti-panel">
+                    <h3><i class="fas fa-virus"></i> Top Malware Families</h3>
+                    <div class="eti-subtitle-small">Most active malware families detected</div>
+                    <div id="eti-malware" class="eti-list"></div>
+                </div>
+                
+                <div class="eti-panel">
+                    <h3><i class="fas fa-code"></i> Top Suspicious APIs</h3>
+                    <div class="eti-subtitle-small">Most frequently called malicious APIs</div>
+                    <div id="eti-apis" class="eti-list"></div>
+                </div>
+                
+                <div class="eti-panel">
+                    <h3><i class="fas fa-terminal"></i> Top Malicious Strings</h3>
+                    <div class="eti-subtitle-small">Most common IOC strings and commands</div>
+                    <div id="eti-strings" class="eti-list"></div>
+                </div>
+                
+                <div class="eti-panel">
+                    <h3><i class="fas fa-shield-alt"></i> Top Packers/Obfuscators</h3>
+                    <div class="eti-subtitle-small">Most used evasion techniques</div>
+                    <div id="eti-packers" class="eti-list"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NEW: Threat Modeler Panel -->
+        <div class="modeler-container">
+            <div class="modeler-header">
+                <h2><i class="fas fa-flask"></i> Predictive Threat Modeler</h2>
+                <p class="modeler-subtitle">Build hypothetical malware and predict how mAIware would classify it</p>
+            </div>
+            
+            <div class="modeler-grid">
+                <div class="modeler-builder">
+                    <h3><i class="fas fa-cogs"></i> Threat Configuration</h3>
+                    
+                    <div class="modeler-field">
+                        <label>File Type</label>
+                        <select id="model-filetype" class="modeler-select">
+                            <option>PE32+ (GUI) x86-64</option>
+                            <option>PE32 (Console) Intel 80386</option>
+                            <option>PE32+ DLL x86-64</option>
+                            <option>MSI Installer</option>
+                            <option>PDF Document</option>
+                        </select>
+                    </div>
+                    
+                    <div class="modeler-field">
+                        <label>Packer/Obfuscator</label>
+                        <select id="model-packer" class="modeler-select">
+                            <option>None</option>
+                            <option>UPX</option>
+                            <option>VMProtect</option>
+                            <option>Themida</option>
+                            <option>ASPack</option>
+                            <option>Unknown (High Entropy)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="modeler-field">
+                        <label>Digital Signature</label>
+                        <select id="model-signature" class="modeler-select">
+                            <option>Verified (Microsoft Corporation)</option>
+                            <option>Verified (Google LLC)</option>
+                            <option>Verified (Unknown Publisher)</option>
+                            <option>Not Signed</option>
+                            <option>Expired Certificate</option>
+                            <option>Self-Signed (Untrusted)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="modeler-field">
+                        <label>API Imports (select multiple)</label>
+                        <select id="model-apis" class="modeler-select" multiple size="6">
+                            <option>CreateRemoteThread</option>
+                            <option>WriteProcessMemory</option>
+                            <option>VirtualAllocEx</option>
+                            <option>SetWindowsHookExW</option>
+                            <option>URLDownloadToFileW</option>
+                            <option>WinExec</option>
+                            <option>RegSetValueExW</option>
+                            <option>CryptEncrypt</option>
+                            <option>Socket</option>
+                            <option>ReadFile</option>
+                        </select>
+                        <small class="modeler-hint">Hold Ctrl/Cmd to select multiple</small>
+                    </div>
+                    
+                    <div class="modeler-field">
+                        <label>Suspicious Strings (select multiple)</label>
+                        <select id="model-strings" class="modeler-select" multiple size="6">
+                            <option>http://bad-c2-server.com/payload.dat</option>
+                            <option>keylog.txt</option>
+                            <option>steal_passwords</option>
+                            <option>powershell -enc</option>
+                            <option>vssadmin.exe delete shadows</option>
+                            <option>HOW_TO_DECRYPT.txt</option>
+                            <option>crack</option>
+                            <option>patch</option>
+                            <option>disable_antivirus</option>
+                        </select>
+                        <small class="modeler-hint">Hold Ctrl/Cmd to select multiple</small>
+                    </div>
+                    
+                    <button class="modeler-analyze-btn" onclick="analyzeThreatModel()">
+                        <i class="fas fa-brain"></i> ANALYZE THREAT
+                    </button>
+                </div>
+                
+                <div class="modeler-results">
+                    <h3><i class="fas fa-chart-line"></i> Prediction Results</h3>
+                    <div id="modeler-output" class="modeler-output">
+                        <div class="modeler-placeholder">
+                            <i class="fas fa-arrow-left"></i>
+                            <p>Configure a threat profile and click ANALYZE to see predictions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scans-container">
+            <div class="scans-header">
+                <h2>Recent Scans</h2>
+                <button class="refresh-btn" onclick="manualRefresh()">
+                    <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+            </div>
+            
+            <table class="scans-table">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Filename</th>
+                        <th>Classification</th>
+                        <th>Client IP</th>
+                        <th>Hash (SHA256)</th>
+                    </tr>
+                </thead>
+                <tbody id="scans-tbody">
+                    <tr>
+                        <td colspan="5" class="empty-state">
+                            <i class="fas fa-inbox"></i>
+                            <p>No scans yet. Waiting for clients...</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- NEW: Daily Analysis Chart -->
+        <div class="chart-container">
+            <div class="chart-header">
+                <h2>Daily Analysis Trends (Last 30 Days)</h2>
+                <div class="chart-controls">
+                    <button class="chart-btn active" onclick="setChartDays(7)">7 Days</button>
+                    <button class="chart-btn" onclick="setChartDays(14)">14 Days</button>
+                    <button class="chart-btn" onclick="setChartDays(30)">30 Days</button>
+                </div>
+            </div>
+            <canvas id="dailyScansChart"></canvas>
+        </div>
+        
+        <!-- NEW: Geographic Distribution Map -->
+        <div class="map-container">
+            <div class="map-header">
+                <h2><i class="fas fa-globe"></i> Geographic Distribution of Detections</h2>
+                <div class="map-legend">
+                    <span class="legend-item"><span class="legend-dot malware-dot"></span> Malware</span>
+                    <span class="legend-item"><span class="legend-dot suspicious-dot"></span> Suspicious</span>
+                    <span class="legend-item"><span class="legend-dot benign-dot"></span> Benign</span>
+                </div>
+            </div>
+            <div id="worldMap" style="height: 500px; border-radius: 8px;"></div>
+        </div>
+        
+        <!-- NEW: Malware Source Distribution Pie Chart -->
+        <div class="chart-container" style="margin-top: 24px;">
+            <div class="chart-header">
+                <h2><i class="fas fa-chart-pie"></i> Malware Source Distribution</h2>
+            </div>
+            <div style="max-width: 500px; margin: 0 auto;">
+                <canvas id="malwareSourceChart"></canvas>
+            </div>
+        </div>
+        
+        <!-- NEW: Threat Vector Correlation Explorer -->
+        <div class="correlation-container">
+            <div class="correlation-header">
+                <h2><i class="fas fa-project-diagram"></i> Threat Vector Correlation Explorer</h2>
+                <p class="correlation-subtitle">Interactive intelligence map showing relationships between malware families, agents, APIs, and indicators</p>
+            </div>
+            <div class="graph-controls">
+                <button class="graph-btn" onclick="resetGraph()"><i class="fas fa-sync"></i> Reset View</button>
+                <button class="graph-btn" onclick="centerGraph()"><i class="fas fa-compress"></i> Center</button>
+                <div class="graph-legend">
+                    <span class="legend-item"><span class="node-sample malware-node"></span> Malware Family</span>
+                    <span class="legend-item"><span class="node-sample agent-node"></span> Agent/System</span>
+                    <span class="legend-item"><span class="node-sample api-node"></span> API Call</span>
+                    <span class="legend-item"><span class="node-sample string-node"></span> Suspicious String</span>
+                </div>
+            </div>
+            <div id="correlationGraph"></div>
+            <div id="nodeDetails" class="node-details" style="display: none;">
+                <h3 id="detailsTitle"></h3>
+                <div id="detailsContent"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let dailyChart = null;
+        let currentChartDays = 30;
+        
+        async function loadStats() {
+            try {
+                const response = await fetch('/api/stats');
+                const stats = await response.json();
+                
+                document.getElementById('stat-clients').textContent = stats.activeClients;
+                document.getElementById('stat-total').textContent = stats.totalScans;
+                document.getElementById('stat-malware').textContent = stats.malwareCount;
+                document.getElementById('stat-suspicious').textContent = stats.suspiciousCount;
+                document.getElementById('stat-benign').textContent = stats.benignCount;
+            } catch (error) {
+                console.error('Failed to load stats:', error);
+            }
+        }
+        
+        async function loadScans() {
+            try {
+                const response = await fetch('/api/scans?limit=50');
+                const data = await response.json();
+                
+                const tbody = document.getElementById('scans-tbody');
+                
+                if (data.scans.length === 0) {
+                    tbody.innerHTML = `
+                        <tr>
+                            <td colspan="5" class="empty-state">
+                                <i class="fas fa-inbox"></i>
+                                <p>No scans yet. Waiting for clients...</p>
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+                
+                tbody.innerHTML = data.scans.map(scan => {
+                    const timestamp = new Date(scan.serverTimestamp).toLocaleString();
+                    const hash = scan.file_hashes?.sha256 || 'N/A';
+                    const hashShort = hash.length > 16 ? (hash.substring(0, 16) + '...') : hash;
+                    const classification = scan.classification || 'Unknown';
+                    const badgeClass = classification.toLowerCase();
+                    const nonPeTag = scan.is_pe === false ? '<span class="badge non-pe" title="Non-PE file">Non-PE</span>' : '';
+                    return `
+                        <tr>
+                            <td>${timestamp}</td>
+                            <td>${scan.detected_filename} ${nonPeTag}</td>
+                            <td><span class="badge ${badgeClass}">${classification}</span></td>
+                            <td>${scan.systemInfo?.ip || scan.clientIp || 'Unknown'}</td>
+                            <td class="hash" title="${hash}">${hashShort}</td>
+                        </tr>
+                    `;
+                }).join('');
+                
+            } catch (error) {
+                console.error('Failed to load scans:', error);
+            }
+        }
+        
+        async function loadDailyChart() {
+            try {
+                const response = await fetch(`/api/daily-scans?days=${currentChartDays}`);
+                const data = await response.json();
+                
+                const ctx = document.getElementById('dailyScansChart');
+                
+                // Destroy existing chart if it exists
+                if (dailyChart) {
+                    dailyChart.destroy();
+                }
+                
+                // Format dates for display (MM/DD)
+                const labels = data.days.map(day => {
+                    const date = new Date(day.date);
+                    return `${date.getMonth() + 1}/${date.getDate()}`;
+                });
+                
+                dailyChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Total Scans',
+                                data: data.days.map(d => d.total),
+                                borderColor: '#5a9cf8',
+                                backgroundColor: 'rgba(90, 156, 248, 0.1)',
+                                fill: true,
+                                tension: 0.4,
+                                borderWidth: 2
+                            },
+                            {
+                                label: 'Malware',
+                                data: data.days.map(d => d.malware),
+                                borderColor: '#ff4757',
+                                backgroundColor: 'rgba(255, 71, 87, 0.1)',
+                                fill: true,
+                                tension: 0.4,
+                                borderWidth: 2
+                            },
+                            {
+                                label: 'Suspicious',
+                                data: data.days.map(d => d.suspicious),
+                                borderColor: '#ffa502',
+                                backgroundColor: 'rgba(255, 165, 2, 0.1)',
+                                fill: true,
+                                tension: 0.4,
+                                borderWidth: 2
+                            },
+                            {
+                                label: 'Benign',
+                                data: data.days.map(d => d.benign),
+                                borderColor: '#26de81',
+                                backgroundColor: 'rgba(38, 222, 129, 0.1)',
+                                fill: true,
+                                tension: 0.4,
+                                borderWidth: 2
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        interaction: {
+                            mode: 'index',
+                            intersect: false,
+                        },
+                        plugins: {
+                            legend: {
+                                labels: {
+                                    color: '#e0e0e0',
+                                    font: { size: 12 }
+                                }
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                titleColor: '#fff',
+                                bodyColor: '#e0e0e0',
+                                borderColor: 'rgba(255, 255, 255, 0.1)',
+                                borderWidth: 1
+                            }
+                        },
+                        scales: {
+                            x: {
+                                ticks: { 
+                                    color: '#888',
+                                    maxRotation: 45,
+                                    minRotation: 45
+                                },
+                                grid: { 
+                                    color: 'rgba(255, 255, 255, 0.05)' 
+                                }
+                            },
+                            y: {
+                                beginAtZero: true,
+                                ticks: { 
+                                    color: '#888',
+                                    stepSize: 1
+                                },
+                                grid: { 
+                                    color: 'rgba(255, 255, 255, 0.05)' 
+                                }
+                            }
+                        }
+                    }
+                });
+                
+            } catch (error) {
+                console.error('Failed to load daily chart:', error);
+            }
+        }
+        
+        let worldMap = null;
+        let markerLayer = null;
+        let mapInitialized = false;
+        let lastGeoDataHash = '';
+        let sourceChart = null;
+        
+        function initializeMap() {
+            if (mapInitialized) return;
+            
+            try {
+                worldMap = L.map('worldMap', {
+                    zoomControl: true,
+                    scrollWheelZoom: true
+                }).setView([20, 0], 2);
+                
+                // Use dark theme tiles
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                    subdomains: 'abcd',
+                    maxZoom: 19
+                }).addTo(worldMap);
+                
+                markerLayer = L.layerGroup().addTo(worldMap);
+                mapInitialized = true;
+            } catch (error) {
+                console.error('Failed to initialize map:', error);
+            }
+        }
+        
+        async function loadGeoMap() {
+            try {
+                // Initialize map only once
+                if (!mapInitialized) {
+                    initializeMap();
+                }
+                
+                if (!markerLayer) return;
+                
+                const response = await fetch('/api/geo-data');
+                const data = await response.json();
+                
+                // Generate hash of current data to detect changes
+                const currentHash = JSON.stringify(data.locations.map(l => 
+                    `${l.ip}-${l.totalScans}-${l.malwareCount}-${l.suspiciousCount}`
+                )).substring(0, 100);
+                
+                // Skip update if data hasn't changed
+                if (currentHash === lastGeoDataHash && markerLayer.getLayers().length > 0) {
+                    return;
+                }
+                lastGeoDataHash = currentHash;
+                
+                // Clear existing markers
+                markerLayer.clearLayers();
+                
+                // Add markers for each location
+                data.locations.forEach(location => {
+                    const { lat, lng, city, country } = location.location;
+                    
+                    // Determine marker color based on severity
+                    let markerColor = '#26de81'; // benign (green)
+                    let primaryClassification = 'Benign';
+                    
+                    if (location.malwareCount > 0) {
+                        markerColor = '#ff4757'; // malware (red)
+                        primaryClassification = 'Malware';
+                    } else if (location.suspiciousCount > 0) {
+                        markerColor = '#ffa502'; // suspicious (orange)
+                        primaryClassification = 'Suspicious';
+                    }
+                    
+                    // Calculate marker size based on total scans (min 8, max 24)
+                    const markerSize = Math.min(24, Math.max(8, 8 + location.totalScans * 2));
+                    
+                    // Create custom circular marker
+                    const marker = L.circleMarker([lat, lng], {
+                        radius: markerSize / 2,
+                        fillColor: markerColor,
+                        color: '#fff',
+                        weight: 2,
+                        opacity: 0.8,
+                        fillOpacity: 0.6
+                    });
+                    
+                    // Create popup content
+                    const popupContent = `
+                        <div style="color: #333; min-width: 200px;">
+                            <h3 style="margin: 0 0 10px 0; color: #1a1a1a; font-size: 1.1rem;">
+                                <i class="fas fa-map-marker-alt" style="color: ${markerColor};"></i>
+                                ${city}, ${country}
+                            </h3>
+                            <p style="margin: 5px 0; color: #555;"><strong>IP:</strong> ${location.ip}</p>
+                            <p style="margin: 5px 0; color: #555;"><strong>Total Scans:</strong> ${location.totalScans}</p>
+                            <div style="margin-top: 10px;">
+                                <div style="margin: 3px 0;">
+                                    <span style="color: #ff4757;">●</span> Malware: ${location.malwareCount}
+                                </div>
+                                <div style="margin: 3px 0;">
+                                    <span style="color: #ffa502;">●</span> Suspicious: ${location.suspiciousCount}
+                                </div>
+                                <div style="margin: 3px 0;">
+                                    <span style="color: #26de81;">●</span> Benign: ${location.benignCount}
+                                </div>
+                            </div>
+                            ${location.scans.length > 0 ? `
+                                <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd;">
+                                    <strong>Recent Detections:</strong>
+                                    <ul style="margin: 5px 0; padding-left: 20px; font-size: 0.85rem;">
+                                        ${location.scans.slice(0, 3).map(scan => `
+                                            <li style="margin: 2px 0;">
+                                                ${scan.filename} 
+                                                <span style="color: ${
+                                                    scan.classification === 'Malware' ? '#ff4757' : 
+                                                    scan.classification === 'Suspicious' ? '#ffa502' : '#26de81'
+                                                };">(${scan.classification})</span>
+                                            </li>
+                                        `).join('')}
+                                        ${location.scans.length > 3 ? `<li>...and ${location.scans.length - 3} more</li>` : ''}
+                                    </ul>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                    
+                    marker.bindPopup(popupContent);
+                    marker.addTo(markerLayer);
+                    
+                    // Add hover effect
+                    marker.on('mouseover', function() {
+                        this.setStyle({
+                            fillOpacity: 0.9,
+                            opacity: 1
+                        });
+                    });
+                    
+                    marker.on('mouseout', function() {
+                        this.setStyle({
+                            fillOpacity: 0.6,
+                            opacity: 0.8
+                        });
+                    });
+                });
+                
+                console.log(`Map updated with ${data.locations.length} locations`);
+                
+            } catch (error) {
+                console.error('Failed to load geo map:', error);
+            }
+        }
+        
+        async function loadMalwareSources() {
+            try {
+                const response = await fetch('/api/malware-sources');
+                const data = await response.json();
+                
+                const ctx = document.getElementById('malwareSourceChart');
+                
+                // Destroy existing chart if it exists
+                if (sourceChart) {
+                    sourceChart.destroy();
+                }
+                
+                const labels = data.sources.map(s => s.source);
+                const counts = data.sources.map(s => s.count);
+                
+                // Color scheme for different sources
+                const colors = [
+                    '#ff6b6b', // Email Attachment - red
+                    '#4ecdc4', // Web Download - teal
+                    '#ffe66d', // USB/External Drive - yellow
+                    '#a8dadc', // Internal Network - light blue
+                    '#95a5a6'  // Unknown - gray
+                ];
+                
+                sourceChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: counts,
+                            backgroundColor: colors,
+                            borderColor: '#1a1a2e',
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: '#e0e0e0',
+                                    font: { size: 12 },
+                                    padding: 15
+                                }
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                titleColor: '#fff',
+                                bodyColor: '#e0e0e0',
+                                borderColor: 'rgba(255, 255, 255, 0.1)',
+                                borderWidth: 1,
+                                callbacks: {
+                                    label: function(context) {
+                                        const label = context.label || '';
+                                        const value = context.parsed || 0;
+                                        const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                        const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                        return `${label}: ${value} (${percentage}%)`;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+                
+            } catch (error) {
+                console.error('Failed to load malware sources:', error);
+            }
+        }
+        
+        async function loadEmergingThreats() {
+            try {
+                const response = await fetch('/api/emerging-threats');
+                const data = await response.json();
+                
+                // Update summary badges
+                document.getElementById('eti-total').textContent = 
+                    `${data.summary.totalThreats} Total Threats`;
+                document.getElementById('eti-recent').textContent = 
+                    `${data.summary.recentThreats} Last 24h`;
+                
+                // Helper to render IOC list
+                const renderIOCList = (items, container) => {
+                    if (items.length === 0) {
+                        container.innerHTML = '<div class="eti-empty">No threats detected</div>';
+                        return;
+                    }
+                    
+                    container.innerHTML = items.map((item, index) => {
+                        const rank = index + 1;
+                        const recentBadge = item.recent > 0 ? 
+                            `<span class="eti-recent-badge">${item.recent} recent</span>` : '';
+                        const agentBadge = item.agents > 0 ? 
+                            `<span class="eti-agent-badge">${item.agents} agents</span>` : '';
+                        
+                        return `
+                            <div class="eti-item" data-rank="${rank}">
+                                <div class="eti-rank">${rank}</div>
+                                <div class="eti-content">
+                                    <div class="eti-name">${item.name}</div>
+                                    <div class="eti-meta">
+                                        <span class="eti-count">${item.count} occurrences</span>
+                                        ${recentBadge}
+                                        ${agentBadge}
+                                    </div>
+                                    ${item.details && item.details.length > 0 ? `
+                                        <div class="eti-details">
+                                            ${item.details.slice(0, 2).join(', ')}
+                                            ${item.details.length > 2 ? '...' : ''}
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+                };
+                
+                // Render each section
+                renderIOCList(data.topMalwareFamilies, document.getElementById('eti-malware'));
+                renderIOCList(data.topSuspiciousAPIs, document.getElementById('eti-apis'));
+                renderIOCList(data.topMaliciousStrings, document.getElementById('eti-strings'));
+                renderIOCList(data.topPackers, document.getElementById('eti-packers'));
+                
+            } catch (error) {
+                console.error('Failed to load emerging threats:', error);
+            }
+        }
+        
+        async function analyzeThreatModel() {
+            try {
+                // Get selected values
+                const fileType = document.getElementById('model-filetype').value;
+                const packer = document.getElementById('model-packer').value;
+                const signature = document.getElementById('model-signature').value;
+                
+                // Get multiple selections
+                const apisSelect = document.getElementById('model-apis');
+                const apiImports = Array.from(apisSelect.selectedOptions).map(opt => opt.value);
+                
+                const stringsSelect = document.getElementById('model-strings');
+                const keyStrings = Array.from(stringsSelect.selectedOptions).map(opt => opt.value);
+                
+                // Validate
+                if (apiImports.length === 0) {
+                    alert('Please select at least one API import');
+                    return;
+                }
+                if (keyStrings.length === 0) {
+                    alert('Please select at least one suspicious string');
+                    return;
+                }
+                
+                // Show loading state
+                const outputDiv = document.getElementById('modeler-output');
+                outputDiv.innerHTML = `
+                    <div class="modeler-loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Analyzing threat profile...</p>
+                    </div>
+                `;
+                
+                // Send to server
+                const response = await fetch('/api/threat-model', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        fileType,
+                        packer,
+                        signature,
+                        apiImports,
+                        keyStrings
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    const result = data.result;
+                    const classColor = 
+                        result.classification === 'Malware' ? '#ff4757' :
+                        result.classification === 'Suspicious' ? '#ffa502' : '#26de81';
+                    
+                    outputDiv.innerHTML = `
+                        <div class="prediction-result">
+                            <div class="prediction-header">
+                                <div class="prediction-badge" style="background: ${classColor};">
+                                    ${result.classification.toUpperCase()}
+                                </div>
+                                <div class="prediction-confidence">
+                                    <div class="confidence-label">Confidence Score</div>
+                                    <div class="confidence-value">${(parseFloat(result.confidence_score) * 100).toFixed(1)}%</div>
+                                </div>
+                            </div>
+                            
+                            ${result.malware_family ? `
+                                <div class="prediction-family">
+                                    <strong>Predicted Malware Family:</strong>
+                                    <span class="family-name">${result.malware_family}</span>
+                                </div>
+                            ` : ''}
+                            
+                            <div class="prediction-section">
+                                <h4>Threat Analysis</h4>
+                                <div class="analysis-item">
+                                    <i class="fas fa-file"></i>
+                                    <span><strong>File Type:</strong> ${result.key_findings.file_type}</span>
+                                </div>
+                                <div class="analysis-item">
+                                    <i class="fas fa-box"></i>
+                                    <span><strong>Packer:</strong> ${result.key_findings.packer_detected}</span>
+                                </div>
+                                <div class="analysis-item">
+                                    <i class="fas fa-certificate"></i>
+                                    <span><strong>Signature:</strong> ${result.key_findings.signature.name}</span>
+                                </div>
+                                <div class="analysis-item">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <span><strong>Threat Score:</strong> ${result.key_findings.threat_score}/100</span>
+                                </div>
+                            </div>
+                            
+                            <div class="prediction-section">
+                                <h4>Detected Indicators</h4>
+                                <div class="indicator-group">
+                                    <strong>API Imports:</strong>
+                                    <div class="indicator-list">
+                                        ${result.key_findings.api_imports.map(api => 
+                                            `<span class="indicator-tag api-tag">${api}</span>`
+                                        ).join('')}
+                                    </div>
+                                </div>
+                                <div class="indicator-group">
+                                    <strong>Suspicious Strings:</strong>
+                                    <div class="indicator-list">
+                                        ${result.key_findings.key_strings.map(str => 
+                                            `<span class="indicator-tag string-tag">${str}</span>`
+                                        ).join('')}
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="prediction-footer">
+                                <i class="fas fa-info-circle"></i>
+                                This analysis has been added to the scan results and will appear in all visualizations.
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    outputDiv.innerHTML = `
+                        <div class="modeler-error">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <p>Analysis failed: ${data.error}</p>
+                        </div>
+                    `;
+                }
+                
+            } catch (error) {
+                console.error('Failed to analyze threat model:', error);
+                document.getElementById('modeler-output').innerHTML = `
+                    <div class="modeler-error">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>Analysis failed. Please try again.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        let graphSimulation = null;
+        let graphSvg = null;
+        
+        async function loadCorrelationGraph() {
+            try {
+                const response = await fetch('/api/threat-correlations');
+                const data = await response.json();
+                
+                // Clear existing graph
+                d3.select('#correlationGraph').selectAll('*').remove();
+                
+                const container = document.getElementById('correlationGraph');
+                const width = container.clientWidth;
+                const height = 600;
+                
+                // Create SVG
+                graphSvg = d3.select('#correlationGraph')
+                    .append('svg')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .style('background', '#0a0a0a')
+                    .style('border-radius', '8px');
+                
+                const g = graphSvg.append('g');
+                
+                // Add zoom behavior
+                const zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        g.attr('transform', event.transform);
+                    });
+                
+                graphSvg.call(zoom);
+                
+                // Color schemes for different node types
+                const colorMap = {
+                    malware: '#ff4757',
+                    agent: '#5a9cf8',
+                    api: '#ffa502',
+                    string: '#26de81'
+                };
+                
+                // Create force simulation
+                graphSimulation = d3.forceSimulation(data.nodes)
+                    .force('link', d3.forceLink(data.links)
+                        .id(d => d.id)
+                        .distance(d => d.type === 'correlated_with' ? 200 : 100)
+                        .strength(d => d.strength * 0.3))
+                    .force('charge', d3.forceManyBody().strength(-300))
+                    .force('center', d3.forceCenter(width / 2, height / 2))
+                    .force('collision', d3.forceCollide().radius(30));
+                
+                // Draw links
+                const link = g.append('g')
+                    .selectAll('line')
+                    .data(data.links)
+                    .enter()
+                    .append('line')
+                    .attr('stroke', d => {
+                        if (d.type === 'correlated_with') return '#ff6b6b';
+                        if (d.type === 'detected_by') return '#5a9cf8';
+                        if (d.type === 'uses_api') return '#ffa502';
+                        return '#26de81';
+                    })
+                    .attr('stroke-width', d => Math.sqrt(d.strength) + 1)
+                    .attr('stroke-opacity', 0.6);
+                
+                // Draw nodes
+                const node = g.append('g')
+                    .selectAll('circle')
+                    .data(data.nodes)
+                    .enter()
+                    .append('circle')
+                    .attr('r', d => {
+                        if (d.type === 'malware') return 15 + Math.min(d.count * 2, 15);
+                        if (d.type === 'agent') return 12 + Math.min(d.count, 10);
+                        return 8 + Math.min(d.count, 8);
+                    })
+                    .attr('fill', d => colorMap[d.type])
+                    .attr('stroke', '#fff')
+                    .attr('stroke-width', 2)
+                    .style('cursor', 'pointer')
+                    .call(d3.drag()
+                        .on('start', dragstarted)
+                        .on('drag', dragged)
+                        .on('end', dragended))
+                    .on('click', (event, d) => showNodeDetails(d, data))
+                    .on('mouseover', function(event, d) {
+                        d3.select(this)
+                            .transition()
+                            .duration(200)
+                            .attr('stroke-width', 4)
+                            .attr('r', function() {
+                                const currentR = parseFloat(d3.select(this).attr('r'));
+                                return currentR * 1.3;
+                            });
+                    })
+                    .on('mouseout', function(event, d) {
+                        d3.select(this)
+                            .transition()
+                            .duration(200)
+                            .attr('stroke-width', 2)
+                            .attr('r', function() {
+                                if (d.type === 'malware') return 15 + Math.min(d.count * 2, 15);
+                                if (d.type === 'agent') return 12 + Math.min(d.count, 10);
+                                return 8 + Math.min(d.count, 8);
+                            });
+                    });
+                
+                // Add labels
+                const label = g.append('g')
+                    .selectAll('text')
+                    .data(data.nodes)
+                    .enter()
+                    .append('text')
+                    .text(d => d.label.length > 20 ? d.label.substring(0, 20) + '...' : d.label)
+                    .attr('font-size', d => d.type === 'malware' ? '12px' : '10px')
+                    .attr('fill', '#e0e0e0')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', d => {
+                        if (d.type === 'malware') return 35;
+                        if (d.type === 'agent') return 25;
+                        return 20;
+                    })
+                    .style('pointer-events', 'none')
+                    .style('font-weight', d => d.type === 'malware' ? 'bold' : 'normal');
+                
+                // Update positions on simulation tick
+                graphSimulation.on('tick', () => {
+                    link
+                        .attr('x1', d => d.source.x)
+                        .attr('y1', d => d.source.y)
+                        .attr('x2', d => d.target.x)
+                        .attr('y2', d => d.target.y);
+                    
+                    node
+                        .attr('cx', d => d.x)
+                        .attr('cy', d => d.y);
+                    
+                    label
+                        .attr('x', d => d.x)
+                        .attr('y', d => d.y);
+                });
+                
+                // Drag functions
+                function dragstarted(event, d) {
+                    if (!event.active) graphSimulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                }
+                
+                function dragged(event, d) {
+                    d.fx = event.x;
+                    d.fy = event.y;
+                }
+                
+                function dragended(event, d) {
+                    if (!event.active) graphSimulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                }
+                
+                console.log(`Correlation graph loaded: ${data.nodes.length} nodes, ${data.links.length} links`);
+                
+            } catch (error) {
+                console.error('Failed to load correlation graph:', error);
+            }
+        }
+        
+        function showNodeDetails(node, graphData) {
+            const detailsPanel = document.getElementById('nodeDetails');
+            const detailsTitle = document.getElementById('detailsTitle');
+            const detailsContent = document.getElementById('detailsContent');
+            
+            detailsTitle.textContent = node.label;
+            
+            let html = `<p><strong>Type:</strong> ${node.type.toUpperCase()}</p>`;
+            html += `<p><strong>Occurrences:</strong> ${node.count}</p>`;
+            
+            // Find connections
+            const connections = graphData.links.filter(l => 
+                l.source.id === node.id || l.target.id === node.id
+            );
+            
+            if (connections.length > 0) {
+                html += `<p><strong>Connections:</strong> ${connections.length}</p>`;
+                html += '<ul style="margin: 10px 0; padding-left: 20px;">';
+                connections.slice(0, 10).forEach(link => {
+                    const otherNode = link.source.id === node.id ? link.target : link.source;
+                    html += `<li>${link.type.replace(/_/g, ' ')}: ${otherNode.label}</li>`;
+                });
+                if (connections.length > 10) {
+                    html += `<li>...and ${connections.length - 10} more</li>`;
+                }
+                html += '</ul>';
+            }
+            
+            if (node.details && node.details.length > 0) {
+                html += '<p><strong>Associated Files:</strong></p>';
+                html += '<ul style="margin: 10px 0; padding-left: 20px; max-height: 150px; overflow-y: auto;">';
+                node.details.slice(0, 10).forEach(file => {
+                    html += `<li>${file}</li>`;
+                });
+                if (node.details.length > 10) {
+                    html += `<li>...and ${node.details.length - 10} more</li>`;
+                }
+                html += '</ul>';
+            }
+            
+            detailsContent.innerHTML = html;
+            detailsPanel.style.display = 'block';
+        }
+        
+        function resetGraph() {
+            if (graphSimulation) {
+                graphSimulation.alpha(1).restart();
+            }
+        }
+        
+        function centerGraph() {
+            if (graphSvg) {
+                graphSvg.transition().duration(750).call(
+                    d3.zoom().transform,
+                    d3.zoomIdentity
+                );
+            }
+        }
+        
+        function setChartDays(days) {
+            currentChartDays = days;
+            
+            // Update button states
+            document.querySelectorAll('.chart-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            loadDailyChart();
+        }
+        
+        function loadData() {
+            loadStats();
+            loadScans();
+            loadDailyChart();
+            loadMalwareSources();
+            loadEmergingThreats();
+            loadCorrelationGraph();
+            loadGeoMap();
+        }
+        
+        function loadDataWithoutMap() {
+            loadStats();
+            loadScans();
+            loadDailyChart();
+            loadMalwareSources();
+            loadEmergingThreats();
+            loadCorrelationGraph();
+        }
+        
+        // Initial load
+        loadData();
+        
+        // Set up Server-Sent Events for real-time updates
+        const eventSource = new EventSource('/api/events');
+        
+        eventSource.onmessage = function(event) {
+            const data = JSON.parse(event.data);
+            
+            if (data.type === 'connected') {
+                console.log('Connected to server for real-time updates');
+            } else if (data.type === 'new-scan') {
+                console.log('New scan received:', data.scan.detected_filename);
+                // Reload all data when new scan arrives
+                loadDataWithoutMap();
+                // Update map less frequently (only if it's been more than 10 seconds)
+                if (!window.lastMapUpdate || Date.now() - window.lastMapUpdate > 10000) {
+                    loadGeoMap();
+                    window.lastMapUpdate = Date.now();
+                }
+            }
+        };
+        
+        eventSource.onerror = function(error) {
+            console.error('SSE Error:', error);
+            // Fallback: reload data every 30 seconds if SSE connection fails
+            if (eventSource.readyState === EventSource.CLOSED) {
+                console.log('SSE connection closed, falling back to polling...');
+                setInterval(loadDataWithoutMap, 30000);
+            }
+        };
+        
+        // Manual refresh button functionality
+        window.manualRefresh = function() {
+            loadData();
+        };
+    </script>
+</body>
+</html>
