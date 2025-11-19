@@ -1,0 +1,53 @@
+# ──────────────────────────────────────────────────────────────
+# Zathura “Real Book / Real Paper” config
+# Save as:  ~/.config/zathura/zathurarc
+# ──────────────────────────────────────────────────────────────
+
+# ── Page appearance (paper) ────────────────────────────────
+set default-bg          "rgba(0, 0, 0, 0.8)"
+set recolor true
+set recolor-darkcolor   "#000000"
+set recolor-lightcolor  "#fdf6e3"   # Warm cream paper (Solarized base3)
+set page-padding        0          # Breathing room around pages
+
+# ── Two-page book view with binding gap ─────────────────────
+set render-loading      false
+set adjust-open         "best-fit"
+set pages-per-row       2
+set page-gap            0          # Realistic "gutter" between pages
+
+# ── Subtle page shadows (like real paper stack) ─────────────
+set shadow-color        "#000000"
+set shadow-width        4
+set shadow-offset-x     2
+set shadow-offset-y     2
+
+# ── Smooth page-turn animation (feels like flipping pages) ─
+set page-flip-duration  0.3
+set page-flip-easing    "out-cubic"
+
+# ── Font for annotations (serif, like printed books) ───────
+set font "Liberation Serif 11"
+
+# ── Hide UI clutter (focus on the "book") ───────────────────
+set show-statusbar      false
+set show-scrollbar      false
+set guioptions          none
+
+# ── Optional: Warm sepia tint (uncomment to enable) ────────
+# set recolor true
+# map <C-r> toggle_recolor
+
+# ── Optional: Bind keys to feel like a book ─────────────────
+map [normal]     g  goto_page 1
+map [normal]     G  goto_page -1
+map [normal]     h  navigate previous
+map [normal]     l  navigate next
+map [normal]     j  scroll down
+map [normal]     k  scroll up
+
+# ── Synctex support (for LaTeX users) ───────────────────────
+set synctex true
+set synctex-editor-command "nvim +%l %f"
+
+set selection-clipboard clipboard

@@ -1,0 +1,5 @@
+2025/11/10-21:29:29.675 427ba Reusing MANIFEST /home/trang/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/11/10-21:29:29.689 427ba Recovering log #3
+2025/11/10-21:29:29.692 427ba Level-0 table #3: started
+2025/11/10-21:29:29.694 427ba Level-0 table #3: 27374 bytes OK
+2025/11/10-21:29:29.695 427ba Delete type=0 #3
