@@ -1,0 +1,10 @@
+2025-11-18 10:06:54.832 [error] #225: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-11-18 10:06:54.833 [error] #226: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-11-18 10:07:57.177 [error] #227: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-11-18 10:07:57.178 [error] #228: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-11-18 10:08:02.604 [error] #229: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 60000ms
+2025-11-18 10:08:14.570 [error] #230: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE
+2025-11-18 10:08:17.641 [error] #231: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE
+2025-11-18 13:59:54.909 [error] #367: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2025-11-18 13:59:58.032 [error] #368: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2025-11-18 15:17:06.553 [error] #515: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED

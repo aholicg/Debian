@@ -1,0 +1,23 @@
+2025-11-19 23:11:05.224 [info] Extension host with pid 235420 started
+2025-11-19 23:11:05.224 [info] Skipping acquiring lock for /home/trang/.config/Code/User/workspaceStorage/cc53511e9a426e3f93d738af7eaeb15a.
+2025-11-19 23:11:06.132 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-19 23:11:06.280 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-19 23:11:06.347 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-19 23:11:10.158 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-11-19 23:11:10.544 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-19 23:11:10.827 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-11-19 23:11:11.305 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-11-19 23:11:11.418 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-19 23:11:11.821 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-19 23:11:12.200 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-19 23:11:13.590 [info] Eager extensions activated
+2025-11-19 23:11:14.170 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-19 23:11:14.174 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-19 23:11:14.211 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-19 23:11:21.381 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at XKt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-11-19 23:11:24.519 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-19 23:11:24.581 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-19 23:11:24.677 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-19 23:43:56.993 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-19 23:43:57.077 [info] Extension host with pid 235420 exiting with code 0

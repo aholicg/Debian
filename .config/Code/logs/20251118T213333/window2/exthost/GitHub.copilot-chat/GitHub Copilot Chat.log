@@ -1,0 +1,63 @@
+2025-11-18 21:37:42.307 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-18 21:37:42.307 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-18 21:37:42.307 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-18 21:37:42.307 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-18 21:37:44.798 [info] Logged in as aholicg
+2025-11-18 21:37:44.801 [info] Using the Electron fetcher.
+2025-11-18 21:37:50.697 [info] Got Copilot token for aholicg
+2025-11-18 21:37:50.697 [info] Copilot Chat: 0.33.1, VS Code: 1.106.0
+2025-11-18 21:37:50.712 [info] activationBlocker from 'languageModelAccess' took for 6041ms
+2025-11-18 21:37:50.796 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-18 21:37:50.796 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-18 21:37:50.813 [info] Registering default platform agent...
+2025-11-18 21:37:50.814 [info] activationBlocker from 'conversationFeature' took for 6154ms
+2025-11-18 21:37:50.974 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-18 21:37:51.722 [info] Fetched model metadata in 6204ms 83d32277-f08e-4509-ac7d-2271b5ef68ed
+2025-11-18 21:37:52.011 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-18 21:37:52.014 [info] ccreq:7c67ee3e.copilotmd | markdown
+2025-11-18 21:38:36.322 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-18 21:38:36.357 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-18 21:38:36.358 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-18 21:38:36.358 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-18 21:38:39.849 [info] Using the Electron fetcher.
+2025-11-18 21:38:40.652 [info] Logged in as aholicg
+2025-11-18 21:38:41.133 [info] Got Copilot token for aholicg
+2025-11-18 21:38:41.133 [info] Copilot Chat: 0.33.1, VS Code: 1.106.0
+2025-11-18 21:38:41.145 [info] activationBlocker from 'languageModelAccess' took for 1519ms
+2025-11-18 21:38:41.232 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-18 21:38:41.232 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-18 21:38:41.254 [info] Registering default platform agent...
+2025-11-18 21:38:41.256 [info] activationBlocker from 'conversationFeature' took for 1649ms
+2025-11-18 21:38:41.274 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-18 21:38:41.563 [info] Fetched model metadata in 1006ms b648588e-c22c-4649-9f42-d3344b35c575
+2025-11-18 21:38:41.571 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-18 21:38:41.572 [info] ccreq:c9875bec.copilotmd | markdown
+2025-11-18 21:40:18.938 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-11-18 21:40:18.945 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-11-18 21:40:19.691 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-18 21:40:19.691 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-18 21:40:24.123 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-18 21:40:24.123 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-18 21:40:43.242 [info] ccreq:011cffea.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 18944ms | [panel/editAgent]
+2025-11-18 21:40:49.148 [info] ccreq:d498431c.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 4555ms | [panel/editAgent]
+2025-11-18 21:41:05.329 [info] ccreq:0982b37a.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 15392ms | [panel/editAgent]
+2025-11-18 21:41:08.668 [info] ccreq:1719efef.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 3211ms | [panel/editAgent]
+2025-11-18 21:41:11.864 [info] ccreq:7257f2a2.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 2974ms | [panel/editAgent]
+2025-11-18 21:41:21.909 [info] ccreq:9a0a3bf6.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 9955ms | [panel/editAgent]
+2025-11-18 21:41:46.341 [info] ccreq:e5a69cb7.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 24368ms | [panel/editAgent]
+2025-11-18 21:41:50.920 [info] ccreq:2ad4fe9c.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 4012ms | [panel/editAgent]
+2025-11-18 21:42:11.914 [info] ccreq:94b8e541.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 20910ms | [panel/editAgent]
+2025-11-18 21:42:18.673 [info] ccreq:61878713.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 6241ms | [panel/editAgent]
+2025-11-18 21:42:25.017 [info] ccreq:942ffa90.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 6278ms | [panel/editAgent]
+2025-11-18 21:42:45.235 [info] ccreq:548b818b.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 20131ms | [panel/editAgent]
+2025-11-18 21:42:49.096 [info] ccreq:a2e80728.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 3360ms | [panel/editAgent]
+2025-11-18 21:42:54.741 [info] ccreq:be6d8158.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 5532ms | [panel/editAgent]
+2025-11-18 21:43:26.292 [info] ccreq:8a728c7b.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 31431ms | [panel/editAgent]
+2025-11-18 21:43:42.896 [info] ccreq:e239316c.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 14082ms | [panel/editAgent]
+2025-11-18 21:43:52.133 [info] ccreq:8b029f11.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 7171ms | [panel/editAgent]
+2025-11-18 21:43:56.056 [info] ccreq:e24fdf71.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 3731ms | [panel/editAgent]
+2025-11-18 21:44:08.795 [info] ccreq:9e03ec47.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 12642ms | [panel/editAgent]
+2025-11-18 21:44:26.691 [info] ccreq:bf02b7cc.copilotmd | success | gpt-5 -> gpt-5-2025-08-07 | 17810ms | [panel/editAgent]
+2025-11-18 21:44:28.303 [info] message 0 returned. finish reason: [stop]
+2025-11-18 21:44:28.303 [info] request done: requestId: [07a3b56c-d1d6-4574-9c03-e792bee0b197] model deployment ID: []
+2025-11-18 21:44:28.304 [info] ccreq:04507162.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 781ms | [title]

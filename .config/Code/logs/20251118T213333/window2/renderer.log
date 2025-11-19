@@ -1,0 +1,20 @@
+2025-11-18 21:37:38.888 [info] Started local extension host with pid 10713.
+2025-11-18 21:37:40.479 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-18 21:37:40.783 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-18 21:37:41.612 [info] [perf] Render performance baseline is 43ms
+2025-11-18 21:37:41.749 [error] [Extension Host] (node:10713) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-18 21:37:41.750 [error] [Extension Host] (node:10713) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-18 21:37:44.762 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-18 21:37:52.041 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-18 21:38:32.270 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-18 21:38:32.522 [info] Started local extension host with pid 11265.
+2025-11-18 21:38:34.082 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-18 21:38:34.316 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-18 21:38:35.483 [info] [perf] Render performance baseline is 61ms
+2025-11-18 21:38:35.686 [error] [Extension Host] (node:11265) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-18 21:38:35.689 [error] [Extension Host] (node:11265) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-18 21:38:37.646 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-18 21:38:39.852 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-18 21:52:27.431 [warning] [perf] Renderer reported VERY LONG TASK (1000ms), starting profiling session 'fbcfe0b9-b837-4987-9f45-49bea32b9525'

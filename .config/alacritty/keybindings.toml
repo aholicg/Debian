@@ -1,0 +1,19 @@
+# This goes in your alacritty.toml file
+[keyboard.bindings]
+
+# 1. Make Ctrl+C = Copy
+# This overrides the default "interrupt" behavior
+{ key = "C", mods = "Control", action = "Copy" }
+
+# 2. Make Ctrl+V = Paste
+# This is the logical counterpart to the copy binding
+{ key = "V", mods = "Control", action = "Paste" }
+
+# 3. Make Ctrl+Shift+C = Interrupt (SIGINT)
+# This overrides the default "copy" behavior for this combo
+# We send the \u0003 control character, which is SIGINT
+{ key = "C", mods = "Control|Shift", action = "SendChars", chars = "\u0003" }
+
+# 4. (Optional) Unbind Ctrl+Shift+V from Paste
+# This completes the swap, so only Ctrl+V is paste.
+{ key = "V", mods = "Control|Shift", action = "None" }

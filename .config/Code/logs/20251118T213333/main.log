@@ -1,0 +1,13 @@
+2025-11-18 21:33:33.742 [info] update#setState idle
+2025-11-18 21:34:03.742 [info] update#setState checking for updates
+2025-11-18 21:34:03.812 [info] update#setState available for download
+2025-11-18 21:38:31.519 [info] Extension host with pid 10713 exited with code: 0, signal: unknown.
+2025-11-18 21:38:44.181 [info] Extension host with pid 8578 exited with code: 0, signal: unknown.
+2025-11-18 21:38:44.752 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8638]: crashed with code 15 and reason 'killed'
+2025-11-18 21:52:28.432 [warning] [perf] profiling STARTED fbcfe0b9-b837-4987-9f45-49bea32b9525
+2025-11-18 21:52:33.467 [warning] [perf] profiling DONE fbcfe0b9-b837-4987-9f45-49bea32b9525
+2025-11-18 21:52:33.704 [warning] [perf] profiling STARTED fbcfe0b9-b837-4987-9f45-49bea32b9525
+2025-11-18 21:52:38.737 [warning] [perf] profiling DONE fbcfe0b9-b837-4987-9f45-49bea32b9525
+2025-11-18 21:52:38.948 [warning] [perf] profiling STARTED fbcfe0b9-b837-4987-9f45-49bea32b9525
+2025-11-18 21:52:43.993 [warning] [perf] profiling DONE fbcfe0b9-b837-4987-9f45-49bea32b9525
+2025-11-18 21:53:14.537 [info] Extension host with pid 11265 exited with code: 0, signal: unknown.

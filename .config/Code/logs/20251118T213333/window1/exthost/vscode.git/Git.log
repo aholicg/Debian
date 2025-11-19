@@ -1,0 +1,96 @@
+2025-11-18 21:33:53.741 [info] [main] Log level: Info
+2025-11-18 21:33:53.741 [info] [main] Validating found git in: "git"
+2025-11-18 21:33:53.741 [info] [main] Using git "2.47.3" from "git"
+2025-11-18 21:33:53.741 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-18 21:33:53.741 [info] > git rev-parse --show-toplevel [4138ms]
+2025-11-18 21:33:53.741 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-18 21:33:53.741 [info] > git rev-parse --show-toplevel [303ms]
+2025-11-18 21:33:54.154 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [30ms]
+2025-11-18 21:33:54.180 [info] [Model][openRepository] Opened repository (path): /home/trang/localnsv/mAIware
+2025-11-18 21:33:54.180 [info] [Model][openRepository] Opened repository (real path): /home/trang/localnsv/mAIware
+2025-11-18 21:33:54.180 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-18 21:33:55.060 [info] > git rev-parse --show-toplevel [80ms]
+2025-11-18 21:33:55.060 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-18 21:33:55.062 [info] > git config --get commit.template [96ms]
+2025-11-18 21:33:55.140 [info] > git rev-parse --show-toplevel [46ms]
+2025-11-18 21:33:55.140 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-18 21:33:55.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [120ms]
+2025-11-18 21:33:55.261 [info] > git rev-parse --show-toplevel [15ms]
+2025-11-18 21:33:55.261 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-18 21:33:55.347 [info] > git status -z -uall [35ms]
+2025-11-18 21:33:55.348 [info] > git rev-parse --show-toplevel [66ms]
+2025-11-18 21:33:55.348 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-18 21:33:55.501 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [162ms]
+2025-11-18 21:33:55.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [55ms]
+2025-11-18 21:33:55.652 [info] > git rev-parse --show-toplevel [267ms]
+2025-11-18 21:33:55.652 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-18 21:33:56.076 [info] > git check-ignore -v -z --stdin [399ms]
+2025-11-18 21:33:56.084 [info] > git config --get --local branch.cross-machine.vscode-merge-base [433ms]
+2025-11-18 21:33:56.112 [info] > git config --get commit.template [510ms]
+2025-11-18 21:33:56.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/cross-machine refs/remotes/origin/cross-machine [31ms]
+2025-11-18 21:33:56.170 [info] > git rev-parse --show-toplevel [463ms]
+2025-11-18 21:33:56.239 [info] > git merge-base refs/heads/cross-machine refs/remotes/origin/cross-machine [71ms]
+2025-11-18 21:33:56.684 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% b9bfb0ef34ffe4d72c40645144bdcb553fa0b900...refs/remotes/origin/cross-machine -- [429ms]
+2025-11-18 21:33:56.686 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [455ms]
+2025-11-18 21:33:56.700 [info] [Model][openRepository] Opened repository (path): /home/trang/localnsv/mAIware-server
+2025-11-18 21:33:56.700 [info] [Model][openRepository] Opened repository (real path): /home/trang/localnsv/mAIware-server
+2025-11-18 21:33:56.700 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-18 21:33:56.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [487ms]
+2025-11-18 21:33:56.849 [info] > git rev-parse --show-toplevel [107ms]
+2025-11-18 21:33:56.850 [info] > git config --get commit.template [119ms]
+2025-11-18 21:33:57.218 [info] > git status -z -uall [18ms]
+2025-11-18 21:33:57.219 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-11-18 21:33:57.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [34ms]
+2025-11-18 21:33:57.225 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [353ms]
+2025-11-18 21:33:57.232 [info] [Model][openRepository] Opened repository (path): /home/trang/localnsv/server-old
+2025-11-18 21:33:57.232 [info] [Model][openRepository] Opened repository (real path): /home/trang/localnsv/server-old
+2025-11-18 21:33:57.232 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-18 21:33:57.235 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-18 21:33:57.308 [info] > git show --textconv :style.css [61ms]
+2025-11-18 21:33:57.308 [info] > git ls-files --stage -- style.css [52ms]
+2025-11-18 21:33:57.324 [info] > git cat-file -s 1a738fce445c7e42fbb8ddd4437f247bbbb20a20 [8ms]
+2025-11-18 21:33:57.325 [info] > git config --get commit.template [19ms]
+2025-11-18 21:33:57.377 [info] > git status -z -uall [34ms]
+2025-11-18 21:33:57.378 [info] > git check-ignore -v -z --stdin [9ms]
+2025-11-18 21:33:57.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-11-18 21:33:57.378 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [26ms]
+2025-11-18 21:33:57.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [14ms]
+2025-11-18 21:33:57.417 [info] > git config --get --local branch.cross-machine.vscode-merge-base [3ms]
+2025-11-18 21:33:57.417 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-18 21:33:57.425 [info] > git config --get commit.template [20ms]
+2025-11-18 21:33:57.459 [info] > git status -z -uall [21ms]
+2025-11-18 21:33:57.459 [info] > git reflog cross-machine --grep-reflog=branch: Created from *. [34ms]
+2025-11-18 21:33:57.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [15ms]
+2025-11-18 21:33:57.472 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [23ms]
+2025-11-18 21:33:57.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [123ms]
+2025-11-18 21:33:57.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/cross-machine [148ms]
+2025-11-18 21:33:57.648 [info] > git config --add --local branch.cross-machine.vscode-merge-base origin/cross-machine [23ms]
+2025-11-18 21:33:57.649 [info] > git config --get --local branch.main.vscode-merge-base [33ms]
+2025-11-18 21:33:57.659 [info] > git config --get commit.template [56ms]
+2025-11-18 21:33:57.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [39ms]
+2025-11-18 21:33:57.722 [info] > git blame --root --incremental 27f5a58a484408ccb8c31b21324e806e5f8e69d7 -- style.css [74ms]
+2025-11-18 21:33:57.792 [info] > git merge-base refs/heads/main refs/remotes/origin/main [71ms]
+2025-11-18 21:33:57.813 [info] > git config --get commit.template [117ms]
+2025-11-18 21:33:57.864 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 5d9c1ead87eeaffa567a26c330047cbbddfeb2a5...refs/remotes/origin/main -- [51ms]
+2025-11-18 21:33:57.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [85ms]
+2025-11-18 21:33:57.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cross-machine refs/remotes/cross-machine [6ms]
+2025-11-18 21:33:57.923 [info] > git status -z -uall [15ms]
+2025-11-18 21:33:57.944 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-11-18 21:33:57.951 [info] > git status -z -uall [17ms]
+2025-11-18 21:33:57.951 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-11-18 21:33:57.984 [info] > git merge-base refs/heads/cross-machine refs/remotes/origin/cross-machine [18ms]
+2025-11-18 21:33:58.011 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6d27efbce03c5539af2ff292525ff02011d4d7b8...refs/remotes/origin/cross-machine -- [15ms]
+2025-11-18 21:33:58.011 [info] > git merge-base refs/heads/cross-machine refs/remotes/origin/cross-machine [31ms]
+2025-11-18 21:33:58.027 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6d27efbce03c5539af2ff292525ff02011d4d7b8...refs/remotes/origin/cross-machine -- [3ms]
+2025-11-18 21:34:10.845 [info] > git check-ignore -v -z --stdin [32ms]
+2025-11-18 21:34:10.846 [info] > git check-ignore -v -z --stdin [14ms]
+2025-11-18 21:34:10.846 [info] > git check-ignore -v -z --stdin [4ms]
+2025-11-18 21:34:19.115 [info] > git show --textconv :public/styles.css [371ms]
+2025-11-18 21:34:19.115 [info] > git ls-files --stage -- public/styles.css [349ms]
+2025-11-18 21:34:19.170 [info] > git cat-file -s 8645e394d1439f139ae21c0a8513917ab5b46711 [21ms]
+2025-11-18 21:34:19.292 [info] > git blame --root --incremental a7ce89f17d50eadefad4dce54e4be94da975168c -- public/styles.css [25ms]
+2025-11-18 21:34:25.521 [info] > git show --textconv :style.css [10ms]
+2025-11-18 21:34:25.522 [info] > git ls-files --stage -- style.css [2ms]
+2025-11-18 21:34:25.534 [info] > git cat-file -s 1a738fce445c7e42fbb8ddd4437f247bbbb20a20 [2ms]
+2025-11-18 21:38:31.606 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-18 21:38:31.606 [info] fatal: not a git repository (or any of the parent directories): .git

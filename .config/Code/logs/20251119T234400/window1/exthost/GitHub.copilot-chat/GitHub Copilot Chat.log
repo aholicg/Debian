@@ -1,0 +1,318 @@
+2025-11-19 23:44:09.196 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-19 23:44:09.196 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-19 23:44:09.196 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-19 23:44:09.196 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-19 23:44:12.957 [info] Using the Electron fetcher.
+2025-11-19 23:44:15.154 [info] Logged in as aholicg
+2025-11-19 23:44:15.916 [info] Got Copilot token for aholicg
+2025-11-19 23:44:15.916 [info] Copilot Chat: 0.33.1, VS Code: 1.106.0
+2025-11-19 23:44:15.936 [info] activationBlocker from 'languageModelAccess' took for 3514ms
+2025-11-19 23:44:16.600 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-19 23:44:16.600 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-19 23:44:16.636 [info] Registering default platform agent...
+2025-11-19 23:44:16.637 [info] activationBlocker from 'conversationFeature' took for 4228ms
+2025-11-19 23:44:16.758 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-19 23:44:16.991 [info] Fetched model metadata in 2869ms 758a008c-4288-4161-874d-70e4716a9b6a
+2025-11-19 23:44:17.313 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-19 23:44:17.314 [info] ccreq:fa706e11.copilotmd | markdown
+2025-11-19 23:44:32.513 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-11-19 23:44:32.519 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-11-19 23:44:33.028 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-19 23:44:33.028 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-19 23:44:34.354 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-19 23:44:34.354 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-19 23:44:41.564 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:44:41.564 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:44:41.568 [info] ccreq:8782b1da.copilotmd | success | claude-sonnet-4.5 | 6253ms | [panel/editAgent]
+2025-11-19 23:44:47.822 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:44:47.822 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:44:47.823 [info] ccreq:0cc35abf.copilotmd | success | claude-sonnet-4.5 | 5824ms | [panel/editAgent]
+2025-11-19 23:44:54.180 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:44:54.180 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:44:54.183 [info] ccreq:82f0f0d2.copilotmd | success | claude-sonnet-4.5 | 6065ms | [panel/editAgent]
+2025-11-19 23:45:00.601 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:45:00.601 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:00.603 [info] ccreq:ccb8ff1d.copilotmd | success | claude-sonnet-4.5 | 6084ms | [panel/editAgent]
+2025-11-19 23:45:07.439 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:45:07.439 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:07.443 [info] ccreq:0c6dbd74.copilotmd | success | claude-sonnet-4.5 | 6373ms | [panel/editAgent]
+2025-11-19 23:45:14.759 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:45:14.759 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:14.761 [info] ccreq:2234fa83.copilotmd | success | claude-sonnet-4.5 | 7026ms | [panel/editAgent]
+2025-11-19 23:45:20.986 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:45:20.986 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:20.988 [info] ccreq:f2c6cb92.copilotmd | success | claude-sonnet-4.5 | 5963ms | [panel/editAgent]
+2025-11-19 23:45:27.368 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:45:27.368 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:27.371 [info] ccreq:5bab731f.copilotmd | success | claude-sonnet-4.5 | 6000ms | [panel/editAgent]
+2025-11-19 23:45:37.153 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:45:37.153 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:37.154 [info] ccreq:4e09c95c.copilotmd | success | claude-sonnet-4.5 | 9522ms | [panel/editAgent]
+2025-11-19 23:45:46.000 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:45:46.000 [info] request done: requestId: [d1b0f147-e1a6-4048-90bb-e6b170a10cc2] model deployment ID: []
+2025-11-19 23:45:46.001 [info] ccreq:62b1d362.copilotmd | success | claude-sonnet-4.5 | 6666ms | [panel/editAgent]
+2025-11-19 23:52:36.817 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-19 23:52:36.880 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-19 23:52:36.880 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-19 23:52:36.880 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-19 23:52:41.562 [info] Logged in as aholicg
+2025-11-19 23:52:41.569 [info] Using the Electron fetcher.
+2025-11-19 23:52:42.483 [info] Got Copilot token for aholicg
+2025-11-19 23:52:42.483 [info] Copilot Chat: 0.33.1, VS Code: 1.106.0
+2025-11-19 23:52:42.506 [info] activationBlocker from 'languageModelAccess' took for 5343ms
+2025-11-19 23:52:43.225 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-19 23:52:43.225 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-19 23:52:43.272 [info] Registering default platform agent...
+2025-11-19 23:52:43.274 [info] activationBlocker from 'conversationFeature' took for 6131ms
+2025-11-19 23:52:43.436 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-19 23:52:43.540 [info] Fetched model metadata in 2246ms 52a7526c-d5a2-4c12-90a8-0aa2f462b818
+2025-11-19 23:52:43.821 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-19 23:52:43.825 [info] ccreq:5df61592.copilotmd | markdown
+2025-11-19 23:53:44.895 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-11-19 23:53:44.899 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-11-19 23:53:45.467 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-19 23:53:45.468 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-19 23:53:55.045 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:53:55.045 [info] request done: requestId: [248064e9-6a84-427e-bcfa-f0ce67f9ada1] model deployment ID: []
+2025-11-19 23:53:55.047 [info] ccreq:76349c24.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1135ms | [workspaceContext]
+2025-11-19 23:54:00.275 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-19 23:54:00.275 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-19 23:54:05.446 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:54:05.446 [info] request done: requestId: [fced864e-fe6a-41e8-9387-0bb40434126a] model deployment ID: []
+2025-11-19 23:54:05.448 [info] ccreq:33cc1af0.copilotmd | success | claude-sonnet-4.5 | 5018ms | [panel/editAgent]
+2025-11-19 23:54:12.442 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:54:12.442 [info] request done: requestId: [fced864e-fe6a-41e8-9387-0bb40434126a] model deployment ID: []
+2025-11-19 23:54:12.444 [info] ccreq:b7d25d8e.copilotmd | success | claude-sonnet-4.5 | 6434ms | [panel/editAgent]
+2025-11-19 23:54:16.555 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:54:16.555 [info] request done: requestId: [fced864e-fe6a-41e8-9387-0bb40434126a] model deployment ID: []
+2025-11-19 23:54:16.561 [info] ccreq:2f3d2623.copilotmd | success | claude-sonnet-4.5 | 3869ms | [panel/editAgent]
+2025-11-19 23:54:23.390 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:54:23.390 [info] request done: requestId: [fced864e-fe6a-41e8-9387-0bb40434126a] model deployment ID: []
+2025-11-19 23:54:23.394 [info] ccreq:3137ae88.copilotmd | success | claude-sonnet-4.5 | 6736ms | [panel/editAgent]
+2025-11-19 23:54:30.632 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:54:30.636 [info] request done: requestId: [fced864e-fe6a-41e8-9387-0bb40434126a] model deployment ID: []
+2025-11-19 23:54:30.640 [info] ccreq:bcfbc36e.copilotmd | success | claude-sonnet-4.5 | 5022ms | [panel/editAgent]
+2025-11-19 23:54:31.359 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:54:31.359 [info] request done: requestId: [3afcfc13-9277-417d-b454-1a8c4b8f66ab] model deployment ID: []
+2025-11-19 23:54:31.361 [info] ccreq:9900786c.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 619ms | [title]
+2025-11-19 23:56:00.909 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:56:00.909 [info] request done: requestId: [8c3c98a7-328d-448e-98e2-903f0d0a9523] model deployment ID: []
+2025-11-19 23:56:01.244 [info] ccreq:d7c42998.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1218ms | [XtabProvider]
+2025-11-19 23:56:01.532 [info] ccreq:4948c8c0.copilotmd | markdown
+2025-11-19 23:56:02.536 [info] ccreq:da328b74.copilotmd | markdown
+2025-11-19 23:56:06.304 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:56:06.304 [info] request done: requestId: [1c11ed7e-580f-4797-b6a8-e8caf9f8d6fa] model deployment ID: []
+2025-11-19 23:56:06.305 [info] ccreq:5e3be83a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 767ms | [XtabProvider]
+2025-11-19 23:56:06.306 [info] ccreq:09bf08d9.copilotmd | markdown
+2025-11-19 23:56:10.422 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:56:10.422 [info] request done: requestId: [38a94025-b461-4b16-9705-7a59f72c9dd6] model deployment ID: []
+2025-11-19 23:56:10.425 [info] ccreq:cf0e61df.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 521ms | [XtabProvider]
+2025-11-19 23:56:11.336 [info] ccreq:57d5987d.copilotmd | markdown
+2025-11-19 23:59:36.655 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-19 23:59:36.655 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-19 23:59:41.189 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:59:41.189 [info] request done: requestId: [cfd0865f-32ee-4c21-9323-3ca18bccd3a9] model deployment ID: []
+2025-11-19 23:59:41.191 [info] ccreq:e0aabc07.copilotmd | success | claude-sonnet-4.5 | 4505ms | [panel/editAgent]
+2025-11-19 23:59:49.602 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-19 23:59:49.602 [info] request done: requestId: [cfd0865f-32ee-4c21-9323-3ca18bccd3a9] model deployment ID: []
+2025-11-19 23:59:49.605 [info] ccreq:70e23da3.copilotmd | success | claude-sonnet-4.5 | 8329ms | [panel/editAgent]
+2025-11-19 23:59:55.703 [info] message 0 returned. finish reason: [stop]
+2025-11-19 23:59:55.703 [info] request done: requestId: [cfd0865f-32ee-4c21-9323-3ca18bccd3a9] model deployment ID: []
+2025-11-19 23:59:55.704 [info] ccreq:fa10d722.copilotmd | success | claude-sonnet-4.5 | 4026ms | [panel/editAgent]
+2025-11-20 00:00:01.683 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:00:01.683 [info] request done: requestId: [6cf2fd59-e545-4920-a3f6-a60c0558680f] model deployment ID: []
+2025-11-20 00:00:01.687 [info] ccreq:9aefe470.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1034ms | [XtabProvider]
+2025-11-20 00:00:01.688 [info] ccreq:eb586418.copilotmd | markdown
+2025-11-20 00:00:02.689 [info] ccreq:c59a99e2.copilotmd | markdown
+2025-11-20 00:00:04.188 [info] ccreq:e4bcd0b2.copilotmd | markdown
+2025-11-20 00:00:07.415 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:00:07.415 [info] request done: requestId: [64a93f97-9aaa-43bf-9645-2f2603026745] model deployment ID: []
+2025-11-20 00:00:07.416 [info] ccreq:86d71766.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 560ms | [XtabProvider]
+2025-11-20 00:00:08.417 [info] ccreq:1c0bf070.copilotmd | markdown
+2025-11-20 00:00:10.649 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:00:10.650 [info] request done: requestId: [593b5995-1b52-41d6-ab39-143bcc18b8a7] model deployment ID: []
+2025-11-20 00:00:10.652 [info] ccreq:99a734a7.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 484ms | [XtabProvider]
+2025-11-20 00:00:11.654 [info] ccreq:ad860a44.copilotmd | markdown
+2025-11-20 00:00:16.287 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:00:16.287 [info] request done: requestId: [4b2aac0a-f6f5-4472-a0eb-4daf321a10e6] model deployment ID: []
+2025-11-20 00:00:16.288 [info] ccreq:62c0acc7.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 717ms | [XtabProvider]
+2025-11-20 00:00:16.289 [info] ccreq:9462df16.copilotmd | markdown
+2025-11-20 00:01:56.902 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:01:56.902 [info] request done: requestId: [7a79e9c7-d2b7-4e3f-b3c7-3d4ae7fd28ae] model deployment ID: []
+2025-11-20 00:01:57.080 [info] ccreq:a08c0a53.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 843ms | [XtabProvider]
+2025-11-20 00:01:57.081 [info] ccreq:d9c0913d.copilotmd | markdown
+2025-11-20 00:01:58.082 [info] ccreq:9898d626.copilotmd | markdown
+2025-11-20 00:01:59.301 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:01:59.301 [info] request done: requestId: [46f52872-92d6-4ff0-befe-1ad19720450d] model deployment ID: []
+2025-11-20 00:01:59.303 [info] ccreq:56b9c792.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 626ms | [XtabProvider]
+2025-11-20 00:02:00.256 [info] ccreq:c17c03e7.copilotmd | markdown
+2025-11-20 00:02:01.290 [info] ccreq:d8a58bd8.copilotmd | markdown
+2025-11-20 00:02:02.872 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:02:02.872 [info] request done: requestId: [65e5264d-8569-4414-800d-f3a040e015e1] model deployment ID: []
+2025-11-20 00:02:02.874 [info] ccreq:7b663a3c.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 488ms | [XtabProvider]
+2025-11-20 00:02:03.875 [info] ccreq:32cadfbe.copilotmd | markdown
+2025-11-20 00:02:08.422 [info] ccreq:65ee6fa4.copilotmd | markdown
+2025-11-20 00:02:15.192 [info] ccreq:a44f6a31.copilotmd | markdown
+2025-11-20 00:06:13.457 [info] Fetched model metadata in 1006ms d71086c1-d279-4070-a456-164949c1ac09
+2025-11-20 00:06:13.757 [info] ccreq:0a1e2c92.copilotmd | markdown
+2025-11-20 00:06:18.381 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-20 00:06:18.381 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-20 00:06:24.081 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:06:24.081 [info] request done: requestId: [1dd0785b-5972-4c91-a226-446a9c125387] model deployment ID: []
+2025-11-20 00:06:24.083 [info] ccreq:6ecb929d.copilotmd | success | claude-sonnet-4.5 | 5633ms | [panel/editAgent]
+2025-11-20 00:06:30.040 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:06:30.041 [info] request done: requestId: [1dd0785b-5972-4c91-a226-446a9c125387] model deployment ID: []
+2025-11-20 00:06:30.043 [info] ccreq:a14d8279.copilotmd | success | claude-sonnet-4.5 | 5308ms | [panel/editAgent]
+2025-11-20 00:06:35.891 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:06:35.891 [info] request done: requestId: [1dd0785b-5972-4c91-a226-446a9c125387] model deployment ID: []
+2025-11-20 00:06:35.895 [info] ccreq:320710b6.copilotmd | success | claude-sonnet-4.5 | 5645ms | [panel/editAgent]
+2025-11-20 00:06:51.260 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:06:51.260 [info] request done: requestId: [1dd0785b-5972-4c91-a226-446a9c125387] model deployment ID: []
+2025-11-20 00:06:51.263 [info] ccreq:289ec400.copilotmd | success | claude-sonnet-4.5 | 15281ms | [panel/editAgent]
+2025-11-20 00:06:58.412 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:06:58.412 [info] request done: requestId: [1dd0785b-5972-4c91-a226-446a9c125387] model deployment ID: []
+2025-11-20 00:06:58.415 [info] ccreq:f83cbf45.copilotmd | success | claude-sonnet-4.5 | 5040ms | [panel/editAgent]
+2025-11-20 00:08:23.267 [info] ccreq:b24467dc.copilotmd | markdown
+2025-11-20 00:08:24.298 [info] ccreq:daaa3d04.copilotmd | markdown
+2025-11-20 00:08:24.928 [info] ccreq:57c7db0c.copilotmd | markdown
+2025-11-20 00:08:25.176 [info] ccreq:da9938da.copilotmd | markdown
+2025-11-20 00:08:26.370 [info] ccreq:83264898.copilotmd | markdown
+2025-11-20 00:08:27.589 [info] ccreq:a590b9bd.copilotmd | markdown
+2025-11-20 00:08:27.799 [info] ccreq:774bab00.copilotmd | markdown
+2025-11-20 00:08:30.273 [info] ccreq:20ba9651.copilotmd | markdown
+2025-11-20 00:08:30.524 [info] ccreq:1436959b.copilotmd | markdown
+2025-11-20 00:08:31.067 [info] ccreq:0d84118e.copilotmd | markdown
+2025-11-20 00:08:31.177 [info] ccreq:76d558be.copilotmd | markdown
+2025-11-20 00:08:31.312 [info] ccreq:7bef1dd2.copilotmd | markdown
+2025-11-20 00:08:31.544 [info] ccreq:c03d2675.copilotmd | markdown
+2025-11-20 00:08:31.734 [info] ccreq:1d653d92.copilotmd | markdown
+2025-11-20 00:08:31.835 [info] ccreq:ebd9a519.copilotmd | markdown
+2025-11-20 00:08:32.016 [info] ccreq:0427d2ae.copilotmd | markdown
+2025-11-20 00:08:32.215 [info] ccreq:bdc614fd.copilotmd | markdown
+2025-11-20 00:08:32.461 [info] ccreq:1073cfa7.copilotmd | markdown
+2025-11-20 00:08:32.588 [info] ccreq:032b4e20.copilotmd | markdown
+2025-11-20 00:08:32.708 [info] ccreq:80f3e2a4.copilotmd | markdown
+2025-11-20 00:08:33.031 [info] ccreq:1b1dfe68.copilotmd | markdown
+2025-11-20 00:08:33.187 [info] ccreq:6997ddb9.copilotmd | markdown
+2025-11-20 00:08:33.965 [info] ccreq:05012dbc.copilotmd | markdown
+2025-11-20 00:08:34.934 [info] ccreq:829b4041.copilotmd | markdown
+2025-11-20 00:08:36.043 [info] ccreq:3fcc16c3.copilotmd | markdown
+2025-11-20 00:08:41.121 [info] ccreq:1de088d4.copilotmd | markdown
+2025-11-20 00:08:41.450 [info] ccreq:acea4dda.copilotmd | markdown
+2025-11-20 00:08:42.191 [info] ccreq:41040321.copilotmd | markdown
+2025-11-20 00:08:42.438 [info] ccreq:89943ee9.copilotmd | markdown
+2025-11-20 00:08:42.966 [info] ccreq:d366fb1e.copilotmd | markdown
+2025-11-20 00:08:43.379 [info] ccreq:78703eab.copilotmd | markdown
+2025-11-20 00:08:43.559 [info] ccreq:0e8713bd.copilotmd | markdown
+2025-11-20 00:08:43.634 [info] ccreq:7bf83b59.copilotmd | markdown
+2025-11-20 00:08:43.804 [info] ccreq:feb953e6.copilotmd | markdown
+2025-11-20 00:08:44.095 [info] ccreq:f50c1af4.copilotmd | markdown
+2025-11-20 00:08:44.178 [info] ccreq:b7b67996.copilotmd | markdown
+2025-11-20 00:08:44.225 [info] ccreq:52418d7b.copilotmd | markdown
+2025-11-20 00:08:44.438 [info] ccreq:ae6fc930.copilotmd | markdown
+2025-11-20 00:08:44.517 [info] ccreq:f4d77f32.copilotmd | markdown
+2025-11-20 00:08:44.692 [info] ccreq:812c9e78.copilotmd | markdown
+2025-11-20 00:08:44.936 [info] ccreq:ef78dcb9.copilotmd | markdown
+2025-11-20 00:08:45.284 [info] ccreq:e6559256.copilotmd | markdown
+2025-11-20 00:08:45.651 [info] ccreq:c1a62d44.copilotmd | markdown
+2025-11-20 00:08:45.798 [info] ccreq:8157813a.copilotmd | markdown
+2025-11-20 00:08:46.191 [info] ccreq:87a28a21.copilotmd | markdown
+2025-11-20 00:08:46.301 [info] ccreq:4c8a087f.copilotmd | markdown
+2025-11-20 00:08:47.740 [info] ccreq:83ed72ea.copilotmd | markdown
+2025-11-20 00:08:50.652 [info] ccreq:c8876850.copilotmd | markdown
+2025-11-20 00:10:11.628 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-20 00:10:11.628 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-20 00:10:17.424 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:10:17.424 [info] request done: requestId: [1233942a-9e13-4557-8996-0550bb420b00] model deployment ID: []
+2025-11-20 00:10:17.426 [info] ccreq:b0b533ab.copilotmd | success | claude-sonnet-4.5 | 5363ms | [panel/editAgent]
+2025-11-20 00:12:09.845 [info] ccreq:6e77ad52.copilotmd | markdown
+2025-11-20 00:12:09.845 [info] ccreq:34db43bf.copilotmd | markdown
+2025-11-20 00:12:09.845 [info] ccreq:da91a0a3.copilotmd | markdown
+2025-11-20 00:12:09.847 [info] ccreq:d8d464b9.copilotmd | markdown
+2025-11-20 00:12:09.935 [info] request done: requestId: [4df42407-8d39-461b-95e9-35b6c0530288] model deployment ID: []
+2025-11-20 00:12:11.508 [info] ccreq:ef7edb2c.copilotmd | markdown
+2025-11-20 00:12:11.644 [info] request done: requestId: [f0f8435e-d0a5-4a77-936d-717b9bc88ac0] model deployment ID: []
+2025-11-20 00:12:12.324 [info] ccreq:7f976e77.copilotmd | markdown
+2025-11-20 00:12:12.324 [info] ccreq:38e15f0e.copilotmd | markdown
+2025-11-20 00:12:12.324 [info] request done: requestId: [2419e674-c0f6-493f-bc13-de894008d9fa] model deployment ID: []
+2025-11-20 00:12:12.324 [info] ccreq:a86faa7f.copilotmd | unknown | copilot-nes-oct | 485ms | [XtabProvider]
+2025-11-20 00:12:13.021 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:12:13.021 [info] request done: requestId: [d5e6b814-8a84-4a73-83aa-0bf1f18d867d] model deployment ID: []
+2025-11-20 00:12:13.023 [info] ccreq:39aa1a7d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 518ms | [XtabProvider]
+2025-11-20 00:12:13.028 [info] ccreq:c4b8cb84.copilotmd | markdown
+2025-11-20 00:13:29.191 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-20 00:13:29.191 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-20 00:13:33.941 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:13:33.941 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:13:33.943 [info] ccreq:90c198c5.copilotmd | success | claude-sonnet-4.5 | 4726ms | [panel/editAgent]
+2025-11-20 00:13:38.114 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:13:38.114 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:13:38.116 [info] ccreq:d971ed68.copilotmd | success | claude-sonnet-4.5 | 4070ms | [panel/editAgent]
+2025-11-20 00:13:44.780 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:13:44.781 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:13:44.782 [info] ccreq:c8b7d142.copilotmd | success | claude-sonnet-4.5 | 4164ms | [panel/editAgent]
+2025-11-20 00:13:44.945 [info] Logged in as aholicg
+2025-11-20 00:13:45.862 [info] Got Copilot token for aholicg
+2025-11-20 00:13:45.862 [info] Copilot Chat: 0.33.1, VS Code: 1.106.0
+2025-11-20 00:13:45.894 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-20 00:13:46.253 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-20 00:13:46.253 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-20 00:13:46.769 [info] Fetched model metadata in 873ms 48a3ae6c-da8b-4f37-a040-d964ca2e55a5
+2025-11-20 00:13:46.772 [info] ccreq:3e886dc1.copilotmd | markdown
+2025-11-20 00:13:50.361 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:13:50.361 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:13:50.362 [info] ccreq:23536103.copilotmd | success | claude-sonnet-4.5 | 5422ms | [panel/editAgent]
+2025-11-20 00:13:54.221 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:13:54.221 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:13:54.223 [info] ccreq:243daa2d.copilotmd | success | claude-sonnet-4.5 | 3691ms | [panel/editAgent]
+2025-11-20 00:13:59.150 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:13:59.150 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:13:59.152 [info] ccreq:49668c8f.copilotmd | success | claude-sonnet-4.5 | 4053ms | [panel/editAgent]
+2025-11-20 00:14:03.736 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:14:03.736 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:14:03.739 [info] ccreq:6870426b.copilotmd | success | claude-sonnet-4.5 | 3972ms | [panel/editAgent]
+2025-11-20 00:14:10.546 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:14:10.546 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:14:10.548 [info] ccreq:6fa60ec7.copilotmd | success | claude-sonnet-4.5 | 4525ms | [panel/editAgent]
+2025-11-20 00:14:15.588 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:14:15.588 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:14:15.600 [info] ccreq:8ef95fa8.copilotmd | success | claude-sonnet-4.5 | 4217ms | [panel/editAgent]
+2025-11-20 00:14:20.748 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:14:20.748 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:14:20.755 [info] ccreq:74489590.copilotmd | success | claude-sonnet-4.5 | 4316ms | [panel/editAgent]
+2025-11-20 00:14:38.828 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:14:38.829 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:14:38.830 [info] ccreq:6b3d4877.copilotmd | success | claude-sonnet-4.5 | 8005ms | [panel/editAgent]
+2025-11-20 00:17:26.159 [info] request done: requestId: [4cde6bbc-b324-4b20-b9d9-4e988a240995] model deployment ID: []
+2025-11-20 00:17:26.161 [info] ccreq:af450fd4.copilotmd | cancelled | claude-sonnet-4.5 | 166454ms | [panel/editAgent]
+2025-11-20 00:24:51.526 [info] Fetched model metadata in 973ms dbd9ab60-60b6-492c-9d0c-28d29ea380f8
+2025-11-20 00:24:51.808 [info] ccreq:161b0f15.copilotmd | markdown
+2025-11-20 00:24:54.215 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-20 00:24:54.215 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-20 00:25:03.056 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:25:03.056 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:25:03.059 [info] ccreq:68795ca0.copilotmd | success | claude-sonnet-4.5 | 8067ms | [panel/editAgent]
+2025-11-20 00:25:10.460 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:25:10.460 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:25:10.462 [info] ccreq:7533bfe6.copilotmd | success | claude-sonnet-4.5 | 6210ms | [panel/editAgent]
+2025-11-20 00:25:17.280 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:25:17.280 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:25:17.283 [info] ccreq:3364418f.copilotmd | success | claude-sonnet-4.5 | 5899ms | [panel/editAgent]
+2025-11-20 00:25:23.411 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:25:23.411 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:25:23.414 [info] ccreq:3d4619a7.copilotmd | success | claude-sonnet-4.5 | 5295ms | [panel/editAgent]
+2025-11-20 00:25:44.978 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:25:44.978 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:25:44.983 [info] ccreq:68df8a7c.copilotmd | success | claude-sonnet-4.5 | 20778ms | [panel/editAgent]
+2025-11-20 00:25:55.945 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:25:55.945 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:25:55.947 [info] ccreq:9f1da2ba.copilotmd | success | claude-sonnet-4.5 | 5767ms | [panel/editAgent]
+2025-11-20 00:26:02.579 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:26:02.579 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:26:02.580 [info] ccreq:b047a7f8.copilotmd | success | claude-sonnet-4.5 | 5828ms | [panel/editAgent]
+2025-11-20 00:26:09.711 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-20 00:26:09.711 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:26:09.713 [info] ccreq:59e8144b.copilotmd | success | claude-sonnet-4.5 | 6316ms | [panel/editAgent]
+2025-11-20 00:26:22.772 [info] message 0 returned. finish reason: [stop]
+2025-11-20 00:26:22.772 [info] request done: requestId: [0624507d-4d5d-4680-a764-2da307742bc8] model deployment ID: []
+2025-11-20 00:26:22.774 [info] ccreq:0e7439c6.copilotmd | success | claude-sonnet-4.5 | 10115ms | [panel/editAgent]

@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+escape",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    }
+]

@@ -1,0 +1,10 @@
+2025-11-19 19:10:51.139 [info] update#setState idle
+2025-11-19 19:11:21.137 [info] update#setState checking for updates
+2025-11-19 19:11:21.247 [info] update#setState available for download
+2025-11-19 19:59:27.661 [warning] [perf] profiling STARTED 9966f461-ca5e-4feb-a316-eeb9772e8d7d
+2025-11-19 19:59:32.753 [warning] [perf] profiling DONE 9966f461-ca5e-4feb-a316-eeb9772e8d7d
+2025-11-19 19:59:33.267 [warning] [perf] profiling STARTED 9966f461-ca5e-4feb-a316-eeb9772e8d7d
+2025-11-19 19:59:38.335 [warning] [perf] profiling DONE 9966f461-ca5e-4feb-a316-eeb9772e8d7d
+2025-11-19 19:59:38.870 [warning] [perf] profiling STARTED 9966f461-ca5e-4feb-a316-eeb9772e8d7d
+2025-11-19 19:59:44.026 [warning] [perf] profiling DONE 9966f461-ca5e-4feb-a316-eeb9772e8d7d
+2025-11-19 20:11:13.796 [info] Extension host with pid 136247 exited with code: 0, signal: unknown.

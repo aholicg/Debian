@@ -1,0 +1,13 @@
+2025-11-18 21:58:27.086 [info] Started local extension host with pid 20363.
+2025-11-18 21:58:31.357 [error] [Extension Host] (node:20363) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-18 21:58:31.359 [error] [Extension Host] (node:20363) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-18 21:58:33.830 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-18 21:58:33.985 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-18 21:58:34.941 [info] [perf] Render performance baseline is 192ms
+2025-11-18 21:58:36.217 [info] Extension host (LocalProcess pid: 20363) is unresponsive.
+2025-11-18 21:58:36.990 [info] Extension host (LocalProcess pid: 20363) is responsive.
+2025-11-18 21:58:36.991 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-11-18 21:58:37.498 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-11-18 21:58:37.930 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-18 21:58:39.699 [error] Failed to fetch MCP registry providers Server returned 404

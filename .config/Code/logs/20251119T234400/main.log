@@ -1,0 +1,19 @@
+2025-11-19 23:44:00.376 [info] update#setState idle
+2025-11-19 23:44:30.374 [info] update#setState checking for updates
+2025-11-19 23:44:30.469 [info] update#setState available for download
+2025-11-19 23:52:31.234 [info] Extension host with pid 250207 exited with code: 0, signal: unknown.
+2025-11-19 23:52:31.797 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 250222]: crashed with code 15 and reason 'killed'
+2025-11-20 00:07:29.642 [warning] [perf] profiling STARTED a9828800-ce1c-4ced-89a8-914e727db899
+2025-11-20 00:07:34.701 [warning] [perf] profiling DONE a9828800-ce1c-4ced-89a8-914e727db899
+2025-11-20 00:07:35.041 [warning] [perf] profiling STARTED a9828800-ce1c-4ced-89a8-914e727db899
+2025-11-20 00:07:40.090 [warning] [perf] profiling DONE a9828800-ce1c-4ced-89a8-914e727db899
+2025-11-20 00:07:40.377 [warning] [perf] profiling STARTED a9828800-ce1c-4ced-89a8-914e727db899
+2025-11-20 00:07:45.425 [warning] [perf] profiling DONE a9828800-ce1c-4ced-89a8-914e727db899
+2025-11-20 00:26:26.407 [warning] [perf] profiling STARTED 2f869226-e7f3-4eaa-b075-302ea109e178
+2025-11-20 00:26:31.485 [warning] [perf] profiling DONE 2f869226-e7f3-4eaa-b075-302ea109e178
+2025-11-20 00:26:31.910 [warning] [perf] profiling STARTED 2f869226-e7f3-4eaa-b075-302ea109e178
+2025-11-20 00:26:36.965 [warning] [perf] profiling DONE 2f869226-e7f3-4eaa-b075-302ea109e178
+2025-11-20 00:26:37.348 [warning] [perf] profiling STARTED 2f869226-e7f3-4eaa-b075-302ea109e178
+2025-11-20 00:26:42.409 [warning] [perf] profiling DONE 2f869226-e7f3-4eaa-b075-302ea109e178
+2025-11-20 00:31:44.478 [info] Extension host with pid 255012 exited with code: 0, signal: unknown.
+2025-11-20 00:31:45.696 [warning] [perf] profiling STARTED 548f1475-9bc9-4f75-9a73-69071dc163c0

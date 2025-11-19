@@ -1,0 +1,24 @@
+2025-11-18 21:37:42.345 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-11-18 21:37:42.345 [info] [getSessions] [all] starting
+2025-11-18 21:37:42.345 [info] [getSessions] [all] returned 0 session(s)
+2025-11-18 21:37:42.345 [info] [getSessions] [all] starting
+2025-11-18 21:37:42.345 [info] [getSessions] [all] returned 0 session(s)
+2025-11-18 21:37:42.345 [info] [getSessions] [all] starting
+2025-11-18 21:37:42.345 [info] [getSessions] [all] returned 0 session(s)
+2025-11-18 21:37:42.345 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-11-18 21:37:42.345 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-11-18 21:37:42.345 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-11-18 21:37:50.721 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-11-18 21:37:50.721 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-11-18 21:38:36.597 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-11-18 21:38:39.971 [info] [getSessions] [all] starting
+2025-11-18 21:38:39.971 [info] [getSessions] [all] returned 0 session(s)
+2025-11-18 21:38:39.971 [info] [getSessions] [all] starting
+2025-11-18 21:38:39.971 [info] [getSessions] [all] returned 0 session(s)
+2025-11-18 21:38:39.972 [info] [getSessions] [all] starting
+2025-11-18 21:38:39.972 [info] [getSessions] [all] returned 0 session(s)
+2025-11-18 21:38:40.243 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-11-18 21:38:40.243 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-11-18 21:38:40.629 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-11-18 21:38:41.150 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-11-18 21:38:41.150 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
