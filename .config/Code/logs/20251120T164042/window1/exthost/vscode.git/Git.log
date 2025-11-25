@@ -1,0 +1,38 @@
+2025-11-20 16:40:49.199 [info] [main] Log level: Info
+2025-11-20 16:40:49.199 [info] [main] Validating found git in: "git"
+2025-11-20 16:40:49.199 [info] [main] Using git "2.47.3" from "git"
+2025-11-20 16:40:49.199 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-20 16:40:49.199 [info] > git rev-parse --show-toplevel [250ms]
+2025-11-20 16:40:49.202 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [22ms]
+2025-11-20 16:40:49.251 [info] [Model][openRepository] Opened repository (path): /home/trang/localnsv/mAIware
+2025-11-20 16:40:49.251 [info] [Model][openRepository] Opened repository (real path): /home/trang/localnsv/mAIware
+2025-11-20 16:40:49.251 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-20 16:40:52.532 [info] > git rev-parse --show-toplevel [3240ms]
+2025-11-20 16:40:52.533 [info] > git config --get commit.template [3255ms]
+2025-11-20 16:40:52.792 [info] > git rev-parse --show-toplevel [181ms]
+2025-11-20 16:40:52.795 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-20 16:40:52.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [72ms]
+2025-11-20 16:40:53.008 [info] > git show --textconv :index.html [188ms]
+2025-11-20 16:40:53.008 [info] > git ls-files --stage -- index.html [179ms]
+2025-11-20 16:40:53.128 [info] > git cat-file -s e5c2ee077f33646bd7efdd8879e80c6c8b805742 [113ms]
+2025-11-20 16:40:53.589 [info] > git check-ignore -v -z --stdin [449ms]
+2025-11-20 16:40:53.589 [info] > git status -z -uall [11ms]
+2025-11-20 16:40:53.608 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-11-20 16:40:53.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-11-20 16:40:53.661 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-11-20 16:40:53.669 [info] > git config --get commit.template [18ms]
+2025-11-20 16:40:53.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-11-20 16:40:53.696 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-11-20 16:40:53.708 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6733232235a3e7cbe767460e82949545a646240e...refs/remotes/origin/main -- [3ms]
+2025-11-20 16:40:53.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-11-20 16:40:53.713 [info] > git blame --root --incremental 6733232235a3e7cbe767460e82949545a646240e -- index.html [17ms]
+2025-11-20 16:40:53.748 [info] > git status -z -uall [10ms]
+2025-11-20 16:40:53.748 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-20 16:40:58.362 [info] > git show --textconv :background-controller.js [20ms]
+2025-11-20 16:40:58.362 [info] > git ls-files --stage -- background-controller.js [2ms]
+2025-11-20 16:40:58.376 [info] > git cat-file -s f89a571e94386d11be1f9e0f860e87ab0901dcf7 [3ms]
+2025-11-20 16:40:58.428 [info] > git blame --root --incremental 6733232235a3e7cbe767460e82949545a646240e -- background-controller.js [4ms]
+2025-11-20 16:41:02.455 [info] > git ls-files --stage -- style.css [1ms]
+2025-11-20 16:41:02.467 [info] > git cat-file -s a7b3a88c948af51b45f1128b5e00ba2a1568ba9d [1ms]
+2025-11-20 16:41:02.471 [info] > git show --textconv :style.css [26ms]
+2025-11-20 16:41:02.564 [info] > git blame --root --incremental 6733232235a3e7cbe767460e82949545a646240e -- style.css [35ms]

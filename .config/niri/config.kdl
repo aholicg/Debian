@@ -273,11 +273,11 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-sh-at-startup "xwayland-satellite"
-spawn-sh-at-startup "swayidle -w timeout 240 'brightnessctl --class=backlight --save && brightnessctl --class=backlight set 1% && gtklock && brightnessctl --class=backlight --restore' timeout 300 'niri msg action power-off-monitors' resume 'niri msg output \"eDP-1\" on && brightnessctl --class=backlight --restore'"
+//spawn-sh-at-startup "swayidle -w timeout 240 'brightnessctl --class=backlight --save && brightnessctl --class=backlight set 1% && gtklock && brightnessctl --class=backlight --restore' timeout 300 'niri msg action power-off-monitors' resume 'niri msg output \"eDP-1\" on && brightnessctl --class=backlight --restore'"
 
 spawn-sh-at-startup "swaybg -i /home/trang/.config/niri/moss.jpg -m fill"
 spawn-sh-at-startup "fcitx5"
-//spawn-sh-at-startup "/home/trang/.config/niri/scripts/idle.sh"
+spawn-sh-at-startup "/home/trang/.config/niri/scripts/idle.sh"
 spawn-sh-at-startup "blueman-applet"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:

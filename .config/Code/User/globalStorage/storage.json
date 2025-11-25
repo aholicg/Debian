@@ -6,10 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/trang/localnsv/mAIware-server"
-            },
-            {
-                "folderUri": "file:///home/trang/localnsv/mAIware"
+                "folderUri": "file:///home/trang/localnsv"
             }
         ],
         "emptyWindows": []
@@ -26,13 +23,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/trang/localnsv/mAIware",
-            "backupPath": "/home/trang/.config/Code/Backups/578a6715c01f5d02e8f0efdb50268878",
+            "folder": "file:///home/trang/localnsv",
+            "backupPath": "/home/trang/.config/Code/Backups/aee4f753c73fce1a14a3ec992727fa72",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
-                "width": 1363,
+                "width": 1361,
                 "height": 731
             }
         },
@@ -62,16 +59,16 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliaryBarWidth": 300,
+            "sideBarWidth": 283,
+            "auxiliaryBarWidth": 354,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 300,
-            "auxiliaryBarWidth": 300,
+            "sideBarWidth": 283,
+            "auxiliaryBarWidth": 354,
             "workspaces": {
                 "b8238573dd0ca5f7fd304112a0e98325": {
                     "sideBarVisible": true,

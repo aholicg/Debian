@@ -1,0 +1,10 @@
+2025-11-20 16:40:44.077 [info] Started local extension host with pid 108604.
+2025-11-20 16:40:46.822 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-20 16:40:46.984 [error] [Extension Host] (node:108604) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-20 16:40:47.002 [error] [Extension Host] (node:108604) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-20 16:40:47.028 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-20 16:40:47.857 [info] Auto updating outdated extensions. github.copilot-chat
+2025-11-20 16:40:49.788 [info] [perf] Render performance baseline is 69ms
+2025-11-20 16:40:50.951 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-20 16:40:53.573 [error] chatParticipant must be declared in package.json: claude-code

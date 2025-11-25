@@ -1,0 +1,25 @@
+2025-11-24 01:13:09.392 [info] update#setState idle
+2025-11-24 01:13:39.394 [info] update#setState checking for updates
+2025-11-24 01:13:39.501 [info] update#setState available for download
+2025-11-24 01:14:12.146 [warning] [perf] profiling STARTED 87d2cc11-030e-40ab-a9cf-dbe025679e65
+2025-11-24 01:14:17.171 [warning] [perf] profiling DONE 87d2cc11-030e-40ab-a9cf-dbe025679e65
+2025-11-24 01:14:32.777 [warning] [perf] profiling STARTED 43879602-462a-479c-a086-73c78b03f41d
+2025-11-24 01:14:37.813 [warning] [perf] profiling DONE 43879602-462a-479c-a086-73c78b03f41d
+2025-11-24 01:14:38.075 [warning] [perf] profiling STARTED 43879602-462a-479c-a086-73c78b03f41d
+2025-11-24 01:14:43.115 [warning] [perf] profiling DONE 43879602-462a-479c-a086-73c78b03f41d
+2025-11-24 01:14:43.387 [warning] [perf] profiling STARTED 43879602-462a-479c-a086-73c78b03f41d
+2025-11-24 01:14:48.421 [warning] [perf] profiling DONE 43879602-462a-479c-a086-73c78b03f41d
+2025-11-24 01:28:38.402 [warning] [perf] profiling STARTED c1c862df-7ae0-4416-8110-76ba21c6a36a
+2025-11-24 01:28:43.507 [warning] [perf] profiling DONE c1c862df-7ae0-4416-8110-76ba21c6a36a
+2025-11-24 01:28:43.908 [warning] [perf] profiling STARTED c1c862df-7ae0-4416-8110-76ba21c6a36a
+2025-11-24 01:28:48.969 [warning] [perf] profiling DONE c1c862df-7ae0-4416-8110-76ba21c6a36a
+2025-11-24 01:28:49.317 [warning] [perf] profiling STARTED c1c862df-7ae0-4416-8110-76ba21c6a36a
+2025-11-24 01:28:54.366 [warning] [perf] profiling DONE c1c862df-7ae0-4416-8110-76ba21c6a36a
+2025-11-24 02:17:27.057 [warning] [perf] profiling STARTED 2e913c5c-71d7-4f2c-83dd-23090a11d7b1
+2025-11-24 02:17:32.228 [warning] [perf] profiling DONE 2e913c5c-71d7-4f2c-83dd-23090a11d7b1
+2025-11-24 02:17:32.793 [warning] [perf] profiling STARTED 2e913c5c-71d7-4f2c-83dd-23090a11d7b1
+2025-11-24 02:17:37.877 [warning] [perf] profiling DONE 2e913c5c-71d7-4f2c-83dd-23090a11d7b1
+2025-11-24 02:17:39.033 [warning] [perf] profiling STARTED 2e913c5c-71d7-4f2c-83dd-23090a11d7b1
+2025-11-24 02:17:44.094 [warning] [perf] profiling DONE 2e913c5c-71d7-4f2c-83dd-23090a11d7b1
+2025-11-24 02:24:16.577 [info] Extension host with pid 791066 exited with code: 0, signal: unknown.
+2025-11-24 02:24:19.159 [warning] [perf] profiling STARTED c7794db0-de91-4ed0-8942-6ee3e251b9fc

@@ -1,0 +1,9 @@
+2025-11-24 01:13:24.757 [error] #9: https://api.github.com/copilot_internal/user - error GET Canceled
+2025-11-24 01:13:25.857 [error] #14: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-edgedevtools/vscode-edge-devtools/latest - error GET Canceled
+2025-11-24 01:13:25.857 [error] #15: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest - error GET Canceled
+2025-11-24 01:13:25.857 [error] #16: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/firefox-devtools/vscode-firefox-debug/latest - error GET Canceled
+2025-11-24 01:13:25.858 [error] #17: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/dbaeumer/vscode-eslint/latest - error GET Canceled
+2025-11-24 01:13:25.858 [error] #18: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/davidanson/vscode-markdownlint/latest - error GET Canceled
+2025-11-24 01:13:25.858 [error] #19: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/christian-kohler/npm-intellisense/latest - error GET Canceled
+2025-11-24 01:13:25.858 [error] #20: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2025-11-24 01:13:25.858 [error] #21: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled

@@ -1,0 +1,235 @@
+2025-11-23 22:42:17.229 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-23 22:42:17.230 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-23 22:42:17.230 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-23 22:42:17.230 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-23 22:42:17.695 [info] Using the Electron fetcher.
+2025-11-23 22:42:27.895 [info] Logged in as aholicg
+2025-11-23 22:42:28.860 [info] Got Copilot token for aholicg
+2025-11-23 22:42:28.860 [info] Copilot Chat: 0.33.2, VS Code: 1.106.0
+2025-11-23 22:42:28.922 [info] activationBlocker from 'languageModelAccess' took for 11388ms
+2025-11-23 22:42:29.639 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-23 22:42:29.639 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-23 22:42:29.684 [info] Registering default platform agent...
+2025-11-23 22:42:29.686 [info] activationBlocker from 'conversationFeature' took for 12170ms
+2025-11-23 22:42:29.735 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-23 22:42:29.944 [info] Fetched model metadata in 3495ms c9551fb2-7da3-4554-8fa1-a881b66d9533
+2025-11-23 22:42:30.249 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-23 22:42:30.251 [info] ccreq:c404610e.copilotmd | markdown
+2025-11-23 22:42:36.606 [info] Refetch model metadata: Succeeded in 1312ms 73c3e949-4ee7-4c02-95c3-1ff62037268d (8C38:343226:23C0D7:30D40E:69232B6B) using node-http with status 200.
+2025-11-23 22:42:37.952 [info] Refetch model metadata: Succeeded in 1346ms 94c6025f-bd9b-465c-bd0b-403c15028303 (8D9E:1181DA:178510F:21CA94E:69232B6D) using node-fetch with status 200.
+2025-11-23 22:42:39.149 [info] Refetch model metadata: Succeeded in 1197ms 462536a4-0e76-42d0-8ee4-1f1c03259213 (8C46:35307:260794:331506:69232B6E) using electron-fetch with status 200.
+2025-11-23 22:43:04.117 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-23 22:43:04.201 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-23 22:43:04.201 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-23 22:43:04.201 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-23 22:43:11.357 [info] Using the Electron fetcher.
+2025-11-23 22:43:12.948 [info] Logged in as aholicg
+2025-11-23 22:43:14.178 [info] Got Copilot token for aholicg
+2025-11-23 22:43:14.178 [info] Copilot Chat: 0.33.2, VS Code: 1.106.0
+2025-11-23 22:43:14.198 [info] activationBlocker from 'languageModelAccess' took for 9674ms
+2025-11-23 22:43:14.685 [info] Fetched model metadata in 2086ms 01ee8661-23bc-4ecd-abe3-1afa636d36c7
+2025-11-23 22:43:14.793 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-23 22:43:14.794 [info] ccreq:05f0f62d.copilotmd | markdown
+2025-11-23 22:43:15.071 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-23 22:43:15.071 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-23 22:43:15.108 [info] Registering default platform agent...
+2025-11-23 22:43:15.110 [info] activationBlocker from 'conversationFeature' took for 10595ms
+2025-11-23 22:43:15.261 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-23 22:43:15.593 [info] Fetched model metadata in 326ms 10abf2a4-b693-45d1-a930-dd64a3c9c555
+2025-11-23 22:43:15.601 [info] ccreq:6f565a67.copilotmd | markdown
+2025-11-23 22:45:51.906 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-11-23 22:45:51.925 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-11-23 22:45:52.760 [error] GithubCodeSearchService::getRemoteIndexState(vuquangtien/maiware---ai). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 22:45:52.761 [error] CodeSearchRepoTracker::getIndexedStatus(vuquangtien/maiware---ai). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 22:45:52.762 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 22:45:52.762 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 22:45:52.775 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 22:45:52.775 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 22:45:52.782 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 22:45:52.783 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 22:46:04.117 [info] message 0 returned. finish reason: [stop]
+2025-11-23 22:46:04.117 [info] request done: requestId: [2e697aa8-6097-42c1-b719-2a8c0923e886] model deployment ID: []
+2025-11-23 22:46:04.121 [info] ccreq:3e46522f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2702ms | [workspaceContext]
+2025-11-23 22:46:11.988 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-23 22:46:11.988 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-23 22:46:20.458 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:20.458 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:20.462 [info] ccreq:0e291ba6.copilotmd | success | claude-sonnet-4.5 | 8142ms | [panel/editAgent]
+2025-11-23 22:46:26.677 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:26.677 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:26.679 [info] ccreq:fe57f178.copilotmd | success | claude-sonnet-4.5 | 6031ms | [panel/editAgent]
+2025-11-23 22:46:33.514 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:33.515 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:33.518 [info] ccreq:01d01828.copilotmd | success | claude-sonnet-4.5 | 6130ms | [panel/editAgent]
+2025-11-23 22:46:39.879 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:39.879 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:39.882 [info] ccreq:4cba0a1a.copilotmd | success | claude-sonnet-4.5 | 6169ms | [panel/editAgent]
+2025-11-23 22:46:46.510 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:46.510 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:46.512 [info] ccreq:897f25f4.copilotmd | success | claude-sonnet-4.5 | 6460ms | [panel/editAgent]
+2025-11-23 22:46:52.948 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:52.948 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:52.951 [info] ccreq:3314f9cb.copilotmd | success | claude-sonnet-4.5 | 6246ms | [panel/editAgent]
+2025-11-23 22:46:58.842 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:46:58.842 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:46:58.843 [info] ccreq:6adc6d3f.copilotmd | success | claude-sonnet-4.5 | 5758ms | [panel/editAgent]
+2025-11-23 22:47:49.861 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:47:49.862 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:47:49.863 [info] ccreq:5e49234a.copilotmd | success | claude-sonnet-4.5 | 50898ms | [panel/editAgent]
+2025-11-23 22:48:03.948 [info] message 0 returned. finish reason: [stop]
+2025-11-23 22:48:03.948 [info] request done: requestId: [c512d548-b17c-4650-b391-8c08c5595d92] model deployment ID: []
+2025-11-23 22:48:03.949 [info] ccreq:4967a43e.copilotmd | success | claude-sonnet-4.5 | 11612ms | [panel/editAgent]
+2025-11-23 22:55:51.827 [info] Fetched model metadata in 972ms 7f06c346-27c3-4c09-b70a-4de55dbba6ef
+2025-11-23 22:55:52.120 [info] ccreq:cdd59c9b.copilotmd | markdown
+2025-11-23 22:55:57.268 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-23 22:55:57.268 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-23 22:56:07.696 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:56:07.696 [info] request done: requestId: [b8b4b89a-7c82-4fd2-ac66-443882ca92d3] model deployment ID: []
+2025-11-23 22:56:07.697 [info] ccreq:f4b524b2.copilotmd | success | claude-sonnet-4.5 | 10232ms | [panel/editAgent]
+2025-11-23 22:56:14.755 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:56:14.755 [info] request done: requestId: [b8b4b89a-7c82-4fd2-ac66-443882ca92d3] model deployment ID: []
+2025-11-23 22:56:14.757 [info] ccreq:6f35774f.copilotmd | success | claude-sonnet-4.5 | 6664ms | [panel/editAgent]
+2025-11-23 22:56:46.364 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:56:46.364 [info] request done: requestId: [b8b4b89a-7c82-4fd2-ac66-443882ca92d3] model deployment ID: []
+2025-11-23 22:56:46.366 [info] ccreq:f55be440.copilotmd | success | claude-sonnet-4.5 | 31501ms | [panel/editAgent]
+2025-11-23 22:56:57.715 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-23 22:56:57.715 [info] request done: requestId: [b8b4b89a-7c82-4fd2-ac66-443882ca92d3] model deployment ID: []
+2025-11-23 22:56:57.717 [info] ccreq:636694e4.copilotmd | success | claude-sonnet-4.5 | 8739ms | [panel/editAgent]
+2025-11-23 23:03:21.731 [error] GithubCodeSearchService::getRemoteIndexState(vuquangtien/maiware---cfg). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 23:03:21.731 [error] CodeSearchRepoTracker::getIndexedStatus(vuquangtien/maiware---cfg). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 23:12:40.171 [info] Logged in as aholicg
+2025-11-23 23:12:40.761 [info] Got Copilot token for aholicg
+2025-11-23 23:12:40.761 [info] Copilot Chat: 0.33.2, VS Code: 1.106.0
+2025-11-23 23:12:40.777 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-23 23:12:41.131 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 23:12:41.132 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 23:12:41.136 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 23:12:41.136 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 23:12:41.137 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 23:12:41.137 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 23:12:41.137 [error] GithubCodeSearchService::getRemoteIndexState(vuquangtien/maiware---cfg). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 23:12:41.137 [error] CodeSearchRepoTracker::getIndexedStatus(vuquangtien/maiware---cfg). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 23:12:41.142 [error] GithubCodeSearchService::getRemoteIndexState(vuquangtien/maiware---ai). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-23 23:12:41.142 [error] CodeSearchRepoTracker::getIndexedStatus(vuquangtien/maiware---ai). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-23 23:12:41.702 [info] Fetched model metadata in 923ms 2bbd553b-f7bb-4783-9f81-e6f64fcf2d58
+2025-11-23 23:12:41.971 [info] ccreq:bf68cb1e.copilotmd | markdown
+2025-11-24 00:02:25.282 [info] Logged in as aholicg
+2025-11-24 00:02:25.600 [error] Error from tool manage_todo_list with args {"todoList": [{"description":"Create predict_single.py that takes a file path and returns JSON with classification + features from pe_to_features.py","id":1,"title":"Create Python prediction wrapper","status":"completed"},{"description":"Create ai-client.js that spawns Python process and extracts real PE sections, entropy, imports, strings","id":2,"title":"Create Node.js AI client with PE metadata","status":"in-progress"},{"description":"Replace getRandomDemoJson with classifyWithAI + real PE data, keep fallback","id":3,"title":"Modify scanner-worker.js","status":"not-started"},{"description":"If model provides new fields (voting info, feature counts), add display elements","id":4,"title":"Add new UI elements for model data","status":"not-started"}], "operation": "write"}: acceptResponseProgress: Adding progress to a completed response: Error: acceptResponseProgress: Adding progress to a completed response
+    at rst.acceptResponseProgress (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1933:6255)
+    at ydt.invokeTool (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2239:3976)
+    at async eJt.$invokeTool (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:13328)
+2025-11-24 00:02:25.870 [info] Got Copilot token for aholicg
+2025-11-24 00:02:25.870 [info] Copilot Chat: 0.33.2, VS Code: 1.106.0
+2025-11-24 00:02:25.897 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-24 00:02:26.249 [error] GithubCodeSearchService::getRemoteIndexState(vuquangtien/maiware---cfg). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-24 00:02:26.249 [error] CodeSearchRepoTracker::getIndexedStatus(vuquangtien/maiware---cfg). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-24 00:02:26.260 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-24 00:02:26.260 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-24 00:02:26.267 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-24 00:02:26.267 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-24 00:02:26.690 [error] GithubCodeSearchService::getRemoteIndexState(loegaire/maiware-server). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-24 00:02:26.690 [error] CodeSearchRepoTracker::getIndexedStatus(loegaire/maiware-server). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-24 00:02:26.707 [error] GithubCodeSearchService::getRemoteIndexState(vuquangtien/maiware---ai). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-11-24 00:02:26.707 [error] CodeSearchRepoTracker::getIndexedStatus(vuquangtien/maiware---ai). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-11-24 00:02:26.841 [info] Fetched model metadata in 1584ms 4cdbbf05-a082-4d44-81d4-8c5559936640
+2025-11-24 00:02:27.398 [info] ccreq:0ab014ef.copilotmd | markdown
+2025-11-24 00:02:38.267 [info] message 0 returned. finish reason: [stop]
+2025-11-24 00:02:38.267 [info] request done: requestId: [b0d3cb8d-4c64-4ac3-b7a6-49fb55d92b69] model deployment ID: []
+2025-11-24 00:02:38.269 [info] ccreq:005b4721.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1164ms | [workspaceContext]
+2025-11-24 00:02:57.225 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:02:57.226 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:02:57.365 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:02:57.365 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:03:07.014 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:03:07.014 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:03:07.016 [info] ccreq:55bb0a1b.copilotmd | success | claude-sonnet-4.5 | 9478ms | [panel/editAgent]
+2025-11-24 00:03:07.239 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:03:07.239 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:03:13.742 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:03:13.742 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:03:13.743 [info] ccreq:69f9c39f.copilotmd | success | claude-sonnet-4.5 | 6433ms | [panel/editAgent]
+2025-11-24 00:03:13.825 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:03:13.825 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:03:37.220 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:03:37.221 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:03:37.224 [info] ccreq:664c1bb7.copilotmd | success | claude-sonnet-4.5 | 23285ms | [panel/editAgent]
+2025-11-24 00:03:39.776 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:03:39.776 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:03:45.547 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:03:45.547 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:03:45.550 [info] ccreq:437f65ff.copilotmd | success | claude-sonnet-4.5 | 5673ms | [panel/editAgent]
+2025-11-24 00:03:45.615 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:03:45.615 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:03:57.479 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:03:57.480 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:03:57.481 [info] ccreq:af6d1fe8.copilotmd | success | claude-sonnet-4.5 | 11782ms | [panel/editAgent]
+2025-11-24 00:04:02.012 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:04:02.012 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:04:09.455 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:04:09.455 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:04:09.458 [info] ccreq:0cd706eb.copilotmd | success | claude-sonnet-4.5 | 7271ms | [panel/editAgent]
+2025-11-24 00:04:09.584 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:04:09.584 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:04:22.298 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:04:22.298 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:04:22.298 [info] ccreq:90ab2c89.copilotmd | success | claude-sonnet-4.5 | 12658ms | [panel/editAgent]
+2025-11-24 00:04:24.397 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:04:24.397 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:04:30.357 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:04:30.357 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:04:30.359 [info] ccreq:28e1445d.copilotmd | success | claude-sonnet-4.5 | 5875ms | [panel/editAgent]
+2025-11-24 00:04:30.413 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:04:30.413 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:04:45.229 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:04:45.229 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:04:45.232 [info] ccreq:5376e695.copilotmd | success | claude-sonnet-4.5 | 14754ms | [panel/editAgent]
+2025-11-24 00:04:47.322 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:04:47.322 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:04:54.633 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:04:54.633 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:04:54.635 [info] ccreq:5ec1d56d.copilotmd | success | claude-sonnet-4.5 | 7243ms | [panel/editAgent]
+2025-11-24 00:04:54.701 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:04:54.701 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:03.168 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:03.168 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:03.169 [info] ccreq:40993241.copilotmd | success | claude-sonnet-4.5 | 8392ms | [panel/editAgent]
+2025-11-24 00:05:05.251 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:05.251 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:11.531 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:11.531 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:11.533 [info] ccreq:6b6c7b49.copilotmd | success | claude-sonnet-4.5 | 6189ms | [panel/editAgent]
+2025-11-24 00:05:11.599 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:11.599 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:17.821 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:17.821 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:17.824 [info] ccreq:55e65cc6.copilotmd | success | claude-sonnet-4.5 | 6173ms | [panel/editAgent]
+2025-11-24 00:05:17.880 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:17.880 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:25.880 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:25.880 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:25.881 [info] ccreq:639d8305.copilotmd | success | claude-sonnet-4.5 | 7588ms | [panel/editAgent]
+2025-11-24 00:05:28.320 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:28.320 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:37.248 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:37.248 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:37.251 [info] ccreq:58f8d961.copilotmd | success | claude-sonnet-4.5 | 8849ms | [panel/editAgent]
+2025-11-24 00:05:37.371 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:37.371 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:43.114 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:43.114 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:43.115 [info] ccreq:9e1f29b1.copilotmd | success | claude-sonnet-4.5 | 5682ms | [panel/editAgent]
+2025-11-24 00:05:44.400 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:44.400 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:05:57.206 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:05:57.206 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:05:57.208 [info] ccreq:25e04c58.copilotmd | success | claude-sonnet-4.5 | 12684ms | [panel/editAgent]
+2025-11-24 00:05:59.323 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:05:59.323 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:06:06.120 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:06:06.120 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:06:06.121 [info] ccreq:d3daca30.copilotmd | success | claude-sonnet-4.5 | 6700ms | [panel/editAgent]
+2025-11-24 00:06:06.174 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 00:06:06.174 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 00:06:14.642 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 00:06:14.642 [info] request done: requestId: [b3b71c43-6cb0-417d-a169-bfe6ec787e0b] model deployment ID: []
+2025-11-24 00:06:14.644 [info] ccreq:bba90c8f.copilotmd | success | claude-sonnet-4.5 | 8409ms | [panel/editAgent]
