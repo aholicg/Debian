@@ -1,0 +1,41 @@
+2025-11-20 16:40:48.807 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-20 16:40:48.807 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-20 16:40:48.807 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-20 16:40:48.807 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-20 16:40:53.724 [info] Logged in as aholicg
+2025-11-20 16:40:53.726 [info] Using the Electron fetcher.
+2025-11-20 16:40:55.071 [info] Got Copilot token for aholicg
+2025-11-20 16:40:55.071 [info] Copilot Chat: 0.33.1, VS Code: 1.106.0
+2025-11-20 16:40:55.087 [info] activationBlocker from 'languageModelAccess' took for 1996ms
+2025-11-20 16:40:55.237 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-11-20 16:40:55.237 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-20 16:40:55.268 [info] Registering default platform agent...
+2025-11-20 16:40:55.270 [info] activationBlocker from 'conversationFeature' took for 2194ms
+2025-11-20 16:40:55.378 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-20 16:40:56.368 [info] Fetched model metadata in 2808ms f38c7f3f-501b-4429-b298-3e2495e0321a
+2025-11-20 16:40:56.698 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-20 16:40:56.700 [info] ccreq:8f4f7a87.copilotmd | markdown
+2025-11-20 16:42:06.995 [info] ccreq:6df9834c.copilotmd | markdown
+2025-11-20 16:42:08.136 [info] ccreq:97a29775.copilotmd | markdown
+2025-11-20 16:42:10.975 [info] ccreq:e7b4fe3d.copilotmd | markdown
+2025-11-20 16:42:14.501 [info] ccreq:b75d2d75.copilotmd | markdown
+2025-11-20 16:42:17.849 [info] ccreq:a4f7d309.copilotmd | markdown
+2025-11-20 16:42:20.051 [info] ccreq:08c13da2.copilotmd | markdown
+2025-11-20 16:42:21.196 [info] ccreq:fb457e23.copilotmd | markdown
+2025-11-20 16:42:22.881 [info] ccreq:e4a3b65e.copilotmd | markdown
+2025-11-20 16:42:24.745 [info] ccreq:eb678261.copilotmd | markdown
+2025-11-20 16:42:29.245 [info] ccreq:e70c8541.copilotmd | markdown
+2025-11-20 16:42:32.973 [info] ccreq:fc5c18c6.copilotmd | markdown
+2025-11-20 16:42:36.178 [info] ccreq:5873e3da.copilotmd | markdown
+2025-11-20 16:42:39.191 [info] ccreq:e5186d63.copilotmd | markdown
+2025-11-20 16:42:41.798 [info] ccreq:f8863cb4.copilotmd | markdown
+2025-11-20 16:42:44.400 [info] ccreq:49f0fc70.copilotmd | markdown
+2025-11-20 16:42:47.487 [info] ccreq:2c86d63e.copilotmd | markdown
+2025-11-20 16:42:51.175 [info] ccreq:2fea9bce.copilotmd | markdown
+2025-11-20 16:42:53.417 [info] ccreq:2eeb7c27.copilotmd | markdown
+2025-11-20 16:42:56.542 [info] ccreq:78f59af9.copilotmd | markdown
+2025-11-20 16:42:59.911 [info] ccreq:04b27e4a.copilotmd | markdown
+2025-11-20 16:43:21.345 [info] ccreq:b81625c9.copilotmd | markdown
+2025-11-20 16:43:29.504 [info] ccreq:bd938fa6.copilotmd | markdown
+2025-11-20 16:43:34.329 [info] ccreq:3fcb0e2f.copilotmd | markdown
+2025-11-20 16:43:36.033 [info] ccreq:249a295a.copilotmd | markdown

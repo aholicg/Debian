@@ -50,3 +50,33 @@
 2025-11-18 10:33:06 Success.
 2025-11-18 10:33:06 Latest version is 1.10.3
 2025-11-18 10:33:06 App is up to date.
+2025-11-20 10:39:34 Loading main app package /tmp/.mount_ObsidiuMZi9i/resources/obsidian.asar
+2025-11-20 10:39:34 Checking for update using Github
+2025-11-20 10:39:35 Success.
+2025-11-20 10:39:35 Latest version is 1.10.3
+2025-11-20 10:39:35 App is up to date.
+2025-11-20 11:39:34 Checking for update using Github
+2025-11-20 11:39:34 Success.
+2025-11-20 11:39:34 Latest version is 1.10.3
+2025-11-20 11:39:34 App is up to date.
+2025-11-20 12:39:34 Checking for update using Github
+2025-11-20 12:39:34 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
+2025-11-20 12:39:34 Checking for update using obsidian.md
+2025-11-20 12:39:34 Failed to check for update using obsidian.md (net::ERR_INTERNET_DISCONNECTED)
+2025-11-25 08:55:22 Loading main app package /tmp/.mount_ObsidiQRAjKD/resources/obsidian.asar
+2025-11-25 08:55:23 Checking for update using Github
+2025-11-25 08:55:24 Success.
+2025-11-25 08:55:24 Latest version is 1.10.3
+2025-11-25 08:55:24 App is up to date.
+2025-11-25 09:55:22 Checking for update using Github
+2025-11-25 09:55:22 Success.
+2025-11-25 09:55:22 Latest version is 1.10.3
+2025-11-25 09:55:22 App is up to date.
+2025-11-25 12:27:50 Checking for update using Github
+2025-11-25 12:27:50 Success.
+2025-11-25 12:27:50 Latest version is 1.10.3
+2025-11-25 12:27:50 App is up to date.
+2025-11-25 13:27:50 Checking for update using Github
+2025-11-25 13:27:50 Success.
+2025-11-25 13:27:50 Latest version is 1.10.3
+2025-11-25 13:27:50 App is up to date.

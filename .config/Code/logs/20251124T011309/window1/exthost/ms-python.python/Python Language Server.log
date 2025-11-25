@@ -1,0 +1,39 @@
+2025-11-24 01:13:44.602 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.18.0)
+2025-11-24 01:13:46.960 [info] (792230) Server root directory: file:///home/trang/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-24 01:13:46.963 [info] (792230) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-24 01:13:46.976 [info] (792230) Starting service instance "localnsv" for workspace "/home/trang/localnsv"
+2025-11-24 01:13:47.159 [info] (792230) Starting Mcp server id:3385 ...
+2025-11-24 01:13:47.263 [info] (792230) Setting environmentName for service "localnsv": "Python 3.13.5"
+2025-11-24 01:13:47.268 [info] (792230) Setting pythonPath for service "localnsv": "/bin/python3"
+2025-11-24 01:13:47.275 [info] (792230) No include entries specified; assuming /home/trang/localnsv
+2025-11-24 01:13:47.277 [info] (792230) Auto-excluding **/node_modules
+2025-11-24 01:13:47.278 [info] (792230) Auto-excluding **/__pycache__
+2025-11-24 01:13:47.278 [info] (792230) Auto-excluding **/.*
+2025-11-24 01:13:47.367 [info] (792230) Assuming Python version 3.13.5.final.0
+2025-11-24 01:13:47.635 [info] (792230) Found 25 source files
+2025-11-24 01:13:47.691 [info] (792230) Settings have not changed. Skipping update.
+2025-11-24 01:13:47.697 [info] (792230) Settings have not changed. Skipping update.
+2025-11-24 01:13:49.656 [info] (792230) BG: Priority queue background worker(2) root directory: file:///home/trang/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-24 01:13:49.657 [info] (792230) BG: Priority queue background worker(2) started
+2025-11-24 01:14:06.461 [info] (792230) Found 24 source files
+2025-11-24 01:22:21.046 [info] (792230) BG: Indexer background runner(3) root directory: file:///home/trang/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-24 01:22:21.050 [info] (792230) BG: Indexing(3) started
+2025-11-24 01:22:21.828 [info] (792230) BG: scanned(3) 208 files over 1 exec env
+2025-11-24 01:22:29.693 [info] (792230) BG: [IDX(3)] Long operation: index execution environment file:///home/trang/localnsv (7504ms)
+2025-11-24 01:22:29.713 [info] (792230) BG: [IDX(3)] Long operation: index packages file:///home/trang/localnsv (7582ms)
+2025-11-24 01:22:29.713 [info] (792230) BG: indexed(3) 208 files over 1 exec env
+2025-11-24 01:22:29.848 [info] (792230) BG: Indexing finished(3).
+2025-11-24 01:28:36.716 [info] (792230) Starting service instance "<default>" for workspace ""
+2025-11-24 01:28:36.770 [info] (792230) Setting environmentName for service "<default>": "Python 3.13.5"
+2025-11-24 01:28:36.770 [info] (792230) Setting pythonPath for service "<default>": "/bin/python3"
+2025-11-24 01:28:36.772 [info] (792230) No include entries specified; assuming /<default workspace root>
+2025-11-24 01:28:36.773 [info] (792230) Auto-excluding **/node_modules
+2025-11-24 01:28:36.773 [info] (792230) Auto-excluding **/__pycache__
+2025-11-24 01:28:36.773 [info] (792230) Auto-excluding **/.*
+2025-11-24 01:28:36.821 [info] (792230) Assuming Python version 3.13.5.final.0
+2025-11-24 01:28:36.978 [error] (792230) File or directory "/<default workspace root>" does not exist.
+2025-11-24 01:28:36.978 [info] (792230) No source files found.
+2025-11-24 01:28:38.233 [info] (792230) BG: Priority queue background worker(5) root directory: file:///home/trang/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-24 01:28:38.234 [info] (792230) BG: Priority queue background worker(5) started
+2025-11-24 02:17:29.907 [info] (792230) BG: [BG(1)] Long operation: checking: file:///home/trang/localnsv/mAIware---AI/predict_single.py (2031ms)
+2025-11-24 02:17:29.918 [info] (792230) BG: [BG(1)] Long operation: analyzing: file:///home/trang/localnsv/mAIware---AI/predict_single.py (2047ms)

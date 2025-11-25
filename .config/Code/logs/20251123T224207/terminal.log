@@ -1,0 +1,5 @@
+2025-11-23 22:56:58.013 [info] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2025-11-23 22:56:58.014 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["chmod +x /home/trang/localnsv/mAIware---AI/predict_single.py"]]
+2025-11-23 22:56:58.014 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Sub-command DENIED auto approval [null]
+2025-11-23 22:56:58.014 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'chmod +x /home/trang/localnsv/mAIware---AI/predict_single.py' is denied by deny list rule: chmod [null]
+2025-11-23 22:56:58.014 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'chmod +x /home/trang/localnsv/mAIware---AI/predict_single.py' has no matching auto approve entries [null]

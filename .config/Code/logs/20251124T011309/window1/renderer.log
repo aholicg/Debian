@@ -1,0 +1,798 @@
+2025-11-24 01:13:13.284 [info] Started local extension host with pid 791066.
+2025-11-24 01:13:17.488 [error] [Extension Host] (node:791066) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 01:13:17.514 [error] [Extension Host] (node:791066) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 01:13:19.050 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 01:13:19.532 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 01:13:20.871 [info] [perf] Render performance baseline is 66ms
+2025-11-24 01:13:21.594 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 01:13:22.637 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-24 01:13:25.863 [error] Cancelled: Canceled: Canceled
+    at aQe.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1353:35089)
+    at async aQe.K (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1353:33813)
+    at async aQe.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1353:24533)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1353:23898
+    at async Promise.all (index 1)
+    at async aQe.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1353:23852)
+    at async aQe.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1353:22509)
+    at async Vut.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2493:15152)
+    at async wQs.Rc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2489:17026)
+    at async wQs.$c (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2489:19670)
+2025-11-24 01:14:06.151 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-24 01:14:11.101 [warning] [perf] Renderer reported VERY LONG TASK (1153ms), starting profiling session '87d2cc11-030e-40ab-a9cf-dbe025679e65'
+2025-11-24 01:14:17.214 [error] PerfSampleError: by <<renderer>> in y#workbench.desktop.main.js:2183:2441: 
+	 at y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:2441)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:2285)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:2247)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73283)
+2025-11-24 01:14:17.215 [error] PerfSampleError: by <<renderer>> in encode: 
+	 at encode
+	 at fromString (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:92053)
+	 at y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:2441)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:2285)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:2247)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73283)
+2025-11-24 01:14:17.218 [error] PerfSampleError: by <<renderer>> in send#workbench.desktop.main.js:3828:82642: 
+	 at send (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:82642)
+	 at r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:561:1126)
+	 at q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:561:1056)
+	 at p (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:561:774)
+	 at f (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:560:1668)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:560:1606)
+	 at m (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:560:1440)
+	 at call (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:560:1340)
+	 at writeFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:76481)
+	 at writeFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:86823)
+	 at jb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:72698)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:72643)
+	 at j (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:75893)
+	 at (anonymous) (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:75840)
+	 at queue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:75754)
+	 at queueFor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:76612)
+	 at ib (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:72607)
+	 at writeFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:63260)
+2025-11-24 01:14:17.233 [info] [perf] stored profile to DISK 'file:///tmp/renderer-2ace7f.cpuprofile.json' 87d2cc11-030e-40ab-a9cf-dbe025679e65
+2025-11-24 01:14:32.556 [warning] [perf] Renderer reported VERY LONG TASK (1131ms), starting profiling session '43879602-462a-479c-a086-73c78b03f41d'
+2025-11-24 01:17:04.238 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-24 01:27:10.031 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 01:28:37.052 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: workbench.secondarySideBar.enableDefaultVisibilityInOldWorkspace, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay
+2025-11-24 01:28:37.930 [warning] [perf] Renderer reported VERY LONG TASK (693ms), starting profiling session 'c1c862df-7ae0-4416-8110-76ba21c6a36a'
+2025-11-24 01:28:37.973 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///usr/share/code/resources/app/out/main.js:33:4633)
+    at Wf.s (file:///usr/share/code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///usr/share/code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///usr/share/code/resources/app/out/main.js:31:13784)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///usr/share/code/resources/app/out/main.js:28:5145)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///usr/share/code/resources/app/out/main.js:28:5333)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at F (file:///usr/share/code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-11-24 01:29:04.087 [error] [146] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:04.605 [error] [148] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:05.082 [error] [146] potential listener LEAK detected, having 180 listeners already. MOST frequent listener (4):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:05.520 [error] [146] potential listener LEAK detected, having 176 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:05.645 [error] [148] potential listener LEAK detected, having 178 listeners already. MOST frequent listener (2):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:05.772 [error] [146] potential listener LEAK detected, having 194 listeners already. MOST frequent listener (11):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:05.923 [error] [148] potential listener LEAK detected, having 191 listeners already. MOST frequent listener (9):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.402 [error] [146] potential listener LEAK detected, having 176 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.526 [error] [148] potential listener LEAK detected, having 176 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.526 [error] [146] potential listener LEAK detected, having 190 listeners already. MOST frequent listener (8):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.580 [error] [148] potential listener LEAK detected, having 195 listeners already. MOST frequent listener (12):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.580 [error] [146] potential listener LEAK detected, having 204 listeners already. MOST frequent listener (17):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.636 [error] [146] potential listener LEAK detected, having 218 listeners already. MOST frequent listener (24):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.636 [error] [148] potential listener LEAK detected, having 214 listeners already. MOST frequent listener (21):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.688 [error] [146] potential listener LEAK detected, having 232 listeners already. MOST frequent listener (31):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.689 [error] [148] potential listener LEAK detected, having 233 listeners already. MOST frequent listener (31):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.724 [error] [146] potential listener LEAK detected, having 246 listeners already. MOST frequent listener (38):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.779 [error] [148] potential listener LEAK detected, having 183 listeners already. MOST frequent listener (5):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at Ovi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1984:7305)
+    at Fvi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1984:6487)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:21493
+    at ETt.invokeFunction (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:674)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:21475)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+2025-11-24 01:29:17.827 [error] [146] potential listener LEAK detected, having 186 listeners already. MOST frequent listener (6):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.831 [error] [148] potential listener LEAK detected, having 202 listeners already. MOST frequent listener (15):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.881 [error] [146] potential listener LEAK detected, having 200 listeners already. MOST frequent listener (15):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.884 [error] [148] potential listener LEAK detected, having 221 listeners already. MOST frequent listener (25):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.928 [error] [146] potential listener LEAK detected, having 214 listeners already. MOST frequent listener (22):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.933 [error] [148] potential listener LEAK detected, having 240 listeners already. MOST frequent listener (34):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:17.980 [error] [146] potential listener LEAK detected, having 228 listeners already. MOST frequent listener (29):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.025 [error] [148] potential listener LEAK detected, having 190 listeners already. MOST frequent listener (8):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.032 [error] [146] potential listener LEAK detected, having 242 listeners already. MOST frequent listener (36):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.086 [error] [148] potential listener LEAK detected, having 209 listeners already. MOST frequent listener (19):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.127 [error] [146] potential listener LEAK detected, having 182 listeners already. MOST frequent listener (4):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.130 [error] [148] potential listener LEAK detected, having 228 listeners already. MOST frequent listener (28):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.195 [error] [146] potential listener LEAK detected, having 196 listeners already. MOST frequent listener (11):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.243 [error] [148] potential listener LEAK detected, having 178 listeners already. MOST frequent listener (2):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.243 [error] [146] potential listener LEAK detected, having 210 listeners already. MOST frequent listener (20):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.309 [error] [148] potential listener LEAK detected, having 197 listeners already. MOST frequent listener (13):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.313 [error] [146] potential listener LEAK detected, having 224 listeners already. MOST frequent listener (27):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.364 [error] [148] potential listener LEAK detected, having 216 listeners already. MOST frequent listener (22):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.366 [error] [146] potential listener LEAK detected, having 238 listeners already. MOST frequent listener (34):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.416 [error] [148] potential listener LEAK detected, having 235 listeners already. MOST frequent listener (32):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.459 [error] [146] potential listener LEAK detected, having 178 listeners already. MOST frequent listener (2):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.505 [error] [148] potential listener LEAK detected, having 185 listeners already. MOST frequent listener (6):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at Ovi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1984:7305)
+    at Fvi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1984:6487)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:21493
+    at ETt.invokeFunction (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:674)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:21475)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+2025-11-24 01:29:18.505 [error] [146] potential listener LEAK detected, having 192 listeners already. MOST frequent listener (9):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.565 [error] [146] potential listener LEAK detected, having 206 listeners already. MOST frequent listener (18):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.567 [error] [148] potential listener LEAK detected, having 204 listeners already. MOST frequent listener (16):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.618 [error] [146] potential listener LEAK detected, having 220 listeners already. MOST frequent listener (25):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.619 [error] [148] potential listener LEAK detected, having 223 listeners already. MOST frequent listener (26):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.671 [error] [146] potential listener LEAK detected, having 234 listeners already. MOST frequent listener (32):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.673 [error] [148] potential listener LEAK detected, having 242 listeners already. MOST frequent listener (35):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.713 [error] [146] potential listener LEAK detected, having 248 listeners already. MOST frequent listener (39):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.766 [error] [148] potential listener LEAK detected, having 192 listeners already. MOST frequent listener (9):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.895 [error] [146] potential listener LEAK detected, having 188 listeners already. MOST frequent listener (7):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.900 [error] [148] potential listener LEAK detected, having 211 listeners already. MOST frequent listener (20):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.942 [error] [146] potential listener LEAK detected, having 202 listeners already. MOST frequent listener (16):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.945 [error] [148] potential listener LEAK detected, having 230 listeners already. MOST frequent listener (29):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:18.979 [error] [146] potential listener LEAK detected, having 216 listeners already. MOST frequent listener (23):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.020 [error] [148] potential listener LEAK detected, having 180 listeners already. MOST frequent listener (3):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.025 [error] [146] potential listener LEAK detected, having 230 listeners already. MOST frequent listener (30):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.063 [error] [148] potential listener LEAK detected, having 199 listeners already. MOST frequent listener (14):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.066 [error] [146] potential listener LEAK detected, having 244 listeners already. MOST frequent listener (37):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.109 [error] [148] potential listener LEAK detected, having 218 listeners already. MOST frequent listener (23):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.155 [error] [146] potential listener LEAK detected, having 184 listeners already. MOST frequent listener (5):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:29:19.160 [error] [148] potential listener LEAK detected, having 237 listeners already. MOST frequent listener (33):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37448)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:32:12.066 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 01:37:14.229 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 01:38:41.508 [error] [146] potential listener LEAK detected, having 193 listeners already. MOST frequent listener (10):: Error
+    at pFi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at OYe.u [as onModelAdded] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37384)
+    at new dke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at fke.r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at fke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-24 01:42:16.159 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 01:42:37.241 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-24 01:47:18.724 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 01:52:21.143 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 01:57:23.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 02:02:25.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 02:07:27.534 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 02:12:29.895 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 02:17:26.083 [warning] [perf] Renderer reported VERY LONG TASK (988ms), starting profiling session '2e913c5c-71d7-4f2c-83dd-23090a11d7b1'
+2025-11-24 02:17:32.286 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 02:22:34.160 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 02:24:17.439 [warning] [perf] Renderer reported VERY LONG TASK (1285ms), starting profiling session 'c7794db0-de91-4ed0-8942-6ee3e251b9fc'
+2025-11-24 02:24:18.176 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatSessionStore, join.chatEditingSession
+2025-11-24 02:24:19.397 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at K6 (file:///usr/share/code/resources/app/out/main.js:30:64382)
+    at new cd (file:///usr/share/code/resources/app/out/main.js:30:67762)
+    at new zr (file:///usr/share/code/resources/app/out/main.js:30:69200)
+    at cd.revive (file:///usr/share/code/resources/app/out/main.js:30:68977)
+    at u2.call (file:///usr/share/code/resources/app/out/main.js:88:106862)
+    at Wf.s (file:///usr/share/code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///usr/share/code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///usr/share/code/resources/app/out/main.js:31:13784)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///usr/share/code/resources/app/out/main.js:28:5145)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///usr/share/code/resources/app/out/main.js:28:5333)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at F (file:///usr/share/code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)

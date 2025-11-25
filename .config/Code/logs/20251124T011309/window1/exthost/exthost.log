@@ -1,0 +1,178 @@
+2025-11-24 01:13:14.934 [info] Extension host with pid 791066 started
+2025-11-24 01:13:14.934 [info] Skipping acquiring lock for /home/trang/.config/Code/User/workspaceStorage/53b6c388ab63f1f38dff78b483c76ba8.
+2025-11-24 01:13:15.392 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-24 01:13:15.457 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-24 01:13:15.485 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-24 01:13:17.338 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-24 01:13:17.389 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-24 01:13:17.532 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-11-24 01:13:18.075 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-24 01:13:18.239 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-24 01:13:18.580 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-24 01:13:19.138 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-24 01:13:19.270 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-24 01:13:19.505 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-11-24 01:13:19.722 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-11-24 01:13:20.388 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-24 01:13:22.634 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at XKt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-11-24 01:13:22.664 [info] Eager extensions activated
+2025-11-24 01:13:22.767 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 01:13:22.770 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 01:13:41.535 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-11-24 01:13:41.847 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 01:13:41.952 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-11-24 01:13:42.175 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 01:13:43.295 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 01:13:47.546 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-24 01:13:47.695 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-24 01:13:47.704 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-24 01:22:08.026 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onCommand:json.validate'
+2025-11-24 01:27:10.026 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 01:28:45.030 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-11-24 01:32:12.061 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 01:37:14.213 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 01:42:16.157 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 01:47:18.721 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 01:52:21.129 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 01:57:23.284 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:02:25.497 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:07:27.532 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:12:29.882 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:17:32.220 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:22:34.159 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/usr/share/code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/usr/share/code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/usr/share/code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:24:16.144 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-24 02:24:16.380 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.G [as deactivate] (/home/trang/.vscode/extensions/ms-python.vscode-python-envs-1.12.0-linux-x64/dist/extension.js:2:681672)
+    at xX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11850)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10000
+    at Array.map (<anonymous>)
+    at xX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9988)
+    at xX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10231)
+    at rN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Fs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 02:24:16.574 [info] Extension host with pid 791066 exiting with code 0
