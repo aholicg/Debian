@@ -136,6 +136,10 @@ button {
     margin: 0 4;
 }
 
+#custom-niri_window {
+    margin-top: 4px;      
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
