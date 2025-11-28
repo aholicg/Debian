@@ -10,6 +10,7 @@
     "modules-left": [ 
         "hyprland/workspaces","hyprland/window",
         "custom/niri_workspaces",
+        "custom/niri_window",
         "custom/media"
     ],
     "modules-center": [
@@ -55,6 +56,12 @@
         "on-scroll-up": "$HOME/.config/waybar/modules/workspaces.sh up",
         "on-scroll-down": "$HOME/.config/waybar/modules/workspaces.sh down",
         "signal": 8
+    },
+
+    "custom/niri_window": {
+        "format": "{} ",
+        "interval": 1, 
+        "exec": "niri msg -j windows | jq -r '(.[] | select(.is_focused) | .title) // \"\"'"
     },
 
     "hyprland/workspaces":{
@@ -160,7 +167,7 @@
     },
     "temperature": {
         // "thermal-zone": 2,
-        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input",
+        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
         "input-filename": "temp1_input",
         "critical-threshold": 60,
         "interval": 5,
