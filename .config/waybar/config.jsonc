@@ -60,6 +60,7 @@
 
     "custom/niri_window": {
         "format": "{} ",
+        "max-length": 60,
         "interval": 1, 
         "exec": "niri msg -j windows | jq -r '(.[] | select(.is_focused) | .title) // \"\"'"
     },
