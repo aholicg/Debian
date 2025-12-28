@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Obsidian
+Exec=/home/trang/Downloads/Obsidian-1.10.3.AppImage --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+Icon=obsidian
+Type=Application
+Categories=Utility
+Terminal=false
+MimeType=x-scheme-handler/obsidian;

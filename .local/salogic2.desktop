@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Saleae Logic 2
+Exec=/home/trang/Downloads/Logic-2.4.40-linux-x64.AppImage --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+Icon=saleae-logic-2
+Type=Application
+Categories=Utility
+Terminal=false
+MimeType=x-scheme-handler/salea-logic-2;
