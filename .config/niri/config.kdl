@@ -370,11 +370,11 @@ binds {
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
-
+    Mod+Ctrl+Alt+R { spawn-sh "pkill -SIGINT wf-recorder || wf-recorder -f ~/Videos/recording_$(date +'%Y-%m-%d_%H-%M-%S').mp4"; }
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: gtklock" { spawn "gtklock"; }
+    Super+Shift+L hotkey-overlay-title="Lock the Screen: gtklock" { spawn "gtklock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
@@ -604,6 +604,9 @@ binds {
     Mod+Print { screenshot; }
     Print { screenshot-screen; }
     Ctrl+Print { screenshot-window; }
+    Shift+Print { 
+        spawn "script" "--command" "XDG_CURRENT_DESKTOP=sway flameshot gui" "/dev/null";
+    }
 
     // Applications such as remote-desktop clients and software KVM switches may
     // request that niri stops processing the keyboard shortcuts defined here
