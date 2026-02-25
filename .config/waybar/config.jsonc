@@ -227,13 +227,13 @@
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": " ",
+            "headset": " ",
+            "hands-free": " ",
+            "headphone": " ",
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": ["", " ", " "]
         },
         "on-click": "pavucontrol"
     },
