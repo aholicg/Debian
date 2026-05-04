@@ -275,10 +275,11 @@ layout {
 spawn-sh-at-startup "xwayland-satellite"
 //spawn-sh-at-startup "swayidle -w timeout 240 'brightnessctl --class=backlight --save && brightnessctl --class=backlight set 1% && gtklock && brightnessctl --class=backlight --restore' timeout 300 'niri msg action power-off-monitors' resume 'niri msg output \"eDP-1\" on && brightnessctl --class=backlight --restore'"
 
-spawn-sh-at-startup "swaybg -i /home/trang/.config/niri/moss.jpg -m fill"
+spawn-sh-at-startup "swaybg -i /home/trang/.config/niri/yotsuba.jpeg -m fill"
 spawn-sh-at-startup "fcitx5"
 spawn-sh-at-startup "/home/trang/.config/niri/scripts/idle.sh"
 spawn-sh-at-startup "blueman-applet"
+spawn-sh-at-startup "sway-audio-idle-inhibit"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -318,22 +319,57 @@ animations {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Window-Rules
 
-// Work around WezTerm's initial configure bug
-// by setting an empty default-column-width.
+blur {
+    noise 0.02
+    saturation 1.0
+}
+
 window-rule {
-    // This regular expression is intentionally made as specific as possible,
-    // since this is the default config, and we want no false positives.
-    // You can get away with just app-id="wezterm" if you want.
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
+    // Optional: Only apply to Firefox by uncommenting the line below. 
+    // Leaving it without a match applies this globally.
+    // match app-id=r#"firefox$"# 
+    
+    opacity 0.9 
+    
+    geometry-corner-radius 10 
+    clip-to-geometry true
+    
+    // This is the missing key: it removes the opaque rectangle blocking the blur
+    draw-border-with-background false
+    
+    background-effect {
+        blur true
+        xray false // Keeps normal blur where everything below the window is blurred
+    }
+}
+
+window-rule {
+    // Optional: Only apply to Firefox by uncommenting the line below. 
+    // Leaving it without a match applies this globally.
+    // match app-id=r#"firefox$"# 
+    
+    opacity 0.8
 }
 
 // Open the Firefox picture-in-picture player as floating by default.
-window-rule {
+//window-rule {
     // This app-id regular expression will work for both:
     // - host Firefox (app-id is "firefox")
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
+    //match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    //open-floating true
+//}
+
+// Place this BELOW your general opacity/blur window-rule
+window-rule {
+    // This matches both the standard and Flatpak versions of Firefox PiP
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"org\.mozilla\.firefox$"# title="^Picture-in-Picture$"
+    
+    // Forces the window to be completely solid, which hides any background blur
+    opacity 1.0
+    
+    // Optional but highly recommended: makes the PiP window float by default
     open-floating true
 }
 
@@ -354,6 +390,15 @@ window-rule {
 window-rule {
     geometry-corner-radius 10 10 10 10
     clip-to-geometry true
+}
+
+layer-rule {
+    match namespace="^waybar$"
+    
+    background-effect {
+        blur true
+        xray false 
+    }
 }
 
 binds {
@@ -626,6 +671,12 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
+cursor {
+    xcursor-theme "ComixCursors-Slim-White"
+    xcursor-size 100
+}
+
 gestures {
     hot-corners {
         off

@@ -1,0 +1,36 @@
+window {
+    background-image: url("/home/trang/.config/gtklock/yotsubato.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2e3440;
+}
+#window-box {
+    padding: 64px;
+    border: rgba(136, 192, 208, 0.8) 2px solid;
+    border-radius: 10px;
+    box-shadow: rgba(50, 48, 47, 0.5) 0px 4px 12px;
+    background-color: rgba(46, 52, 64, 0.7);
+}
+
+#runshell {
+    /* Background color (Black with 60% opacity) */
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    
+    /* Text color */
+    color: #eceff4;
+    
+    /* Space inside the box */
+    padding: 5px 5px 5px 5px;
+    
+    /* Rounded corners */
+    border-radius: 10px;
+    
+    /* Font size */
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+    /* Space outside the box (moves it away from screen edges) */
+    margin: 10px;
+}

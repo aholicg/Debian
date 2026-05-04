@@ -3,11 +3,23 @@ window {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #5b8c00;
+    background-color: #2e3440;
 }
+
 #window-box {
     padding: 64px;
-    border: rgba(235, 219, 178, 1) 3px solid;
-    box-shadow: rgba(50, 48, 47, 0.5) 0px 4px 12px;
-    background-color: rgba(235, 219, 178, 0.2);
+    border: rgba(163, 190, 140, 0.8) 2px solid; /* Nord Aurora Green */
+    border-radius: 10px;
+    box-shadow: rgba(46, 52, 64, 0.8) 0px 4px 12px;
+    background-color: rgba(46, 52, 64, 0.7);
+}
+
+#runshell {
+    color: #eceff4;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px;
 }
