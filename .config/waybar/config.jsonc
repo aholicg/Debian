@@ -61,7 +61,8 @@
     "custom/niri_window": {
         "format": "{} ",
         "interval": 1, 
-        "exec": "niri msg -j windows | jq -r '(.[] | select(.is_focused) | .title) // \"\"'"
+        "exec": "niri msg -j windows | jq -r '(.[] | select(.is_focused) | .title) // \"\"'",
+        "max-length": 50
     },
 
     "hyprland/workspaces":{
@@ -83,8 +84,9 @@
     },
 
     "hyprland/window": {
-    "format": "{} ", /* include a whitespace, so that workspace's name's has space with its right edge */
-    "separate-outputs": true
+        "format": "{} ", /* include a whitespace, so that workspace's name's has space with its right edge */
+        "separate-outputs": true,
+        "max-length": 50
     },
 
 
