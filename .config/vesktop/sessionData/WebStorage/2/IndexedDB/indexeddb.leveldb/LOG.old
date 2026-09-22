@@ -1,0 +1,14 @@
+2026/06/01-21:28:50.519 b05b Reusing MANIFEST /home/trang/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/06/01-21:28:50.519 b05b Recovering log #167
+2026/06/01-21:28:50.520 b05b Reusing old log /home/trang/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/000167.log 
+2026/06/01-21:28:50.520 b05b Delete type=2 #165
+2026/06/01-21:28:50.533 b080 Level-0 table #172: started
+2026/06/01-21:28:50.535 b080 Level-0 table #172: 1396 bytes OK
+2026/06/01-21:28:50.537 b080 Delete type=0 #167
+2026/06/01-21:28:50.537 b07f Manual compaction at level-0 from '\x00.\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at '\x00.\x00\x00\x05' @ 1510 : 1
+2026/06/01-21:28:50.537 b07f Compacting 1@0 + 1@1 files
+2026/06/01-21:28:50.539 b07f Generated table #173@0: 18 keys, 850 bytes
+2026/06/01-21:28:50.539 b07f Compacted 1@0 + 1@1 files => 850 bytes
+2026/06/01-21:28:50.544 b07f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/01-21:28:50.545 b07f Delete type=2 #172
+2026/06/01-21:28:50.548 b07f Manual compaction at level-0 from '\x00.\x00\x00\x05' @ 1510 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at (end)

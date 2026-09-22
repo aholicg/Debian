@@ -1,0 +1,7 @@
+2026-09-17 13:26:16.853 [info] Getting Manifest... ms-vscode.cmake-tools
+2026-09-17 13:26:17.425 [info] Installing extension: ms-vscode.cmake-tools {"productVersion":{"version":"1.132.0","date":"2026-08-04T15:30:20Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/trang/.vscode/extensions/extensions.json","path":"/home/trang/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-09-17 13:26:22.593 [info] Extension signature verification result for ms-vscode.cmake-tools: Success. Internal Code: 0. Executed: true. Duration: 1412ms.
+2026-09-17 13:26:22.880 [info] Extracted extension to file:///home/trang/.vscode/extensions/ms-vscode.cmake-tools-1.24.42: ms-vscode.cmake-tools
+2026-09-17 13:26:22.893 [info] Renamed to /home/trang/.vscode/extensions/ms-vscode.cmake-tools-1.24.42
+2026-09-17 13:26:22.916 [info] Marked extension as removed ms-vscode.cmake-tools-1.23.52
+2026-09-17 13:26:22.926 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/trang/.vscode/extensions/extensions.json

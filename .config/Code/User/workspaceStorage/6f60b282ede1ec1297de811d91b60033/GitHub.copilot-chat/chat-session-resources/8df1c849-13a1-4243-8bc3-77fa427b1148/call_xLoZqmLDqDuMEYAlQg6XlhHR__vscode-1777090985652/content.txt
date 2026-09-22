@@ -1,0 +1,261 @@
+Note: The tool simplified the command to ` objdump -d --start-address=0x5d000 --stop-address=0x5f000 challenge | sed -n '1,260p'`, and this is the output of running that command instead:
+
+challenge:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+000000000005d000 <caml_program@@Base+0x140>:
+   5d000:       48 83 00 01             addq   $0x1,(%rax)
+   5d004:       e8 97 a2 03 00          call   972a0 <camlStdlib__Printf__entry@@Base>
+   5d009:       48 8d 05 58 9c 0c 00    lea    0xc9c58(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d010:       48 83 00 01             addq   $0x1,(%rax)
+   5d014:       e8 27 a3 03 00          call   97340 <camlStdlib__Atomic__entry@@Base>
+   5d019:       48 8d 05 48 9c 0c 00    lea    0xc9c48(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d020:       48 83 00 01             addq   $0x1,(%rax)
+   5d024:       e8 b7 b7 03 00          call   987e0 <camlStdlib__Printexc__entry@@Base>
+   5d029:       48 8d 05 38 9c 0c 00    lea    0xc9c38(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d030:       48 83 00 01             addq   $0x1,(%rax)
+   5d034:       e8 77 bd 03 00          call   98db0 <camlStdlib__Fun__entry@@Base>
+   5d039:       48 8d 05 28 9c 0c 00    lea    0xc9c28(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d040:       48 83 00 01             addq   $0x1,(%rax)
+   5d044:       e8 e7 c2 03 00          call   99330 <camlStdlib__Digest__entry@@Base>
+   5d049:       48 8d 05 18 9c 0c 00    lea    0xc9c18(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d050:       48 83 00 01             addq   $0x1,(%rax)
+   5d054:       e8 17 d2 03 00          call   9a270 <camlStdlib__Random__entry@@Base>
+   5d059:       48 8d 05 08 9c 0c 00    lea    0xc9c08(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d060:       48 83 00 01             addq   $0x1,(%rax)
+   5d064:       e8 17 09 04 00          call   9d980 <camlStdlib__Hashtbl__entry@@Base>
+   5d069:       48 8d 05 f8 9b 0c 00    lea    0xc9bf8(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d070:       48 83 00 01             addq   $0x1,(%rax)
+   5d074:       e8 e7 0c 04 00          call   9dd60 <camlStdlib__Callback__entry@@Base>
+   5d079:       48 8d 05 e8 9b 0c 00    lea    0xc9be8(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d080:       48 83 00 01             addq   $0x1,(%rax)
+   5d084:       e8 a7 c7 00 00          call   69830 <camlUnix__entry@@Base>
+   5d089:       48 8d 05 d8 9b 0c 00    lea    0xc9bd8(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d090:       48 83 00 01             addq   $0x1,(%rax)
+   5d094:       e8 07 d4 00 00          call   6a4a0 <camlUnixLabels__entry@@Base>
+   5d099:       48 8d 05 c8 9b 0c 00    lea    0xc9bc8(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d0a0:       48 83 00 01             addq   $0x1,(%rax)
+   5d0a4:       e8 b7 8c 00 00          call   65d60 <camlShared_types__entry@@Base>
+   5d0a9:       48 8d 05 b8 9b 0c 00    lea    0xc9bb8(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d0b0:       48 83 00 01             addq   $0x1,(%rax)
+   5d0b4:       e8 87 85 00 00          call   65640 <camlShared_ops__entry@@Base>
+   5d0b9:       48 8d 05 a8 9b 0c 00    lea    0xc9ba8(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d0c0:       48 83 00 01             addq   $0x1,(%rax)
+   5d0c4:       e8 97 70 00 00          call   64160 <camlProc_a_handlers__entry@@Base>
+   5d0c9:       48 8d 05 98 9b 0c 00    lea    0xc9b98(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d0d0:       48 83 00 01             addq   $0x1,(%rax)
+   5d0d4:       e8 67 4d 00 00          call   61e40 <camlProc_a_engine__entry@@Base>
+   5d0d9:       48 8d 05 88 9b 0c 00    lea    0xc9b88(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d0e0:       48 83 00 01             addq   $0x1,(%rax)
+   5d0e4:       e8 97 45 00 00          call   61680 <camlProc_b_handlers__entry@@Base>
+   5d0e9:       48 8d 05 78 9b 0c 00    lea    0xc9b78(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d0f0:       48 83 00 01             addq   $0x1,(%rax)
+   5d0f4:       e8 a7 2d 00 00          call   5fea0 <camlProc_b_engine__entry@@Base>
+   5d0f9:       48 8d 05 68 9b 0c 00    lea    0xc9b68(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d100:       48 83 00 01             addq   $0x1,(%rax)
+   5d104:       e8 37 29 00 00          call   5fa40 <camlMain__entry@@Base>
+   5d109:       48 8d 05 58 9b 0c 00    lea    0xc9b58(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d110:       48 83 00 01             addq   $0x1,(%rax)
+   5d114:       e8 d7 26 00 00          call   5f7f0 <camlStd_exit__entry@@Base>
+   5d119:       48 8d 05 48 9b 0c 00    lea    0xc9b48(%rip),%rax        # 126c68 <caml_globals_inited@@Base>
+   5d120:       48 83 00 01             addq   $0x1,(%rax)
+   5d124:       b8 01 00 00 00          mov    $0x1,%eax
+   5d129:       48 83 c4 08             add    $0x8,%rsp
+   5d12d:       c3                      ret
+   5d12e:       66 90                   xchg   %ax,%ax
+
+000000000005d130 <caml_curry11@@Base>:
+   5d130:       48 83 ec 08             sub    $0x8,%rsp
+   5d134:       49 83 ef 30             sub    $0x30,%r15
+   5d138:       4d 3b 3e                cmp    (%r14),%r15
+   5d13b:       72 3f                   jb     5d17c <caml_curry11@@Base+0x4c>
+   5d13d:       49 8d 7f 08             lea    0x8(%r15),%rdi
+   5d141:       48 c7 47 f8 f7 14 00    movq   $0x14f7,-0x8(%rdi)
+   5d148:       00 
+   5d149:       48 8d 35 e0 00 00 00    lea    0xe0(%rip),%rsi        # 5d230 <caml_curry11_1@@Base>
+   5d150:       48 89 37                mov    %rsi,(%rdi)
+   5d153:       48 be 07 00 00 00 00    movabs $0xa00000000000007,%rsi
+   5d15a:       00 00 0a 
+   5d15d:       48 89 77 08             mov    %rsi,0x8(%rdi)
+   5d161:       48 8d 35 28 00 00 00    lea    0x28(%rip),%rsi        # 5d190 <caml_curry11_1_app@@Base>
+   5d168:       48 89 77 10             mov    %rsi,0x10(%rdi)
+   5d16c:       48 89 47 18             mov    %rax,0x18(%rdi)
+   5d170:       48 89 5f 20             mov    %rbx,0x20(%rdi)
+   5d174:       48 89 f8                mov    %rdi,%rax
+   5d177:       48 83 c4 08             add    $0x8,%rsp
+   5d17b:       c3                      ret
+   5d17c:       e8 6b 9e 06 00          call   c6fec <caml_call_gc@@Base>
+   5d181:       eb ba                   jmp    5d13d <caml_curry11@@Base+0xd>
+   5d183:       66 66 2e 0f 1f 84 00    data16 cs nopw 0x0(%rax,%rax,1)
+   5d18a:       00 00 00 00 
+   5d18e:       66 90                   xchg   %ax,%ax
+
+000000000005d190 <caml_curry11_1_app@@Base>:
+   5d190:       48 83 ec 48             sub    $0x48,%rsp
+   5d194:       48 89 c5                mov    %rax,%rbp
+   5d197:       48 89 1c 24             mov    %rbx,(%rsp)
+   5d19b:       48 89 7c 24 08          mov    %rdi,0x8(%rsp)
+   5d1a0:       48 89 74 24 10          mov    %rsi,0x10(%rsp)
+   5d1a5:       48 89 54 24 18          mov    %rdx,0x18(%rsp)
+   5d1aa:       48 89 4c 24 20          mov    %rcx,0x20(%rsp)
+   5d1af:       4c 89 44 24 28          mov    %r8,0x28(%rsp)
+   5d1b4:       4c 89 4c 24 30          mov    %r9,0x30(%rsp)
+   5d1b9:       4c 89 64 24 38          mov    %r12,0x38(%rsp)
+   5d1be:       4c 89 6c 24 40          mov    %r13,0x40(%rsp)
+   5d1c3:       49 8b 86 a0 01 00 00    mov    0x1a0(%r14),%rax
+   5d1ca:       4d 3b 3e                cmp    (%r14),%r15
+   5d1cd:       76 50                   jbe    5d21f <caml_curry11_1_app@@Base+0x8f>
+   5d1cf:       4c 8b 50 20             mov    0x20(%rax),%r10
+   5d1d3:       48 8b 40 18             mov    0x18(%rax),%rax
+   5d1d7:       4d 8b 5a 10             mov    0x10(%r10),%r11
+   5d1db:       48 89 eb                mov    %rbp,%rbx
+   5d1de:       48 8b 3c 24             mov    (%rsp),%rdi
+   5d1e2:       48 8b 74 24 08          mov    0x8(%rsp),%rsi
+   5d1e7:       48 8b 54 24 10          mov    0x10(%rsp),%rdx
+   5d1ec:       48 8b 4c 24 18          mov    0x18(%rsp),%rcx
+   5d1f1:       4c 8b 44 24 20          mov    0x20(%rsp),%r8
+   5d1f6:       4c 8b 4c 24 28          mov    0x28(%rsp),%r9
+   5d1fb:       4c 8b 64 24 30          mov    0x30(%rsp),%r12
+   5d200:       4c 8b 6c 24 38          mov    0x38(%rsp),%r13
+   5d205:       48 8b 6c 24 40          mov    0x40(%rsp),%rbp
+   5d20a:       49 89 ae a0 01 00 00    mov    %rbp,0x1a0(%r14)
+   5d211:       4d 89 96 a8 01 00 00    mov    %r10,0x1a8(%r14)
+   5d218:       48 83 c4 48             add    $0x48,%rsp
+   5d21c:       41 ff e3                jmp    *%r11
+   5d21f:       e8 c8 9d 06 00          call   c6fec <caml_call_gc@@Base>
+   5d224:       eb a9                   jmp    5d1cf <caml_curry11_1_app@@Base+0x3f>
+   5d226:       66 2e 0f 1f 84 00 00    cs nopw 0x0(%rax,%rax,1)
+   5d22d:       00 00 00 
+
+000000000005d230 <caml_curry11_1@@Base>:
+   5d230:       48 83 ec 08             sub    $0x8,%rsp
+   5d234:       49 83 ef 30             sub    $0x30,%r15
+   5d238:       4d 3b 3e                cmp    (%r14),%r15
+   5d23b:       72 3f                   jb     5d27c <caml_curry11_1@@Base+0x4c>
+   5d23d:       49 8d 7f 08             lea    0x8(%r15),%rdi
+   5d241:       48 c7 47 f8 f7 14 00    movq   $0x14f7,-0x8(%rdi)
+   5d248:       00 
+   5d249:       48 8d 35 d0 00 00 00    lea    0xd0(%rip),%rsi        # 5d320 <caml_curry11_2@@Base>
+   5d250:       48 89 37                mov    %rsi,(%rdi)
+   5d253:       48 be 07 00 00 00 00    movabs $0x900000000000007,%rsi
+   5d25a:       00 00 09 
+   5d25d:       48 89 77 08             mov    %rsi,0x8(%rdi)
+   5d261:       48 8d 35 28 00 00 00    lea    0x28(%rip),%rsi        # 5d290 <caml_curry11_2_app@@Base>
+   5d268:       48 89 77 10             mov    %rsi,0x10(%rdi)
+   5d26c:       48 89 47 18             mov    %rax,0x18(%rdi)
+   5d270:       48 89 5f 20             mov    %rbx,0x20(%rdi)
+   5d274:       48 89 f8                mov    %rdi,%rax
+   5d277:       48 83 c4 08             add    $0x8,%rsp
+   5d27b:       c3                      ret
+   5d27c:       e8 6b 9d 06 00          call   c6fec <caml_call_gc@@Base>
+   5d281:       eb ba                   jmp    5d23d <caml_curry11_1@@Base+0xd>
+   5d283:       66 66 2e 0f 1f 84 00    data16 cs nopw 0x0(%rax,%rax,1)
+   5d28a:       00 00 00 00 
+   5d28e:       66 90                   xchg   %ax,%ax
+
+000000000005d290 <caml_curry11_2_app@@Base>:
+   5d290:       48 83 ec 48             sub    $0x48,%rsp
+   5d294:       48 89 c5                mov    %rax,%rbp
+   5d297:       48 89 1c 24             mov    %rbx,(%rsp)
+   5d29b:       48 89 7c 24 08          mov    %rdi,0x8(%rsp)
+   5d2a0:       48 89 74 24 10          mov    %rsi,0x10(%rsp)
+   5d2a5:       48 89 54 24 18          mov    %rdx,0x18(%rsp)
+   5d2aa:       48 89 4c 24 20          mov    %rcx,0x20(%rsp)
+   5d2af:       4c 89 44 24 28          mov    %r8,0x28(%rsp)
+   5d2b4:       4c 89 4c 24 30          mov    %r9,0x30(%rsp)
+   5d2b9:       4c 89 64 24 38          mov    %r12,0x38(%rsp)
+   5d2be:       4d 3b 3e                cmp    (%r14),%r15
+   5d2c1:       76 53                   jbe    5d316 <caml_curry11_2_app@@Base+0x86>
+   5d2c3:       49 8b 45 20             mov    0x20(%r13),%rax
+   5d2c7:       4c 8b 50 20             mov    0x20(%rax),%r10
+   5d2cb:       49 8b 5d 18             mov    0x18(%r13),%rbx
+   5d2cf:       48 8b 40 18             mov    0x18(%rax),%rax
+   5d2d3:       4d 8b 5a 10             mov    0x10(%r10),%r11
+   5d2d7:       48 89 ef                mov    %rbp,%rdi
+   5d2da:       48 8b 34 24             mov    (%rsp),%rsi
+   5d2de:       48 8b 54 24 08          mov    0x8(%rsp),%rdx
+   5d2e3:       48 8b 4c 24 10          mov    0x10(%rsp),%rcx
+   5d2e8:       4c 8b 44 24 18          mov    0x18(%rsp),%r8
+   5d2ed:       4c 8b 4c 24 20          mov    0x20(%rsp),%r9
+   5d2f2:       4c 8b 64 24 28          mov    0x28(%rsp),%r12
+   5d2f7:       4c 8b 6c 24 30          mov    0x30(%rsp),%r13
+   5d2fc:       48 8b 6c 24 38          mov    0x38(%rsp),%rbp
+   5d301:       49 89 ae a0 01 00 00    mov    %rbp,0x1a0(%r14)
+   5d308:       4d 89 96 a8 01 00 00    mov    %r10,0x1a8(%r14)
+   5d30f:       48 83 c4 48             add    $0x48,%rsp
+   5d313:       41 ff e3                jmp    *%r11
+   5d316:       e8 d1 9c 06 00          call   c6fec <caml_call_gc@@Base>
+   5d31b:       eb a6                   jmp    5d2c3 <caml_curry11_2_app@@Base+0x33>
+   5d31d:       0f 1f 00                nopl   (%rax)
+
+000000000005d320 <caml_curry11_2@@Base>:
+   5d320:       48 83 ec 08             sub    $0x8,%rsp
+   5d324:       49 83 ef 30             sub    $0x30,%r15
+   5d328:       4d 3b 3e                cmp    (%r14),%r15
+   5d32b:       72 3f                   jb     5d36c <caml_curry11_2@@Base+0x4c>
+   5d32d:       49 8d 7f 08             lea    0x8(%r15),%rdi
+   5d331:       48 c7 47 f8 f7 14 00    movq   $0x14f7,-0x8(%rdi)
+   5d338:       00 
+   5d339:       48 8d 35 d0 00 00 00    lea    0xd0(%rip),%rsi        # 5d410 <caml_curry11_3@@Base>
+   5d340:       48 89 37                mov    %rsi,(%rdi)
+   5d343:       48 be 07 00 00 00 00    movabs $0x800000000000007,%rsi
+   5d34a:       00 00 08 
+   5d34d:       48 89 77 08             mov    %rsi,0x8(%rdi)
+   5d351:       48 8d 35 28 00 00 00    lea    0x28(%rip),%rsi        # 5d380 <caml_curry11_3_app@@Base>
+   5d358:       48 89 77 10             mov    %rsi,0x10(%rdi)
+   5d35c:       48 89 47 18             mov    %rax,0x18(%rdi)
+   5d360:       48 89 5f 20             mov    %rbx,0x20(%rdi)
+   5d364:       48 89 f8                mov    %rdi,%rax
+   5d367:       48 83 c4 08             add    $0x8,%rsp
+   5d36b:       c3                      ret
+   5d36c:       e8 7b 9c 06 00          call   c6fec <caml_call_gc@@Base>
+   5d371:       eb ba                   jmp    5d32d <caml_curry11_2@@Base+0xd>
+   5d373:       66 66 2e 0f 1f 84 00    data16 cs nopw 0x0(%rax,%rax,1)
+   5d37a:       00 00 00 00 
+   5d37e:       66 90                   xchg   %ax,%ax
+
+000000000005d380 <caml_curry11_3_app@@Base>:
+   5d380:       48 83 ec 38             sub    $0x38,%rsp
+   5d384:       48 89 c5                mov    %rax,%rbp
+   5d387:       49 89 dd                mov    %rbx,%r13
+   5d38a:       48 89 3c 24             mov    %rdi,(%rsp)
+   5d38e:       48 89 74 24 08          mov    %rsi,0x8(%rsp)
+   5d393:       48 89 54 24 10          mov    %rdx,0x10(%rsp)
+   5d398:       48 89 4c 24 18          mov    %rcx,0x18(%rsp)
+   5d39d:       4c 89 44 24 20          mov    %r8,0x20(%rsp)
+   5d3a2:       4c 89 4c 24 28          mov    %r9,0x28(%rsp)
+   5d3a7:       4d 3b 3e                cmp    (%r14),%r15
+   5d3aa:       76 56                   jbe    5d402 <caml_curry11_3_app@@Base+0x82>
+   5d3ac:       49 8b 5c 24 20          mov    0x20(%r12),%rbx
+   5d3b1:       48 8b 43 20             mov    0x20(%rbx),%rax
+   5d3b5:       4c 8b 50 20             mov    0x20(%rax),%r10
+   5d3b9:       49 8b 7c 24 18          mov    0x18(%r12),%rdi
+   5d3be:       48 8b 5b 18             mov    0x18(%rbx),%rbx
+   5d3c2:       48 8b 40 18             mov    0x18(%rax),%rax
+   5d3c6:       4d 8b 5a 10             mov    0x10(%r10),%r11
+   5d3ca:       48 89 ee                mov    %rbp,%rsi
+   5d3cd:       4c 89 ea                mov    %r13,%rdx
+   5d3d0:       48 8b 0c 24             mov    (%rsp),%rcx
+   5d3d4:       4c 8b 44 24 08          mov    0x8(%rsp),%r8
+   5d3d9:       4c 8b 4c 24 10          mov    0x10(%rsp),%r9
+   5d3de:       4c 8b 64 24 18          mov    0x18(%rsp),%r12
+   5d3e3:       4c 8b 6c 24 20          mov    0x20(%rsp),%r13
+   5d3e8:       48 8b 6c 24 28          mov    0x28(%rsp),%rbp
+   5d3ed:       49 89 ae a0 01 00 00    mov    %rbp,0x1a0(%r14)
+   5d3f4:       4d 89 96 a8 01 00 00    mov    %r10,0x1a8(%r14)
+   5d3fb:       48 83 c4 38             add    $0x38,%rsp
+   5d3ff:       41 ff e3                jmp    *%r11
+   5d402:       e8 e5 9b 06 00          call   c6fec <caml_call_gc@@Base>
+   5d407:       eb a3                   jmp    5d3ac <caml_curry11_3_app@@Base+0x2c>
+   5d409:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)
+
+000000000005d410 <caml_curry11_3@@Base>:
+   5d410:       48 83 ec 08             sub    $0x8,%rsp
+   5d414:       49 83 ef 30             sub    $0x30,%r15
+   5d418:       4d 3b 3e                cmp    (%r14),%r15
+   5d41b:       72 3f                   jb     5d45c <caml_curry11_3@@Base+0x4c>
+   5d41d:       49 8d 7f 08             lea    0x8(%r15),%rdi
+   5d421:       48 c7 47 f8 f7 14 00    movq   $0x14f7,-0x8(%rdi)
+   5d428:       00 

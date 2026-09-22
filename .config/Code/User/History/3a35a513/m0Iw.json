@@ -1,0 +1,6 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.inlineSuggest.enabled": false,
+    "chat.viewSessions.orientation": "stacked",
+    "files.autoSave": "onFocusChange"
+}

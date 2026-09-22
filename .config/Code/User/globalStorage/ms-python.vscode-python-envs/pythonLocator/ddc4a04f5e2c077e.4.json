@@ -1,0 +1,39 @@
+{
+  "environment": {
+    "executable": "/home/trang/ctf/sejong/rev/.venv/bin/python",
+    "prefix": "/home/trang/ctf/sejong/rev/.venv",
+    "version": "3.13.5.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/trang/ctf/sejong/rev/.venv/bin/python",
+      "/home/trang/ctf/sejong/rev/.venv/bin/python3",
+      "/home/trang/ctf/sejong/rev/.venv/bin/python3.13"
+    ]
+  },
+  "symlinks": [
+    [
+      "/home/trang/ctf/sejong/rev/.venv/bin/python",
+      {
+        "secs_since_epoch": 1750877722,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/trang/ctf/sejong/rev/.venv/bin/python3",
+      {
+        "secs_since_epoch": 1750877722,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/trang/ctf/sejong/rev/.venv/bin/python3.13",
+      {
+        "secs_since_epoch": 1750877722,
+        "nanos_since_epoch": 0
+      },
+      null
+    ]
+  ]
+}

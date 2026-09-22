@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<field_types>
+  <field_type caption="preamble" function="PREAMBLE" display_format_index="0"/>
+  <field_type caption="synchronization" function="SYNC" display_format_index="0"/>
+  <field_type caption="length" function="LENGTH" display_format_index="3"/>
+  <field_type caption="source address" function="SRC_ADDRESS" display_format_index="1"/>
+  <field_type caption="destination address" function="DST_ADDRESS" display_format_index="1"/>
+  <field_type caption="sequence number" function="SEQUENCE_NUMBER" display_format_index="3"/>
+  <field_type caption="type" function="TYPE" display_format_index="0"/>
+  <field_type caption="data" function="DATA" display_format_index="0"/>
+  <field_type caption="checksum" function="CHECKSUM" display_format_index="1"/>
+  <field_type caption="custom" function="CUSTOM" display_format_index="0"/>
+</field_types>

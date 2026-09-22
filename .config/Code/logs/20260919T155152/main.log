@@ -1,0 +1,12 @@
+2026-09-19 15:51:53.059 [info] StorageMainService: creating application shared storage
+2026-09-19 15:51:53.191 [info] [shared storage] Creating shared storage database at '/home/trang/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-19 15:51:53.193 [info] [shared storage] Initializing fallback application storage (path: /home/trang/.config/Code/User/globalStorage/state.vscdb)
+2026-09-19 15:51:53.216 [info] [shared storage] Fallback application storage initialized with 148 items
+2026-09-19 15:51:53.223 [info] update#setState idle
+2026-09-19 15:51:54.028 [info] AgentHostProcessManager: agent host started
+2026-09-19 15:51:59.917 [error] [AgentHost:stderr] (node:773925) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-19 15:52:23.225 [info] update#setState checking for updates
+2026-09-19 15:52:23.323 [info] update#setState available for download
+2026-09-19 15:53:17.910 [info] Extension host with pid 773948 exited with code: 0, signal: unknown.

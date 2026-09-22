@@ -1,0 +1,147 @@
+[2026-01-01 22:00:12.787] [main] [info] [saleae_log.cpp:338] Logfile path set to: /home/trang/.config/Logic/logs/2026-01-01_22-00-10_49ea8ea0-df7c-4696-8615-cd25ae91248e/graphio.log
+[2026-01-01 22:00:12.787] [main] [critical] [saleae_log.cpp:341] Global logging level is set to: info
+[2026-01-01 22:00:13.626] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: -2
+[2026-01-01 22:00:13.626] [main] [info] [graph_server.cpp:843] DeleteGraph( -2 ) called
+[2026-01-01 22:00:13.831] [usb] [info] [DevicesManager.cpp:167] Resetting DevicesManager
+[2026-01-01 22:00:13.848] [device] [info] [GenericDevice.cpp:60] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:00:13.848] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:00:13.848] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:00:28.491] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3517.801 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:00:43.493] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3557.648 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:00:58.495] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3464.539 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:01:13.496] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3329.984 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:01:28.497] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3517.789 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:01:43.501] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3357.961 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:01:58.503] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3334.230 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:02:13.505] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3128.211 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:02:28.506] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3342.707 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:02:43.510] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3321.016 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:02:58.512] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3391.238 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:03:13.513] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3333.246 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:03:28.519] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3437.406 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:03:43.521] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3051.066 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:03:58.522] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=2730.746 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:03:59.745] [main] [info] [logic_device_node.cpp:121] acquire request for device instance id DeviceInstanceId(1000)
+[2026-01-01 22:03:59.745] [usb] [info] [DevicesManager.cpp:347] Acquiring device handle 1000
+[2026-01-01 22:03:59.826] [main] [info] [logic_device_node.cpp:279] enable channels
+[2026-01-01 22:03:59.835] [main] [info] [logic_device_node.cpp:250] set sample rate: 10000000, 625000
+[2026-01-01 22:03:59.837] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.848] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.848] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.850] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.850] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.851] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.851] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.852] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.852] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.853] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.853] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.853] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.853] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.853] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.854] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:03:59.854] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:13.524] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=2356.008 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:04:13.899] [main] [info] [logic_device_node.cpp:444] start capture
+[2026-01-01 22:04:14.100] [main] [info] [analyzer_node.cpp:2057] named pipe connected
+[2026-01-01 22:04:14.755] [main] [info] [logic_device_node.cpp:530] stop capture
+[2026-01-01 22:04:15.383] [main] [info] [analyzer_node.cpp:2022] all frames written to database
+[2026-01-01 22:04:17.184] [main] [info] [logic_device_node.cpp:231] device release request
+[2026-01-01 22:04:17.184] [usb] [info] [DevicesManager.cpp:399] Releasing device handle 1000
+[2026-01-01 22:04:17.268] [main] [info] [logic_device_node.cpp:121] acquire request for device instance id DeviceInstanceId(1000)
+[2026-01-01 22:04:17.268] [usb] [info] [DevicesManager.cpp:347] Acquiring device handle 1000
+[2026-01-01 22:04:17.281] [main] [info] [logic_device_node.cpp:279] enable channels
+[2026-01-01 22:04:17.282] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.282] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.283] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.284] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.284] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.284] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.285] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.285] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.285] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.285] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.285] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.286] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.286] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.286] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.286] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.286] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:17.286] [main] [info] [logic_device_node.cpp:250] set sample rate: 10000000, 625000
+[2026-01-01 22:04:17.551] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: 0
+[2026-01-01 22:04:17.551] [main] [info] [graph_server.cpp:843] DeleteGraph( 0 ) called
+[2026-01-01 22:04:17.621] [main] [info] [analyzer_node.cpp:629] joining database thread
+[2026-01-01 22:04:17.621] [main] [info] [analyzer_node.cpp:632] database thread joined
+[2026-01-01 22:04:17.657] [main] [info] [logic_device_node.cpp:444] start capture
+[2026-01-01 22:04:17.718] [main] [info] [analyzer_node.cpp:2057] named pipe connected
+[2026-01-01 22:04:17.917] [main] [info] [logic_device_node.cpp:530] stop capture
+[2026-01-01 22:04:18.444] [main] [info] [analyzer_node.cpp:2022] all frames written to database
+[2026-01-01 22:04:21.880] [main] [info] [logic_device_node.cpp:231] device release request
+[2026-01-01 22:04:21.880] [usb] [info] [DevicesManager.cpp:399] Releasing device handle 1000
+[2026-01-01 22:04:21.884] [main] [info] [logic_device_node.cpp:121] acquire request for device instance id DeviceInstanceId(1000)
+[2026-01-01 22:04:21.884] [usb] [info] [DevicesManager.cpp:347] Acquiring device handle 1000
+[2026-01-01 22:04:21.890] [main] [info] [logic_device_node.cpp:279] enable channels
+[2026-01-01 22:04:21.890] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.891] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.892] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.892] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.892] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.892] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.893] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.893] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.893] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.893] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:04:21.894] [main] [info] [logic_device_node.cpp:250] set sample rate: 10000000, 625000
+[2026-01-01 22:04:22.177] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: 1
+[2026-01-01 22:04:22.177] [main] [info] [graph_server.cpp:843] DeleteGraph( 1 ) called
+[2026-01-01 22:04:22.249] [main] [info] [analyzer_node.cpp:629] joining database thread
+[2026-01-01 22:04:22.249] [main] [info] [analyzer_node.cpp:632] database thread joined
+[2026-01-01 22:04:22.283] [main] [info] [logic_device_node.cpp:444] start capture
+[2026-01-01 22:04:22.351] [main] [info] [analyzer_node.cpp:2057] named pipe connected
+[2026-01-01 22:04:23.824] [main] [info] [logic_device_node.cpp:530] stop capture
+[2026-01-01 22:04:25.041] [main] [info] [analyzer_node.cpp:2022] all frames written to database
+[2026-01-01 22:04:28.535] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=2704.973 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:04:37.543] [monitor] [critical] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=786.887 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:04:38.544] [monitor] [critical] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=500.859 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:04:43.546] [monitor] [critical] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=403.516 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:04:49.547] [monitor] [critical] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=686.488 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:05:04.549] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3931.156 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:05:19.550] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3181.820 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:05:34.554] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=1178.906 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:05:39.554] [monitor] [critical] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=1005.422 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:05:54.556] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=2736.395 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:06:01.556] [monitor] [critical] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=284.504 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:06:16.557] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=2679.137 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:06:31.560] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3880.852 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:06:46.561] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4026.637 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:07:01.562] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4012.492 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:07:16.564] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4168.699 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:07:31.565] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4210.984 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:07:46.566] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4282.535 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:08:01.568] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4317.812 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:08:16.569] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4281.352 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:08:31.570] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4261.441 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:08:46.572] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4258.707 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:09:01.573] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4186.590 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:09:16.574] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4241.867 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:09:31.576] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4107.059 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:09:46.577] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4079.414 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:10:01.579] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4158.938 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:10:16.580] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4047.793 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:10:31.581] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4044.887 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:10:46.582] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4041.164 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:11:01.584] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4075.590 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:11:16.585] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4080.371 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:11:31.586] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4064.754 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:11:46.588] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3746.211 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:11:47.728] [main] [info] [analyzer_node.cpp:629] joining database thread
+[2026-01-01 22:11:47.728] [main] [info] [analyzer_node.cpp:632] database thread joined
+[2026-01-01 22:11:47.814] [graph] [warning] [graph_server.cpp:510] Direct message handler exception: Pipe with specified id does not exist
+Data:
+{"type":"request","contents":{"id":374,"type":"Saleae::Graph::GraphActionData","runInParallel":false,"actions":[{"type":"Saleae::Graph::GraphActions::RemovePipe","id":1000000274}],"meta":{"sessionId":2,"destination":"GraphServer"}}}

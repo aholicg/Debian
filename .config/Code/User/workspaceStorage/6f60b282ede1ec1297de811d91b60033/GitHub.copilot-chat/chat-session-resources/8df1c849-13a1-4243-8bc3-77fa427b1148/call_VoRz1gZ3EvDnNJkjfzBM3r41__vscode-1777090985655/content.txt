@@ -1,0 +1,259 @@
+Note: The tool simplified the command to ` objdump -d --start-address=0x5f820 --stop-address=0x5fbf0 challenge | sed -n '1,260p'`, and this is the output of running that command instead:
+
+challenge:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+000000000005f820 <camlMain__read_input_285@@Base>:
+   5f820:       48 83 ec 08             sub    $0x8,%rsp
+   5f824:       4c 8d 1d 21 00 00 00    lea    0x21(%rip),%r11        # 5f84c <camlMain__read_input_285@@Base+0x2c>
+   5f82b:       41 53                   push   %r11
+   5f82d:       41 ff 76 10             push   0x10(%r14)
+   5f831:       49 89 66 10             mov    %rsp,0x10(%r14)
+   5f835:       b8 01 00 00 00          mov    $0x1,%eax
+   5f83a:       e8 11 d9 00 00          call   6d150 <camlStdlib__read_line_393@@Base>
+   5f83f:       41 8f 46 10             pop    0x10(%r14)
+   5f843:       48 83 c4 08             add    $0x8,%rsp
+   5f847:       eb 2f                   jmp    5f878 <camlMain__read_input_285@@Base+0x58>
+   5f849:       0f 1f 00                nopl   (%rax)
+   5f84c:       48 8d 1d 4d ad 09 00    lea    0x9ad4d(%rip),%rbx        # fa5a0 <camlStdlib@@Base>
+   5f853:       48 8b 5b 58             mov    0x58(%rbx),%rbx
+   5f857:       48 39 d8                cmp    %rbx,%rax
+   5f85a:       75 0c                   jne    5f868 <camlMain__read_input_285@@Base+0x48>
+   5f85c:       48 8d 05 c5 eb 08 00    lea    0x8ebc5(%rip),%rax        # ee428 <camlMain__158@@Base>
+   5f863:       48 83 c4 08             add    $0x8,%rsp
+   5f867:       c3                      ret
+   5f868:       49 8b 66 10             mov    0x10(%r14),%rsp
+   5f86c:       41 8f 46 10             pop    0x10(%r14)
+   5f870:       41 5b                   pop    %r11
+   5f872:       41 ff e3                jmp    *%r11
+   5f875:       0f 1f 00                nopl   (%rax)
+   5f878:       48 83 c4 08             add    $0x8,%rsp
+   5f87c:       c3                      ret
+   5f87d:       0f 1f 00                nopl   (%rax)
+
+000000000005f880 <camlMain__input_ok_288@@Base>:
+   5f880:       48 83 ec 08             sub    $0x8,%rsp
+   5f884:       48 89 c3                mov    %rax,%rbx
+   5f887:       48 8b 43 f8             mov    -0x8(%rbx),%rax
+   5f88b:       48 c1 e8 0a             shr    $0xa,%rax
+   5f88f:       48 8d 04 c5 ff ff ff    lea    -0x1(,%rax,8),%rax
+   5f896:       ff 
+   5f897:       48 0f b6 3c 03          movzbq (%rbx,%rax,1),%rdi
+   5f89c:       48 29 f8                sub    %rdi,%rax
+   5f89f:       48 8d 44 00 01          lea    0x1(%rax,%rax,1),%rax
+   5f8a4:       48 3d 81 00 00 00       cmp    $0x81,%rax
+   5f8aa:       75 60                   jne    5f90c <camlMain__input_ok_288@@Base+0x8c>
+   5f8ac:       49 83 ef 30             sub    $0x30,%r15
+   5f8b0:       4d 3b 3e                cmp    (%r14),%r15
+   5f8b3:       72 61                   jb     5f916 <camlMain__input_ok_288@@Base+0x96>
+   5f8b5:       49 8d 7f 08             lea    0x8(%r15),%rdi
+   5f8b9:       48 83 c7 20             add    $0x20,%rdi
+   5f8bd:       48 89 3c 24             mov    %rdi,(%rsp)
+   5f8c1:       48 c7 47 f8 00 04 00    movq   $0x400,-0x8(%rdi)
+   5f8c8:       00 
+   5f8c9:       48 c7 07 03 00 00 00    movq   $0x3,(%rdi)
+   5f8d0:       48 8d 47 e0             lea    -0x20(%rdi),%rax
+   5f8d4:       48 c7 40 f8 f7 0c 00    movq   $0xcf7,-0x8(%rax)
+   5f8db:       00 
+   5f8dc:       48 8d 35 3d 00 00 00    lea    0x3d(%rip),%rsi        # 5f920 <camlMain__fun_638@@Base>
+   5f8e3:       48 89 30                mov    %rsi,(%rax)
+   5f8e6:       48 be 05 00 00 00 00    movabs $0x100000000000005,%rsi
+   5f8ed:       00 00 01 
+   5f8f0:       48 89 70 08             mov    %rsi,0x8(%rax)
+   5f8f4:       48 89 78 10             mov    %rdi,0x10(%rax)
+   5f8f8:       e8 03 cf 01 00          call   7c800 <camlStdlib__String__iter_425@@Base>
+   5f8fd:       48 8b 04 24             mov    (%rsp),%rax
+   5f901:       48 8b 00                mov    (%rax),%rax
+   5f904:       48 83 c4 08             add    $0x8,%rsp
+   5f908:       c3                      ret
+   5f909:       0f 1f 00                nopl   (%rax)
+   5f90c:       b8 01 00 00 00          mov    $0x1,%eax
+   5f911:       48 83 c4 08             add    $0x8,%rsp
+   5f915:       c3                      ret
+   5f916:       e8 d1 76 06 00          call   c6fec <caml_call_gc@@Base>
+   5f91b:       eb 98                   jmp    5f8b5 <camlMain__input_ok_288@@Base+0x35>
+   5f91d:       0f 1f 00                nopl   (%rax)
+
+000000000005f920 <camlMain__fun_638@@Base>:
+   5f920:       48 83 ec 08             sub    $0x8,%rsp
+   5f924:       48 89 1c 24             mov    %rbx,(%rsp)
+   5f928:       e8 d3 5d 00 00          call   65700 <camlShared_types__valid_char_349@@Base>
+   5f92d:       48 83 f8 01             cmp    $0x1,%rax
+   5f931:       74 0d                   je     5f940 <camlMain__fun_638@@Base+0x20>
+   5f933:       b8 01 00 00 00          mov    $0x1,%eax
+   5f938:       48 83 c4 08             add    $0x8,%rsp
+   5f93c:       c3                      ret
+   5f93d:       0f 1f 00                nopl   (%rax)
+   5f940:       48 8b 04 24             mov    (%rsp),%rax
+   5f944:       48 8b 40 10             mov    0x10(%rax),%rax
+   5f948:       48 c7 00 01 00 00 00    movq   $0x1,(%rax)
+   5f94f:       b8 01 00 00 00          mov    $0x1,%eax
+   5f954:       48 83 c4 08             add    $0x8,%rsp
+   5f958:       c3                      ret
+   5f959:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)
+
+000000000005f960 <camlMain__run_child_370@@Base>:
+   5f960:       48 83 ec 18             sub    $0x18,%rsp
+   5f964:       48 89 04 24             mov    %rax,(%rsp)
+   5f968:       48 89 5c 24 08          mov    %rbx,0x8(%rsp)
+   5f96d:       bf 01 00 00 00          mov    $0x1,%edi
+   5f972:       48 8d 05 c7 f3 03 00    lea    0x3f3c7(%rip),%rax        # 9ed40 <unix_fork@@Base>
+   5f979:       e8 ea 77 06 00          call   c7168 <caml_c_call@@Base>
+   5f97e:       4d 8b 7e 08             mov    0x8(%r14),%r15
+   5f982:       48 83 f8 01             cmp    $0x1,%rax
+   5f986:       74 08                   je     5f990 <camlMain__run_child_370@@Base+0x30>
+   5f988:       48 83 c4 18             add    $0x18,%rsp
+   5f98c:       c3                      ret
+   5f98d:       0f 1f 00                nopl   (%rax)
+   5f990:       4c 8d 1d 25 00 00 00    lea    0x25(%rip),%r11        # 5f9bc <camlMain__run_child_370@@Base+0x5c>
+   5f997:       41 53                   push   %r11
+   5f999:       41 ff 76 10             push   0x10(%r14)
+   5f99d:       49 89 66 10             mov    %rsp,0x10(%r14)
+   5f9a1:       48 8b 5c 24 10          mov    0x10(%rsp),%rbx
+   5f9a6:       48 8b 3b                mov    (%rbx),%rdi
+   5f9a9:       48 8b 44 24 18          mov    0x18(%rsp),%rax
+   5f9ae:       ff d7                   call   *%rdi
+   5f9b0:       41 8f 46 10             pop    0x10(%r14)
+   5f9b4:       48 83 c4 08             add    $0x8,%rsp
+   5f9b8:       eb 07                   jmp    5f9c1 <camlMain__run_child_370@@Base+0x61>
+   5f9ba:       66 90                   xchg   %ax,%ax
+   5f9bc:       b8 01 00 00 00          mov    $0x1,%eax
+   5f9c1:       bf 04 00 00 00          mov    $0x4,%edi
+   5f9c6:       48 29 c7                sub    %rax,%rdi
+   5f9c9:       48 8d 05 c0 f1 03 00    lea    0x3f1c0(%rip),%rax        # 9eb90 <unix_exit@@Base>
+   5f9d0:       e8 93 77 06 00          call   c7168 <caml_c_call@@Base>
+   5f9d5:       4d 8b 7e 08             mov    0x8(%r14),%r15
+   5f9d9:       48 83 c4 18             add    $0x18,%rsp
+   5f9dd:       c3                      ret
+   5f9de:       66 90                   xchg   %ax,%ax
+
+000000000005f9e0 <camlMain__status_ok_592@@Base>:
+   5f9e0:       48 0f b6 58 f8          movzbq -0x8(%rax),%rbx
+   5f9e5:       48 85 db                test   %rbx,%rbx
+   5f9e8:       75 12                   jne    5f9fc <camlMain__status_ok_592@@Base+0x1c>
+   5f9ea:       48 8b 00                mov    (%rax),%rax
+   5f9ed:       48 83 f8 01             cmp    $0x1,%rax
+   5f9f1:       75 09                   jne    5f9fc <camlMain__status_ok_592@@Base+0x1c>
+   5f9f3:       b8 03 00 00 00          mov    $0x3,%eax
+   5f9f8:       c3                      ret
+   5f9f9:       0f 1f 00                nopl   (%rax)
+   5f9fc:       b8 01 00 00 00          mov    $0x1,%eax
+   5fa01:       c3                      ret
+   5fa02:       66 66 2e 0f 1f 84 00    data16 cs nopw 0x0(%rax,%rax,1)
+   5fa09:       00 00 00 00 
+   5fa0d:       0f 1f 00                nopl   (%rax)
+
+000000000005fa10 <camlMain__output_flag_of_input_595@@Base>:
+   5fa10:       48 83 ec 08             sub    $0x8,%rsp
+   5fa14:       48 8d 1d 7d 33 09 00    lea    0x9337d(%rip),%rbx        # f2d98 <camlShared_types__3@@Base>
+   5fa1b:       e8 80 c6 00 00          call   6c0a0 <camlStdlib__$5e_141@@Base>
+   5fa20:       48 89 c3                mov    %rax,%rbx
+   5fa23:       48 8d 05 7e 33 09 00    lea    0x9337e(%rip),%rax        # f2da8 <camlShared_types__2@@Base>
+   5fa2a:       48 83 c4 08             add    $0x8,%rsp
+   5fa2e:       e9 6d c6 00 00          jmp    6c0a0 <camlStdlib__$5e_141@@Base>
+   5fa33:       66 66 2e 0f 1f 84 00    data16 cs nopw 0x0(%rax,%rax,1)
+   5fa3a:       00 00 00 00 
+   5fa3e:       66 90                   xchg   %ax,%ax
+
+000000000005fa40 <camlMain__entry@@Base>:
+   5fa40:       48 83 ec 18             sub    $0x18,%rsp
+   5fa44:       48 8d 05 0d e9 08 00    lea    0x8e90d(%rip),%rax        # ee358 <camlMain__data_begin@@Base+0x8>
+   5fa4b:       48 8d 1d 86 e9 08 00    lea    0x8e986(%rip),%rbx        # ee3d8 <camlMain@@Base>
+   5fa52:       48 89 03                mov    %rax,(%rbx)
+   5fa55:       48 8d 05 14 e9 08 00    lea    0x8e914(%rip),%rax        # ee370 <camlMain__data_begin@@Base+0x20>
+   5fa5c:       48 89 43 08             mov    %rax,0x8(%rbx)
+   5fa60:       48 8d 05 21 e9 08 00    lea    0x8e921(%rip),%rax        # ee388 <camlMain__data_begin@@Base+0x38>
+   5fa67:       48 89 43 10             mov    %rax,0x10(%rbx)
+   5fa6b:       48 8d 05 36 e9 08 00    lea    0x8e936(%rip),%rax        # ee3a8 <camlMain__data_begin@@Base+0x58>
+   5fa72:       48 89 43 18             mov    %rax,0x18(%rbx)
+   5fa76:       48 8d 05 43 e9 08 00    lea    0x8e943(%rip),%rax        # ee3c0 <camlMain__data_begin@@Base+0x70>
+   5fa7d:       48 89 43 20             mov    %rax,0x20(%rbx)
+   5fa81:       4c 8d 1d 81 01 00 00    lea    0x181(%rip),%r11        # 5fc09 <camlMain__entry@@Base+0x1c9>
+   5fa88:       41 53                   push   %r11
+   5fa8a:       41 ff 76 10             push   0x10(%r14)
+   5fa8e:       49 89 66 10             mov    %rsp,0x10(%r14)
+   5fa92:       4c 8d 1d 23 00 00 00    lea    0x23(%rip),%r11        # 5fabc <camlMain__entry@@Base+0x7c>
+   5fa99:       41 53                   push   %r11
+   5fa9b:       41 ff 76 10             push   0x10(%r14)
+   5fa9f:       49 89 66 10             mov    %rsp,0x10(%r14)
+   5faa3:       b8 01 00 00 00          mov    $0x1,%eax
+   5faa8:       e8 a3 d6 00 00          call   6d150 <camlStdlib__read_line_393@@Base>
+   5faad:       48 89 44 24 30          mov    %rax,0x30(%rsp)
+   5fab2:       41 8f 46 10             pop    0x10(%r14)
+   5fab6:       48 83 c4 08             add    $0x8,%rsp
+   5faba:       eb 2b                   jmp    5fae7 <camlMain__entry@@Base+0xa7>
+   5fabc:       48 8d 1d dd aa 09 00    lea    0x9aadd(%rip),%rbx        # fa5a0 <camlStdlib@@Base>
+   5fac3:       48 8b 5b 58             mov    0x58(%rbx),%rbx
+   5fac7:       48 39 d8                cmp    %rbx,%rax
+   5faca:       75 09                   jne    5fad5 <camlMain__entry@@Base+0x95>
+   5facc:       48 8d 05 55 e9 08 00    lea    0x8e955(%rip),%rax        # ee428 <camlMain__158@@Base>
+   5fad3:       eb 0d                   jmp    5fae2 <camlMain__entry@@Base+0xa2>
+   5fad5:       49 8b 66 10             mov    0x10(%r14),%rsp
+   5fad9:       41 8f 46 10             pop    0x10(%r14)
+   5fadd:       41 5b                   pop    %r11
+   5fadf:       41 ff e3                jmp    *%r11
+   5fae2:       48 89 44 24 20          mov    %rax,0x20(%rsp)
+   5fae7:       e8 94 fd ff ff          call   5f880 <camlMain__input_ok_288@@Base>
+   5faec:       48 83 f8 01             cmp    $0x1,%rax
+   5faf0:       75 16                   jne    5fb08 <camlMain__entry@@Base+0xc8>
+   5faf2:       48 8d 05 1f e9 08 00    lea    0x8e91f(%rip),%rax        # ee418 <camlMain__gc_roots@@Base+0x18>
+   5faf9:       e8 22 d4 00 00          call   6cf20 <camlStdlib__print_endline_366@@Base>
+   5fafe:       b8 03 00 00 00          mov    $0x3,%eax
+   5fb03:       e8 a8 d9 00 00          call   6d4b0 <camlStdlib__exit_488@@Base>
+   5fb08:       48 8d 05 69 07 09 00    lea    0x90769(%rip),%rax        # f0278 <camlProc_a_engine@@Base>
+   5fb0f:       48 8b 40 10             mov    0x10(%rax),%rax
+   5fb13:       48 8b 5c 24 20          mov    0x20(%rsp),%rbx
+   5fb18:       e8 43 fe ff ff          call   5f960 <camlMain__run_child_370@@Base>
+   5fb1d:       48 89 44 24 10          mov    %rax,0x10(%rsp)
+   5fb22:       48 8d 05 3f ec 08 00    lea    0x8ec3f(%rip),%rax        # ee768 <camlProc_b_engine@@Base>
+   5fb29:       48 8b 40 10             mov    0x10(%rax),%rax
+   5fb2d:       48 8b 5c 24 20          mov    0x20(%rsp),%rbx
+   5fb32:       e8 29 fe ff ff          call   5f960 <camlMain__run_child_370@@Base>
+   5fb37:       48 89 44 24 18          mov    %rax,0x18(%rsp)
+   5fb3c:       bf 01 00 00 00          mov    $0x1,%edi
+   5fb41:       48 8b 74 24 10          mov    0x10(%rsp),%rsi
+   5fb46:       48 8d 05 13 57 04 00    lea    0x45713(%rip),%rax        # a5260 <unix_waitpid@@Base>
+   5fb4d:       e8 16 76 06 00          call   c7168 <caml_c_call@@Base>
+   5fb52:       4d 8b 7e 08             mov    0x8(%r14),%r15
+   5fb56:       48 89 44 24 10          mov    %rax,0x10(%rsp)
+   5fb5b:       bf 01 00 00 00          mov    $0x1,%edi
+   5fb60:       48 8b 74 24 18          mov    0x18(%rsp),%rsi
+   5fb65:       48 8d 05 f4 56 04 00    lea    0x456f4(%rip),%rax        # a5260 <unix_waitpid@@Base>
+   5fb6c:       e8 f7 75 06 00          call   c7168 <caml_c_call@@Base>
+   5fb71:       4d 8b 7e 08             mov    0x8(%r14),%r15
+   5fb75:       48 8b 5c 24 10          mov    0x10(%rsp),%rbx
+   5fb7a:       48 8b 5b 08             mov    0x8(%rbx),%rbx
+   5fb7e:       48 0f b6 7b f8          movzbq -0x8(%rbx),%rdi
+   5fb83:       48 85 ff                test   %rdi,%rdi
+   5fb86:       75 10                   jne    5fb98 <camlMain__entry@@Base+0x158>
+   5fb88:       48 8b 1b                mov    (%rbx),%rbx
+   5fb8b:       48 83 fb 01             cmp    $0x1,%rbx
+   5fb8f:       75 07                   jne    5fb98 <camlMain__entry@@Base+0x158>
+   5fb91:       bb 03 00 00 00          mov    $0x3,%ebx
+   5fb96:       eb 05                   jmp    5fb9d <camlMain__entry@@Base+0x15d>
+   5fb98:       bb 01 00 00 00          mov    $0x1,%ebx
+   5fb9d:       48 83 fb 01             cmp    $0x1,%rbx
+   5fba1:       74 50                   je     5fbf3 <camlMain__entry@@Base+0x1b3>
+   5fba3:       48 8b 40 08             mov    0x8(%rax),%rax
+   5fba7:       48 0f b6 58 f8          movzbq -0x8(%rax),%rbx
+   5fbac:       48 85 db                test   %rbx,%rbx
+   5fbaf:       75 10                   jne    5fbc1 <camlMain__entry@@Base+0x181>
+   5fbb1:       48 8b 00                mov    (%rax),%rax
+   5fbb4:       48 83 f8 01             cmp    $0x1,%rax
+   5fbb8:       75 07                   jne    5fbc1 <camlMain__entry@@Base+0x181>
+   5fbba:       b8 03 00 00 00          mov    $0x3,%eax
+   5fbbf:       eb 05                   jmp    5fbc6 <camlMain__entry@@Base+0x186>
+   5fbc1:       b8 01 00 00 00          mov    $0x1,%eax
+   5fbc6:       48 83 f8 01             cmp    $0x1,%rax
+   5fbca:       74 27                   je     5fbf3 <camlMain__entry@@Base+0x1b3>
+   5fbcc:       48 8d 1d c5 31 09 00    lea    0x931c5(%rip),%rbx        # f2d98 <camlShared_types__3@@Base>
+   5fbd3:       48 8b 44 24 20          mov    0x20(%rsp),%rax
+   5fbd8:       e8 c3 c4 00 00          call   6c0a0 <camlStdlib__$5e_141@@Base>
+   5fbdd:       48 89 c3                mov    %rax,%rbx
+   5fbe0:       48 8d 05 c1 31 09 00    lea    0x931c1(%rip),%rax        # f2da8 <camlShared_types__2@@Base>
+   5fbe7:       e8 b4 c4 00 00          call   6c0a0 <camlStdlib__$5e_141@@Base>
+   5fbec:       e8                      .byte 0xe8
+   5fbed:       2f                      (bad)
+   5fbee:       d3 00                   roll   %cl,(%rax)

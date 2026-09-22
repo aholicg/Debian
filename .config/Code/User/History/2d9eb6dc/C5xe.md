@@ -1,0 +1,8 @@
+1. Navigate to arXiv.org → Computer Science → Machine Learning (cs.LG). (Clicking "[ Begin Investigation ]" redirects directly to the target domain.)
+2. According to the challenge's description, Nguyen Minh Khoa's most recent paper is arXiv:2605.99847 (shown right at 2nd place in the web). ![alt text](image.png)
+3. His X (Twitter) account is easy to locate from the paper's author info. ![alt text](image-1.png)
+4. His GitHub is linked in the pinned post on his X profile. !![alt text](image-2.png)
+5. From there, the repository corresponding to his paper can be found. ![alt text](image-3.png)
+6. The README of the repo contains a Pastebin link, which was hinted by the challenge's description. !![alt text](image-4.png)
+7. Line 18 of the note contains a base64-encoded "masterkey." ![alt text](image-5.png)
+8. Decoding it yields the flag. !![alt text](image-6.png)

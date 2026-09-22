@@ -1,0 +1,32 @@
+2026-09-17 15:06:18.443 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-09-17 15:06:18.443 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-09-17 15:06:18.443 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-09-17 15:06:18.443 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-09-17 15:06:18.498 [info] Logged in as aholicg
+2026-09-17 15:06:18.503 [info] Using the Electron fetcher.
+2026-09-17 15:06:19.178 [info] Got Copilot token for aholicg
+2026-09-17 15:06:19.178 [info] Copilot Chat: 0.60.0, VS Code: 1.132.0
+2026-09-17 15:06:19.190 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-09-17 15:06:19.636 [info] ConversationFeature: Copilot token already available
+2026-09-17 15:06:19.636 [info] copilot token sku: free_educational_quota
+2026-09-17 15:06:19.636 [info] ConversationFeature: Activating contributions
+2026-09-17 15:06:19.636 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-09-17 15:06:19.653 [info] Registering default platform agent...
+2026-09-17 15:06:19.656 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-09-17 15:06:19.656 [info] BYOK: fetching known models list
+2026-09-17 15:06:19.656 [info] activationBlocker from 'conversationFeature' took for 106ms
+2026-09-17 15:06:19.658 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-09-17 15:06:19.678 [info] activationBlocker from 'languageModelAccess' took for 104ms
+2026-09-17 15:06:19.921 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-09-17 15:06:19.984 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-09-17 15:06:20.012 [info] [CopilotCLI] MCP server started. Lock file: /home/trang/.copilot/ide/8a126e66-0965-4c7f-acba-15baf3d21a0d.lock
+2026-09-17 15:06:20.012 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-aVi93E/mcp.sock#%2Fmcp
+2026-09-17 15:06:20.055 [info] [CopilotCLIChatSessionContentProvider] listSessions took 136.87620900000002ms
+2026-09-17 15:06:20.524 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-09-17 15:06:20.530 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-09-17 15:06:20.530 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-09-17 15:06:20.773 [info] Fetched model metadata in 1174ms 0535e5d9-74f9-4540-8a10-f10de0f54200
+2026-09-17 15:06:21.776 [info] Latest entry: ccreq:latest.copilotmd
+2026-09-17 15:06:21.777 [info] ccreq:bd4a2f03.copilotmd | markdown
+2026-09-17 15:06:22.112 [info] ConversationFeature: BYOK models available
+2026-09-17 15:06:22.112 [info] copilot token sku: free_educational_quota

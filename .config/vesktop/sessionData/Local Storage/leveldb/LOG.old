@@ -1,5 +1,26 @@
-2025/11/10-21:29:29.675 427ba Reusing MANIFEST /home/trang/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/11/10-21:29:29.689 427ba Recovering log #3
-2025/11/10-21:29:29.692 427ba Level-0 table #3: started
-2025/11/10-21:29:29.694 427ba Level-0 table #3: 27374 bytes OK
-2025/11/10-21:29:29.695 427ba Delete type=0 #3
+2026/09/19-13:58:55.000 9fc56 Reusing MANIFEST /home/trang/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/09/19-13:58:55.004 9fc56 Recovering log #6630
+2026/09/19-13:58:55.006 9fc56 Level-0 table #6632: started
+2026/09/19-13:58:55.022 9fc56 Level-0 table #6632: 51838 bytes OK
+2026/09/19-13:58:55.023 9fc56 Delete type=0 #6630
+2026/09/19-14:00:59.558 9fc55 Level-0 table #6635: started
+2026/09/19-14:00:59.569 9fc55 Level-0 table #6635: 62567 bytes OK
+2026/09/19-14:00:59.570 9fc55 Delete type=0 #6633
+2026/09/19-14:00:59.570 9fc55 Compacting 4@0 + 1@1 files
+2026/09/19-14:00:59.573 9fc55 Generated table #6636@0: 168 keys, 85102 bytes
+2026/09/19-14:00:59.573 9fc55 Compacted 4@0 + 1@1 files => 85102 bytes
+2026/09/19-14:00:59.574 9fc55 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/19-14:00:59.574 9fc55 Delete type=2 #6625
+2026/09/19-14:00:59.574 9fc55 Delete type=2 #6635
+2026/09/19-14:00:59.574 9fc55 Delete type=2 #6627
+2026/09/19-14:00:59.574 9fc55 Delete type=2 #6629
+2026/09/19-14:00:59.574 9fc55 Delete type=2 #6632
+2026/09/19-14:12:29.730 9fc55 Level-0 table #6638: started
+2026/09/19-14:12:29.732 9fc55 Level-0 table #6638: 35067 bytes OK
+2026/09/19-14:12:29.733 9fc55 Delete type=0 #6634
+2026/09/19-14:48:00.796 9fc29 Level-0 table #6640: started
+2026/09/19-14:48:00.809 9fc29 Level-0 table #6640: 34607 bytes OK
+2026/09/19-14:48:00.811 9fc29 Delete type=0 #6637
+2026/09/19-15:48:11.536 9fc29 Level-0 table #6642: started
+2026/09/19-15:48:11.545 9fc29 Level-0 table #6642: 38164 bytes OK
+2026/09/19-15:48:11.548 9fc29 Delete type=0 #6639

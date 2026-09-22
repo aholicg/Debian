@@ -1,0 +1,4 @@
+2026-09-19 15:52:31.942 [info] Installing extension: soict.bkcsftp {"installGivenVersion":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/trang/.vscode/extensions/extensions.json","path":"/home/trang/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.132.0","date":"2026-08-04T15:30:20Z"}}
+2026-09-19 15:52:32.044 [info] Extracted extension to file:///home/trang/.vscode/extensions/soict.bkcsftp-1.19.0: soict.bkcsftp
+2026-09-19 15:52:32.048 [info] Renamed to /home/trang/.vscode/extensions/soict.bkcsftp-1.19.0
+2026-09-19 15:52:32.069 [info] Extension installed successfully: soict.bkcsftp vscode-userdata:/home/trang/.vscode/extensions/extensions.json

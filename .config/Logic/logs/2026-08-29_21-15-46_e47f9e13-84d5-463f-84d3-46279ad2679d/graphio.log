@@ -1,0 +1,54 @@
+[2026-08-29 21:15:49.138] [main] [info] [saleae_log.cpp:338] Logfile path set to: /home/trang/.config/Logic/logs/2026-08-29_21-15-46_e47f9e13-84d5-463f-84d3-46279ad2679d/graphio.log
+[2026-08-29 21:15:49.138] [main] [critical] [saleae_log.cpp:341] Global logging level is set to: info
+[2026-08-29 21:15:49.851] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: -2
+[2026-08-29 21:15:49.851] [main] [info] [graph_server.cpp:843] DeleteGraph( -2 ) called
+[2026-08-29 21:15:50.176] [usb] [info] [DevicesManager.cpp:167] Resetting DevicesManager
+[2026-08-29 21:15:50.187] [device] [info] [GenericDevice.cpp:60] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-29 21:15:50.187] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-29 21:15:50.187] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-29 21:15:56.650] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.658] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.659] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.660] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.660] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.660] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.661] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.661] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-0.bin
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-1.bin
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-2.bin
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-4.bin
+[2026-08-29 21:15:56.695] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-5.bin
+[2026-08-29 21:15:56.696] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.696] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-6.bin
+[2026-08-29 21:15:56.696] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.696] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-7.bin
+[2026-08-29 21:15:56.696] [main] [info] [trigger_store_node.cpp:228] TriggerStoreNode::OnStartDeserialization: Creating deserialization thread
+[2026-08-29 21:15:56.696] [main] [info] [trigger_store_node.cpp:318] TriggerStoreNode::DeserializeOnThread - /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/trigger-store.bin
+[2026-08-29 21:15:56.696] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-3.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-6.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-4.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-1.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-7.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-5.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-3.bin
+[2026-08-29 21:15:56.707] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-2.bin
+[2026-08-29 21:15:56.708] [main] [info] [trigger_store_node.cpp:370] TriggerStoreNode::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/trigger-store.bin
+[2026-08-29 21:15:56.708] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Unknown file version; file: /tmp/c3045427-c1ed-4bdd-9ece-b7855d97ea1d/digital-0.bin
+[2026-08-29 21:15:56.817] [main] [info] [logic_device_node.cpp:231] device release request
+[2026-08-29 21:15:56.855] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: 0
+[2026-08-29 21:15:56.855] [main] [info] [graph_server.cpp:843] DeleteGraph( 0 ) called
+[2026-08-29 21:16:04.737] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=1985.551 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 21:16:19.738] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=1940.379 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 21:16:34.741] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=2019.242 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 21:16:49.744] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=3014.141 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 21:17:04.747] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=3040.992 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 21:17:19.749] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=2920.391 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 21:17:34.754] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.047 MB, sys_avail=2970.848 MB, proc_mem_usage=-0.000 MB
+[2

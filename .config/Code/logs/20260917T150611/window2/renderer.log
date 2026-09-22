@@ -1,0 +1,7 @@
+2026-09-18 12:34:38.653 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-18 12:34:38.677 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 24ms.
+2026-09-18 12:34:38.832 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-18 12:34:38.888 [info] Started local extension host with pid 357871.
+2026-09-18 12:34:38.910 [info] [AgentHost:renderer] Protocol connection established; clientId=0651e363-ce05-42be-8c9d-76d1ef084266
+2026-09-18 12:34:39.006 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-09-18 12:34:40.004 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

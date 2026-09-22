@@ -1,0 +1,138 @@
+[2026-08-29 22:56:01.120] [main] [info] [saleae_log.cpp:354] Logfile path set to: /home/trang/.config/Logic/logs/2026-08-29_22-55-59_82251ed6-a1aa-4f58-919e-bac72b922bec/graphio.log
+[2026-08-29 22:56:01.120] [main] [critical] [saleae_log.cpp:357] Global logging level is set to: info
+[2026-08-29 22:56:01.726] [main] [info] [graph_server.cpp:832] Creating session -2
+[2026-08-29 22:56:01.753] [main] [info] [graph_server.cpp:890] DeleteGraphData SessionId: -2
+[2026-08-29 22:56:01.753] [main] [info] [graph_server.cpp:915] DeleteGraph( -2 )
+[2026-08-29 22:56:01.925] [main] [info] [graph_server.cpp:832] Creating session -1
+[2026-08-29 22:56:01.939] [usb] [info] [DevicesManager.cpp:169] Resetting DevicesManager
+[2026-08-29 22:56:01.980] [device] [info] [GenericDevice.cpp:65] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-29 22:56:01.980] [device] [info] [GenericDevice.cpp:65] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-29 22:56:01.982] [device] [info] [GenericDevice.cpp:65] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-29 22:56:16.703] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3784.914 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:56:21.098] [main] [info] [graph_server.cpp:832] Creating session 0
+[2026-08-29 22:56:21.114] [main] [info] [data_collection_manager.cpp:423] Called SetWriteAllowed( true )
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:639] Starting deserialization for 1
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/0 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-0.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/1 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-1.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/2 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-2.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/3 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-3.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/4 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-4.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/5 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-5.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/6 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-6.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/7 type=Digital path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-7.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:642]   Target: id= type=Trigger path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/trigger-store.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/0, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-0.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/1, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-1.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/2, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-2.bin
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-0.bin
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/3, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-3.bin
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-3.bin
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=189603
+[2026-08-29 22:56:21.132] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-29 22:56:21.132] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-2.bin
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-29 22:56:21.132] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.132] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/4, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-4.bin
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-2.bin
+[2026-08-29 22:56:21.133] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-0.bin
+[2026-08-29 22:56:21.133] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-3.bin
+[2026-08-29 22:56:21.132] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-4.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-29 22:56:21.134] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-4.bin
+[2026-08-29 22:56:21.134] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/5, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-5.bin
+[2026-08-29 22:56:21.134] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/6, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-6.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-5.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-6.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-29 22:56:21.134] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-29 22:56:21.134] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-5.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-6.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-1.bin
+[2026-08-29 22:56:21.134] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=1049084
+[2026-08-29 22:56:21.134] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-1.bin
+[2026-08-29 22:56:21.136] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/7, type=Digital, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-7.bin
+[2026-08-29 22:56:21.136] [main] [info] [data_collection_manager.cpp:679] Starting task for id=, type=Trigger, path=/tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/trigger-store.bin
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-7.bin
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/trigger-store.bin
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=32
+[2026-08-29 22:56:21.136] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/trigger-store.bin
+[2026-08-29 22:56:21.136] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/f965f70c-d86a-49b1-85e7-306105aa679b/digital-7.bin
+[2026-08-29 22:56:27.287] [rendering.manager] [info] [rendering_manager_node_connections.cpp:14] Connecting analyzer API
+[2026-08-29 22:56:27.287] [main] [info] [analyzer_node.cpp:2061] named pipe connected
+[2026-08-29 22:56:27.720] [main] [info] [analyzer_node.cpp:2026] all frames written to database
+[2026-08-29 22:56:31.705] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3550.105 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:56:46.707] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3492.598 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:57:01.709] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3700.500 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:57:16.710] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3719.219 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:57:31.712] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3709.531 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:57:46.714] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3655.293 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:58:01.718] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3514.805 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:58:16.720] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3534.566 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:58:31.723] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3607.309 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:58:46.724] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3578.074 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:59:01.728] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3561.582 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:59:16.731] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3552.727 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:59:31.733] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3432.527 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 22:59:46.735] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3518.316 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:00:01.739] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3619.168 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:00:16.741] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3624.590 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:00:31.742] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3519.238 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:00:36.721] [main] [info] [analyzer_node.cpp:1275] start of export thread
+[2026-08-29 23:00:36.783] [main] [info] [analyzer_node.cpp:1313] end of export thread
+[2026-08-29 23:00:46.745] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3503.273 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:01:01.747] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3674.559 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:01:16.749] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3584.500 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:01:31.752] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3448.543 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:01:46.754] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3345.535 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:02:01.755] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3535.414 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:02:16.758] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3554.641 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:02:31.760] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3362.523 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:02:46.762] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3400.168 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:03:01.764] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3407.172 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:03:16.766] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3402.109 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:03:31.769] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3370.977 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:03:46.771] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3396.289 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:04:01.773] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3202.195 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:04:16.775] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3465.285 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:04:31.776] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3573.125 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:04:46.779] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3400.770 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:05:01.781] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3524.766 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:05:16.783] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3480.297 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:05:31.785] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3497.152 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:05:46.787] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3549.434 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:06:01.789] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3546.012 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:06:16.790] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3530.434 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:06:31.792] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3515.551 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:06:46.793] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3322.449 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:07:01.795] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3331.199 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:07:16.797] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3428.258 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:07:31.799] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3435.043 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:07:46.801] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3411.426 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:08:01.803] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3433.461 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:08:16.806] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3351.855 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:08:31.807] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3459.664 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:08:46.810] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3420.000 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:09:01.812] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3474.977 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:09:16.813] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3416.461 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:09:31.816] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3362.391 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:09:46.817] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3246.277 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:10:01.819] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3261.852 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:10:16.821] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3184.109 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:10:31.823] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3184.703 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:10:46.825] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3187.133 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:11:01.827] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2909.531 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:11:16.829] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3085.996 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:11:31.831] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2997.758 MB, proc_mem_usage=-0.000 MB
+[2026-08-29 23:11:36.805] [main] [info] [analyzer_node.cpp:615] joining database thread
+[2026-08-29 23:11:36.805] [main] [info] [analyzer_node.cpp:618] database thread joined
+[2026-08-29 23:11:36.811] [graph] [warning] [graph_server.cpp:546] Direct message handler exception: Pipe with specified id does not exist
+Data:
+{"type":"request","contents":{"id":110,"type":"Saleae::Graph::GraphActionData","runInParallel":false,"actions":[{"type":"Saleae::Graph::GraphActions::RemovePipe","id":1000000485}],"meta":{"sessionId":0,"destination":"GraphServer"}}}

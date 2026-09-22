@@ -1,0 +1,29 @@
+2026-09-22 13:29:38.869 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-22 13:29:38.898 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 24ms.
+2026-09-22 13:29:39.111 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-09-22 13:29:39.589 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-22 13:29:39.694 [info] Started local extension host with pid 9635.
+2026-09-22 13:29:39.797 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-09-22 13:29:40.174 [info] [AgentHost:renderer] Protocol connection established; clientId=5c58331e-43d3-4577-abe6-e3919b03d0c3
+2026-09-22 13:29:41.374 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 13:29:42.079 [error] [Extension Host] (node:9635) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-22 13:29:42.137 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-22 13:29:42.180 [error] [Extension Host] (node:9635) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-22 13:29:42.545 [error] [Extension Host] (node:9635) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2026-09-22 13:29:43.429 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2026-09-22 13:29:43.619 [info] [perf] Render performance baseline is 22ms
+2026-09-22 13:29:44.116 [info] Auto updating outdated extensions. shd101wyy.markdown-preview-enhanced
+2026-09-22 13:29:44.962 [error] chatParticipant must be declared in package.json: claude-code
+2026-09-22 13:29:46.067 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-22 13:29:46.083 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-22 13:29:46.372 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 13:29:47.491 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-09-22 13:29:55.479 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-09-22 13:33:17.213 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.132/commands/latest.txt
+2026-09-22 13:33:17.213 [error] [Extension Host] Response status: 404, status text: 
+2026-09-22 13:33:17.920 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.132/commands/core.json
+2026-09-22 13:33:17.922 [error] [Extension Host] Response status: 404, status text: 
+2026-09-22 13:33:49.347 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-09-22 13:33:49.347 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-09-22 13:33:49.348 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'

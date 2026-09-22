@@ -1,0 +1,6 @@
+2026/09/20-15:52:16.869 c92fc Reusing MANIFEST /home/trang/.config/chromium/Default/shared_proto_db/MANIFEST-000001
+2026/09/20-15:52:16.869 c92fc Recovering log #10
+2026/09/20-15:52:16.876 c92fc Reusing old log /home/trang/.config/chromium/Default/shared_proto_db/000010.log 
+2026/09/20-15:52:16.950 c930a Level-0 table #14: started
+2026/09/20-15:52:16.957 c930a Level-0 table #14: 83231 bytes OK
+2026/09/20-15:52:16.959 c930a Delete type=0 #10

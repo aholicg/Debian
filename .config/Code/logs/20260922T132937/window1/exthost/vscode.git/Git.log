@@ -1,0 +1,75 @@
+2026-09-22 13:29:45.030 [info] [main] Log level: Info
+2026-09-22 13:29:45.030 [info] [main] Validating found git in: "git"
+2026-09-22 13:29:45.030 [info] [main] Using git "2.47.3" from "git"
+2026-09-22 13:29:45.030 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-22 13:29:45.030 [info] > git rev-parse --show-toplevel [1707ms]
+2026-09-22 13:29:45.057 [info] > git rev-parse --show-toplevel [10ms]
+2026-09-22 13:29:45.082 [info] > git rev-parse --show-toplevel [10ms]
+2026-09-22 13:29:45.094 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-22 13:29:45.105 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-22 13:29:45.120 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-09-22 13:29:45.134 [info] [Model][openRepository] Opened repository (path): /home/trang/bkcs/work/core
+2026-09-22 13:29:45.134 [info] [Model][openRepository] Opened repository (real path): /home/trang/bkcs/work/core
+2026-09-22 13:29:45.134 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-22 13:29:45.163 [info] > git config --get commit.template [10ms]
+2026-09-22 13:29:45.163 [info] > git config --get --local core.virtualfilesystem [21ms]
+2026-09-22 13:29:45.163 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-22 13:29:45.173 [info] > git rev-parse --show-toplevel [12ms]
+2026-09-22 13:29:45.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/stable/26.7 refs/remotes/stable/26.7 [7ms]
+2026-09-22 13:29:45.187 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/trang/bkcs/work/core/.git/refs/remotes/origin/stable/26.7'
+2026-09-22 13:29:45.187 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-09-22 13:29:45.188 [info] > git rev-parse refs/remotes/origin/stable/26.7 [1ms]
+2026-09-22 13:29:45.211 [info] [Model][openRepository] Opened repository (path): /home/trang/bkcs/work/vagrant-opnsense
+2026-09-22 13:29:45.211 [info] [Model][openRepository] Opened repository (real path): /home/trang/bkcs/work/vagrant-opnsense
+2026-09-22 13:29:45.211 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-22 13:29:45.222 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2026-09-22 13:29:45.234 [info] > git config --get --local core.virtualfilesystem [14ms]
+2026-09-22 13:29:45.234 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-22 13:29:45.237 [info] > git config --get commit.template [5ms]
+2026-09-22 13:29:45.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-09-22 13:29:45.260 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/trang/bkcs/work/vagrant-opnsense/.git/refs/remotes/origin/main'
+2026-09-22 13:29:45.262 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-09-22 13:29:45.291 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [87ms]
+2026-09-22 13:29:45.295 [info] > git status -z -uall [22ms]
+2026-09-22 13:29:45.296 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-09-22 13:29:45.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [52ms]
+2026-09-22 13:29:45.384 [info] > git config --get commit.template [11ms]
+2026-09-22 13:29:45.393 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2026-09-22 13:29:45.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2026-09-22 13:29:45.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2026-09-22 13:29:45.427 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/trang/bkcs/work/vagrant-opnsense/.git/refs/remotes/origin/main'
+2026-09-22 13:29:45.461 [info] > git rev-parse refs/remotes/origin/main [34ms]
+2026-09-22 13:29:45.484 [info] > git merge-base refs/heads/main refs/remotes/origin/main [67ms]
+2026-09-22 13:29:45.505 [info] > git status -z -uall [31ms]
+2026-09-22 13:29:45.505 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% f8331082dc528fc9b12fa63f44ce004e46757477...refs/remotes/origin/main -- [10ms]
+2026-09-22 13:29:45.507 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2026-09-22 13:29:45.792 [info] > git status -z -uall [597ms]
+2026-09-22 13:29:45.862 [info] > git check-ignore -v -z --stdin [29ms]
+2026-09-22 13:29:45.862 [info] > git check-ignore -v -z --stdin [22ms]
+2026-09-22 13:29:45.863 [info] > git config --get commit.template [74ms]
+2026-09-22 13:29:45.883 [info] > git config --get commit.template [22ms]
+2026-09-22 13:29:45.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/stable/26.7 refs/remotes/stable/26.7 [78ms]
+2026-09-22 13:29:45.925 [info] > git config --get --local branch.stable/26.7.vscode-merge-base [35ms]
+2026-09-22 13:29:45.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2026-09-22 13:29:45.941 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/trang/bkcs/work/vagrant-opnsense/.git/refs/remotes/origin/main'
+2026-09-22 13:29:45.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/stable/26.7 refs/remotes/stable/26.7 [17ms]
+2026-09-22 13:29:45.954 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/trang/bkcs/work/core/.git/refs/remotes/origin/stable/26.7'
+2026-09-22 13:29:45.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [22ms]
+2026-09-22 13:29:45.976 [info] > git rev-parse refs/remotes/origin/main [35ms]
+2026-09-22 13:29:45.990 [info] > git status -z -uall [7ms]
+2026-09-22 13:29:45.990 [info] > git merge-base refs/heads/stable/26.7 refs/remotes/origin/stable/26.7 [26ms]
+2026-09-22 13:29:45.997 [info] > git rev-parse refs/remotes/origin/stable/26.7 [43ms]
+2026-09-22 13:29:46.020 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4fd8ebfb13d552329a22aa56427b855e30770488...refs/remotes/origin/stable/26.7 -- [23ms]
+2026-09-22 13:29:46.023 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2026-09-22 13:29:46.029 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2026-09-22 13:29:46.217 [info] > git status -z -uall [213ms]
+2026-09-22 13:29:46.406 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-22 13:29:46.468 [info] > git rev-parse --show-toplevel [1ms]
+2026-09-22 13:33:07.028 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-22 13:33:07.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 13:33:09.874 [info] > git rev-parse --show-toplevel [0ms]
+2026-09-22 13:33:09.874 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 13:33:09.886 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-22 13:33:09.886 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 13:33:11.524 [info] > git rev-parse --show-toplevel [1ms]
+2026-09-22 13:33:11.524 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,6 @@
+2026/03/11-00:22:01.400 1afeb Creating DB /home/trang/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb since it was missing.
+2026/03/11-00:22:01.403 1afeb Reusing MANIFEST /home/trang/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/03/11-00:22:01.469 1afeb Level-0 table #5: started
+2026/03/11-00:22:01.470 1afeb Level-0 table #5: 809 bytes OK
+2026/03/11-00:22:01.472 1afeb Delete type=0 #3
+2026/03/11-00:22:01.472 1afeb Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

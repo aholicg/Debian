@@ -3,7 +3,13 @@
     "windowBounds": {
         "x": 0,
         "y": 0,
-        "width": 1361,
+        "width": 940,
         "height": 731
-    }
+    },
+    "updater": {
+        "snoozeUntil": 1787563571223,
+        "ignoredVersion": "1.6.7"
+    },
+    "maximized": false,
+    "minimized": false
 }

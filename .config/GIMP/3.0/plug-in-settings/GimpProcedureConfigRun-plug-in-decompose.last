@@ -1,0 +1,7 @@
+# settings
+
+(decompose-type "cmyk")
+(layers-mode no)
+(use-registration no)
+
+# end of settings

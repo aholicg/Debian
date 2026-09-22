@@ -1,0 +1,151 @@
+[2026-01-01 22:19:57.061] [main] [info] [saleae_log.cpp:338] Logfile path set to: /home/trang/.config/Logic/logs/2026-01-01_22-19-54_da353b0b-4885-477e-ac71-a65617b892fe/graphio.log
+[2026-01-01 22:19:57.061] [main] [critical] [saleae_log.cpp:341] Global logging level is set to: info
+[2026-01-01 22:19:57.970] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: -2
+[2026-01-01 22:19:57.970] [main] [info] [graph_server.cpp:843] DeleteGraph( -2 ) called
+[2026-01-01 22:19:58.144] [usb] [info] [DevicesManager.cpp:167] Resetting DevicesManager
+[2026-01-01 22:19:58.164] [device] [info] [GenericDevice.cpp:60] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:19:58.164] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:19:58.164] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:20:12.804] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3832.570 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:20:27.805] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3932.633 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:20:42.806] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4041.387 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:20:57.808] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4044.398 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:21:12.809] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=4037.207 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:21:27.817] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3662.934 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:21:42.822] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3286.078 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:21:57.825] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3562.043 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:22:12.831] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3572.902 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:22:27.832] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3640.609 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:22:42.833] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3635.797 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:22:57.835] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3675.090 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:23:12.836] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3699.000 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:23:27.837] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3702.316 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:23:42.838] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3716.570 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:23:57.840] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3708.004 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:24:12.841] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3401.961 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:24:27.842] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3511.551 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:24:39.504] [main] [info] [logic_device_node.cpp:121] acquire request for device instance id DeviceInstanceId(1000)
+[2026-01-01 22:24:39.504] [usb] [info] [DevicesManager.cpp:347] Acquiring device handle 1000
+[2026-01-01 22:24:39.587] [main] [info] [logic_device_node.cpp:279] enable channels
+[2026-01-01 22:24:39.593] [main] [info] [logic_device_node.cpp:250] set sample rate: 10000000, 625000
+[2026-01-01 22:24:39.594] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.604] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.604] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.605] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.606] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.607] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.608] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.608] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.608] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.608] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.608] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.608] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.609] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.609] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.609] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:39.609] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:24:42.843] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3344.293 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:24:48.793] [main] [info] [logic_device_node.cpp:444] start capture
+[2026-01-01 22:24:48.867] [main] [info] [analyzer_node.cpp:2057] named pipe connected
+[2026-01-01 22:24:49.529] [main] [info] [logic_device_node.cpp:530] stop capture
+[2026-01-01 22:24:50.108] [main] [info] [analyzer_node.cpp:2022] all frames written to database
+[2026-01-01 22:24:55.655] [store] [info] [digital_store.cpp:203] DigitalStore::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.655] [store] [info] [digital_store.cpp:214] Serializing data to file: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-0.bin
+[2026-01-01 22:24:55.655] [store] [info] [digital_store.cpp:220] DigitalStore::OnStartSerialization: Determining size of serialized data
+[2026-01-01 22:24:55.655] [store] [info] [digital_store.cpp:232] DigitalStore::OnStartSerialization: Size of serialized data: 275377
+[2026-01-01 22:24:55.655] [store] [info] [digital_store.cpp:245] DigitalStore::OnStartSerialization: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-0.bin opened
+[2026-01-01 22:24:55.655] [main] [info] [analog_store.cpp:177] AnalogStore::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.656] [store] [info] [digital_store.cpp:264] DigitalStore::OnStartSerialization: serialization complete. total size = 275377
+[2026-01-01 22:24:55.657] [store] [info] [digital_store.cpp:203] DigitalStore::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.657] [store] [info] [digital_store.cpp:214] Serializing data to file: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-1.bin
+[2026-01-01 22:24:55.657] [store] [info] [digital_store.cpp:220] DigitalStore::OnStartSerialization: Determining size of serialized data
+[2026-01-01 22:24:55.657] [main] [info] [analog_store.cpp:177] AnalogStore::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.657] [store] [info] [digital_store.cpp:232] DigitalStore::OnStartSerialization: Size of serialized data: 271408
+[2026-01-01 22:24:55.657] [store] [info] [digital_store.cpp:245] DigitalStore::OnStartSerialization: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-1.bin opened
+[2026-01-01 22:24:55.658] [store] [info] [digital_store.cpp:264] DigitalStore::OnStartSerialization: serialization complete. total size = 271408
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:203] DigitalStore::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:203] DigitalStore::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:214] Serializing data to file: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-2.bin
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:220] DigitalStore::OnStartSerialization: Determining size of serialized data
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:232] DigitalStore::OnStartSerialization: Size of serialized data: 918586
+[2026-01-01 22:24:55.659] [main] [info] [trigger_store_node.cpp:211] TriggerStoreNode::OnStartSerialization: Creating serialization thread
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:245] DigitalStore::OnStartSerialization: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-2.bin opened
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:214] Serializing data to file: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-3.bin
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:220] DigitalStore::OnStartSerialization: Determining size of serialized data
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:232] DigitalStore::OnStartSerialization: Size of serialized data: 57243
+[2026-01-01 22:24:55.659] [store] [info] [digital_store.cpp:245] DigitalStore::OnStartSerialization: /tmp/47757136-3866-4815-a2eb-7811b06e9428/digital-3.bin opened
+[2026-01-01 22:24:55.660] [main] [info] [trigger_store_node.cpp:284] TriggerStoreNode::OnStartSerialization: serialization complete. total size = 32
+[2026-01-01 22:24:55.660] [store] [info] [digital_store.cpp:264] DigitalStore::OnStartSerialization: serialization complete. total size = 57243
+[2026-01-01 22:24:55.665] [store] [info] [digital_store.cpp:264] DigitalStore::OnStartSerialization: serialization complete. total size = 918586
+[2026-01-01 22:24:57.846] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3093.211 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:25:12.847] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3283.074 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:25:27.848] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3334.051 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:25:42.849] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3336.176 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:25:57.850] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3287.266 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:26:12.851] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3290.660 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:26:27.853] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3135.527 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:26:42.854] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3558.105 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:26:57.855] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3589.227 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:27:12.857] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3525.531 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:27:27.858] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3585.332 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:27:42.859] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3612.145 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:27:57.861] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3582.879 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:28:12.862] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3567.297 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:28:27.864] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3598.191 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:28:42.869] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3500.262 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:28:57.870] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3548.316 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:29:12.872] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3559.379 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:29:27.873] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3572.195 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:29:42.874] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3600.707 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:29:57.875] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3592.195 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:30:12.876] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3589.422 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:30:27.877] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3620.270 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:30:42.879] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3611.520 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:30:57.880] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3650.809 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:31:12.881] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3636.469 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:31:27.882] [monitor] [info] [graph_server.cpp:352] System Memory Usage: sys_total=7632.035 MB, sys_avail=3531.945 MB, proc_mem_usage=-0.000 MB
+[2026-01-01 22:31:29.017] [main] [info] [logic_device_node.cpp:231] device release request
+[2026-01-01 22:31:29.017] [usb] [info] [DevicesManager.cpp:399] Releasing device handle 1000
+[2026-01-01 22:31:29.047] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.047] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.049] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.049] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.049] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.049] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.050] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.050] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.050] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.050] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.050] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.051] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.051] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.051] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.051] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.051] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:29.298] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.299] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-0.bin
+[2026-01-01 22:31:29.299] [store] [warning] [digital_store.cpp:330] DigitalStore::OnStartDeserialization: File not found - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-0.bin
+[2026-01-01 22:31:29.299] [main] [info] [analog_store.cpp:293] AnalogStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.299] [main] [info] [analog_store.cpp:328] AnalogStore::OnStartDeserialization: File is empty - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/analog-0.bin
+[2026-01-01 22:31:29.299] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.299] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-1.bin
+[2026-01-01 22:31:29.299] [store] [warning] [digital_store.cpp:330] DigitalStore::OnStartDeserialization: File not found - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-1.bin
+[2026-01-01 22:31:29.299] [main] [info] [analog_store.cpp:293] AnalogStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.299] [main] [info] [analog_store.cpp:328] AnalogStore::OnStartDeserialization: File is empty - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/analog-1.bin
+[2026-01-01 22:31:29.299] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.299] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-2.bin
+[2026-01-01 22:31:29.299] [store] [warning] [digital_store.cpp:330] DigitalStore::OnStartDeserialization: File not found - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-2.bin
+[2026-01-01 22:31:29.299] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.300] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-3.bin
+[2026-01-01 22:31:29.300] [main] [info] [trigger_store_node.cpp:228] TriggerStoreNode::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:29.300] [main] [info] [trigger_store_node.cpp:318] TriggerStoreNode::DeserializeOnThread - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/trigger-store.bin
+[2026-01-01 22:31:29.300] [main] [info] [trigger_store_node.cpp:325] TriggerStoreNode::OnStartDeserialization: File not found - /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/trigger-store.bin
+[2026-01-01 22:31:29.305] [store] [warning] [digital_store.cpp:372] DigitalStore::OnStartDeserialization: Deserialization exception encountered. exception: Invalid header; file: /tmp/c1094ce5-9dfd-45f3-a608-247f7aaf7e96/digital-3.bin
+[2026-01-01 22:31:29.405] [main] [info] [logic_device_node.cpp:231] device release request
+[2026-01-01 22:31:29.464] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: 1
+[2026-01-01 22:31:29.464] [main] [info] [graph_server.cpp:843] DeleteGraph( 1 ) called
+[2026-01-01 22:31:34.348] [main] [info] [analyzer_node.cpp:629] joining database thread
+[2026-01-01 22:31:34.348] [main] [info] [analyzer_node.cpp:632] database thread joined
+[2026-01-01 22:31:34.358] [graph] [warning] [graph_server.cpp:510] Direct message handler exception: Pipe with specified id does not exist
+Data:
+{"type":"request","contents":{"id":207,"type":"Saleae::Graph::GraphActionData","runInParallel":false,"actions":[{"type":"Saleae::Graph::GraphActions::RemovePipe","id":1000000269}],"meta":{"sessionId":0,"destination":"GraphServer"}}}

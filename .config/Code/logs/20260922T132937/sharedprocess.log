@@ -1,0 +1,7 @@
+2026-09-22 13:29:45.123 [info] Getting Manifest... shd101wyy.markdown-preview-enhanced
+2026-09-22 13:29:45.535 [info] Installing extension: shd101wyy.markdown-preview-enhanced {"productVersion":{"version":"1.132.0","date":"2026-08-04T15:30:20Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/trang/.vscode/extensions/extensions.json","path":"/home/trang/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-09-22 13:29:52.800 [info] Extension signature verification result for shd101wyy.markdown-preview-enhanced: Success. Internal Code: 0. Executed: true. Duration: 1386ms.
+2026-09-22 13:29:53.318 [info] Extracted extension to file:///home/trang/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.36: shd101wyy.markdown-preview-enhanced
+2026-09-22 13:29:53.330 [info] Renamed to /home/trang/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.36
+2026-09-22 13:29:53.348 [info] Marked extension as removed shd101wyy.markdown-preview-enhanced-0.8.35
+2026-09-22 13:29:53.359 [info] Extension installed successfully: shd101wyy.markdown-preview-enhanced vscode-userdata:/home/trang/.vscode/extensions/extensions.json

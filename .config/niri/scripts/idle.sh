@@ -5,7 +5,7 @@
 # 5-minute (300s) timeout to turn off the monitors
 
 exec swayidle -w \
-    timeout 200 'brightnessctl -s & brightnessctl set 1000'\
+    timeout 200 'brightnessctl -s && brightnessctl set 1000'\
     resume 'brightnessctl -r' \
     timeout 240 'gtklock -d' \
     timeout 300 'niri msg action power-off-monitors' \

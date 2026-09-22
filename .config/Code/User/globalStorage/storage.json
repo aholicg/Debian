@@ -1,15 +1,19 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "dd40c9339cfd03edc74b67adf6d34fed0bddf5bcd3e2c0b5b9a2d1cf8e4ea146",
-    "telemetry.devDeviceId": "38b9eee7-e73a-4ee9-9889-c3aed5b100ee",
+    "telemetry.devDeviceId": "4054f6c7-e9c2-43ba-9e0e-eeecaf19b74e",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/trang/localnsv"
+                "folderUri": "file:///home/trang/bkcs/work"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1790059079784"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -17,58 +21,69 @@
             "file:///home/trang/mAIware": "__default__profile__",
             "file:///home/trang/localnsv": "__default__profile__",
             "file:///home/trang/localnsv/mAIware-server": "__default__profile__",
-            "file:///home/trang/localnsv/mAIware": "__default__profile__"
+            "file:///home/trang/localnsv/mAIware": "__default__profile__",
+            "file:///home/trang/ctf/sejong/rev": "__default__profile__",
+            "file:///home/trang/ctf/sejong/web": "__default__profile__",
+            "file:///home/trang/ctf/ndias/VINhunter": "__default__profile__",
+            "file:///home/trang/intern/b5": "__default__profile__",
+            "file:///home/trang/bkcs/work": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1790059079784": "__default__profile__"
+        }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/trang/localnsv",
-            "backupPath": "/home/trang/.config/Code/Backups/aee4f753c73fce1a14a3ec992727fa72",
+            "backupPath": "/home/trang/.config/Code/Backups/1790059079784",
             "uiState": {
-                "mode": 1,
-                "x": 0,
-                "y": 0,
-                "width": 1361,
+                "mode": 0,
+                "x": 1280,
+                "y": 10,
+                "width": 905,
                 "height": 731
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#121314",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "titleBarBorder": "#2b2b2b",
-            "activityBarBackground": "#181818",
-            "activityBarBorder": "#2b2b2b",
-            "sideBarBackground": "#181818",
-            "sideBarBorder": "#2b2b2b",
-            "statusBarBackground": "#181818",
-            "statusBarBorder": "#2b2b2b",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 283,
-            "auxiliaryBarWidth": 354,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
-            "windowBorder": false
+            "windowBorder": false,
+            "modernUI": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 283,
-            "auxiliaryBarWidth": 354,
+            "sideBarWidth": 269,
+            "auxiliaryBarWidth": 300,
             "workspaces": {
                 "b8238573dd0ca5f7fd304112a0e98325": {
                     "sideBarVisible": true,
@@ -85,6 +100,30 @@
                 "9db99ece2007200d4d280d06fe3e831e": {
                     "sideBarVisible": false,
                     "auxiliaryBarVisible": true
+                },
+                "2c989f56b8890afdd3a829b85d62e3ca": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6f60b282ede1ec1297de811d91b60033": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "243a1385ab14cbd1595ea49c4832882e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "35bcca6cac016c1f48a3ec1005625ec9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "15a845ac94fb26cd0b98f04bb442fd4b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "873d9a0ef642f38fa1a55062719720e0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
                 }
             }
         }

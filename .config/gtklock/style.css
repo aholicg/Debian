@@ -14,7 +14,7 @@ window {
     background-color: rgba(46, 52, 64, 0.7);
 }
 
-#runshell {
+/* #runshell {
     color: #eceff4;
     padding: 5px;
     border-radius: 10px;
@@ -22,4 +22,17 @@ window {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin: 10px;
+} */
+
+#runshell {
+    color: #eceff4;
+    background-color: rgba(46, 52, 64, 0.7); /* Matching your window-box opacity */
+    border: 2px solid rgba(163, 190, 140, 0.6); /* Subtle Nord green accent border */
+    border-radius: 10px; /* Forces a rounded pill shape */
+    padding: 6px 12px 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px; /* Pushes it slightly away from the absolute screen edge */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    min-height: 24px;
 }

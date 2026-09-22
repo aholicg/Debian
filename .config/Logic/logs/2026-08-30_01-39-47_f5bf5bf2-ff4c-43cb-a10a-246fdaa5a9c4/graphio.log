@@ -1,0 +1,81 @@
+[2026-08-30 01:39:48.981] [main] [info] [saleae_log.cpp:354] Logfile path set to: /home/trang/.config/Logic/logs/2026-08-30_01-39-47_f5bf5bf2-ff4c-43cb-a10a-246fdaa5a9c4/graphio.log
+[2026-08-30 01:39:48.981] [main] [critical] [saleae_log.cpp:357] Global logging level is set to: info
+[2026-08-30 01:39:49.732] [main] [info] [graph_server.cpp:832] Creating session -2
+[2026-08-30 01:39:49.804] [main] [info] [graph_server.cpp:890] DeleteGraphData SessionId: -2
+[2026-08-30 01:39:49.804] [main] [info] [graph_server.cpp:915] DeleteGraph( -2 )
+[2026-08-30 01:39:50.053] [main] [info] [graph_server.cpp:832] Creating session -1
+[2026-08-30 01:39:50.065] [usb] [info] [DevicesManager.cpp:169] Resetting DevicesManager
+[2026-08-30 01:39:50.101] [device] [info] [GenericDevice.cpp:65] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-30 01:39:50.102] [device] [info] [GenericDevice.cpp:65] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-30 01:39:50.102] [device] [info] [GenericDevice.cpp:65] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-30 01:40:04.668] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3236.938 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:40:06.941] [main] [info] [graph_server.cpp:832] Creating session 0
+[2026-08-30 01:40:06.955] [main] [info] [data_collection_manager.cpp:423] Called SetWriteAllowed( true )
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:639] Starting deserialization for 1
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/0 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-0.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/1 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-1.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/2 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-2.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/3 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-3.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/4 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-4.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/5 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-5.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/6 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-6.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/7 type=Digital path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-7.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:642]   Target: id= type=Trigger path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/trigger-store.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/0, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-0.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/1, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-1.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/2, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-2.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/3, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-3.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/4, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-4.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/5, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-5.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/6, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-6.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/7, type=Digital, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-7.bin
+[2026-08-30 01:40:06.978] [main] [info] [data_collection_manager.cpp:679] Starting task for id=, type=Trigger, path=/tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/trigger-store.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-5.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-1.bin
+[2026-08-30 01:40:06.979] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-2.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-5.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 01:40:06.979] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-2.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-3.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-7.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 01:40:06.979] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-7.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 01:40:06.979] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-3.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=1049084
+[2026-08-30 01:40:06.979] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-6.bin
+[2026-08-30 01:40:06.979] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 01:40:06.979] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-0.bin
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=189603
+[2026-08-30 01:40:06.980] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/trigger-store.bin
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-6.bin
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=32
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/trigger-store.bin
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-4.bin
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 01:40:06.980] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 01:40:06.980] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-4.bin
+[2026-08-30 01:40:06.981] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-0.bin
+[2026-08-30 01:40:06.983] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/b2b80a93-be27-48fb-b8eb-d6fecf37b135/digital-1.bin
+[2026-08-30 01:40:19.669] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2977.633 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:40:34.676] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3178.676 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:40:49.677] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3278.832 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:41:04.678] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3300.508 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:41:19.680] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3333.066 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:41:34.682] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3276.816 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:41:49.683] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3247.051 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:42:04.684] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3262.180 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:42:19.685] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3197.055 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:42:34.687] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2992.664 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:42:49.687] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2957.789 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:43:04.689] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2935.359 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:43:19.690] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3114.328 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 01:43:34.691] [monitor] [info] [graph_server.cpp:378] 

@@ -1,0 +1,23 @@
+2026-09-19 15:51:53.999 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-19 15:51:54.029 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 24ms.
+2026-09-19 15:51:54.337 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-19 15:51:54.566 [info] Started local extension host with pid 773948.
+2026-09-19 15:51:54.806 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-09-19 15:51:55.868 [info] [AgentHost:renderer] Protocol connection established; clientId=dc0c5c90-85ba-479c-a3c0-f2699a246d3f
+2026-09-19 15:51:57.213 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-19 15:51:58.420 [error] [Extension Host] (node:773948) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-19 15:51:59.476 [error] Tool "renderMermaidDiagram" was not contributed.
+2026-09-19 15:51:59.626 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-19 15:52:00.710 [info] [perf] Render performance baseline is 63ms
+2026-09-19 15:52:01.029 [error] [Extension Host] (node:773948) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-19 15:52:02.124 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2026-09-19 15:52:02.239 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-19 15:52:02.513 [error] chatParticipant must be declared in package.json: claude-code
+2026-09-19 15:52:03.992 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-09-19 15:52:04.133 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-19 15:52:04.159 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-19 15:52:11.917 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-09-19 15:53:17.884 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-09-19 15:53:17.885 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-09-19 15:53:17.886 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'

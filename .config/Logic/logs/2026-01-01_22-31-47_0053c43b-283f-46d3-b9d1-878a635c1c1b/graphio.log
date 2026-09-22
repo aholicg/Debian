@@ -1,0 +1,32 @@
+[2026-01-01 22:31:49.207] [main] [info] [saleae_log.cpp:338] Logfile path set to: /home/trang/.config/Logic/logs/2026-01-01_22-31-47_0053c43b-283f-46d3-b9d1-878a635c1c1b/graphio.log
+[2026-01-01 22:31:49.207] [main] [critical] [saleae_log.cpp:341] Global logging level is set to: info
+[2026-01-01 22:31:50.071] [main] [info] [graph_server.cpp:821] DeleteGraphData SeesionId: -2
+[2026-01-01 22:31:50.071] [main] [info] [graph_server.cpp:843] DeleteGraph( -2 ) called
+[2026-01-01 22:31:50.316] [usb] [info] [DevicesManager.cpp:167] Resetting DevicesManager
+[2026-01-01 22:31:50.332] [device] [info] [GenericDevice.cpp:60] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:31:50.332] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:31:50.332] [device] [info] [GenericDevice.cpp:60] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-01-01 22:31:56.180] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.182] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.184] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.185] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.186] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.186] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.187] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.187] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.187] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.187] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.187] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.187] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.188] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.188] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.188] [node] [info] [digital_store.cpp:428] DigitalStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.188] [node] [info] [analog_store.cpp:124] AnalogStore::HandleSetWriteAllowed: Write allowed set to true
+[2026-01-01 22:31:56.431] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:56.431] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/5abe3772-d52e-4153-b20f-1599657f6c01/digital-0.bin
+[2026-01-01 22:31:56.431] [main] [info] [analog_store.cpp:293] AnalogStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:56.431] [store] [warning] [digital_store.cpp:330] DigitalStore::OnStartDeserialization: File not found - /tmp/5abe3772-d52e-4153-b20f-1599657f6c01/digital-0.bin
+[2026-01-01 22:31:56.431] [store] [info] [digital_store.cpp:307] DigitalStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:56.431] [store] [info] [digital_store.cpp:319] Deserializing data from file: /tmp/5abe3772-d52e-4153-b20f-1599657f6c01/digital-1.bin
+[2026-01-01 22:31:56.431] [main] [info] [analog_store.cpp:293] AnalogStore::OnStartDeserialization: Creating deserialization thread
+[2026-01-01 22:31:56.431] [store] [w

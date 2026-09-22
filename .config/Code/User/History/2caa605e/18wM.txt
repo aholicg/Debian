@@ -1,0 +1,10 @@
+web
+Observatory
+882 pts
+Our cloud monitoring team built a shiny new dashboard.
+Each team gets their own metrics namespace.
+But rumor has it... someone hid a secret in the system metrics.
+Can you find it?
+
+http://43.201.43.169:3000
+http://54.116.50.13:3000

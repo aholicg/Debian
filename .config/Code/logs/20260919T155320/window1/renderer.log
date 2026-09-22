@@ -1,0 +1,48 @@
+2026-09-19 15:53:21.501 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-19 15:53:21.531 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 23ms.
+2026-09-19 15:53:21.823 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-19 15:53:21.868 [info] Started local extension host with pid 775484.
+2026-09-19 15:53:22.233 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-09-19 15:53:22.776 [info] [AgentHost:renderer] Protocol connection established; clientId=2a8d4702-565e-41d1-9937-48258d1a19d5
+2026-09-19 15:53:23.547 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-19 15:53:24.832 [error] [Extension Host] (node:775484) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-19 15:53:26.003 [error] [Extension Host] (node:775484) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-19 15:53:26.289 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-19 15:53:26.754 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-19 15:53:26.790 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-19 15:53:26.974 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2026-09-19 15:53:27.267 [error] chatParticipant must be declared in package.json: claude-code
+2026-09-19 15:53:28.547 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-19 15:53:29.099 [info] [perf] Render performance baseline is 36ms
+2026-09-19 15:53:33.021 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-09-19 15:53:45.336 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-09-19 15:53:45.337 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-09-19 15:53:45.338 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-09-19 15:53:45.939 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-19 15:53:46.048 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-09-19 15:53:46.313 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-19 15:53:46.405 [info] Started local extension host with pid 776007.
+2026-09-19 15:53:46.478 [info] [AgentHost:renderer] Protocol connection established; clientId=ca6bbaf8-64d2-407f-8982-a94b9b13f9a3
+2026-09-19 15:53:46.591 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-09-19 15:53:48.412 [error] [Extension Host] (node:776007) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-19 15:53:48.484 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-19 15:53:48.510 [error] [Extension Host] (node:776007) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-19 15:53:50.271 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-19 15:53:50.665 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2026-09-19 15:53:50.943 [error] chatParticipant must be declared in package.json: claude-code
+2026-09-19 15:53:51.644 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-19 15:53:51.933 [info] [perf] Render performance baseline is 45ms
+2026-09-19 15:53:51.948 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-19 15:53:53.485 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-19 15:53:56.822 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-09-19 15:54:27.355 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.132/commands/latest.txt
+2026-09-19 15:54:27.355 [error] [Extension Host] Response status: 404, status text: 
+2026-09-19 15:54:28.115 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.132/commands/core.json
+2026-09-19 15:54:28.116 [error] [Extension Host] Response status: 404, status text: 
+2026-09-19 15:54:28.461 [error] [Extension Host] (node:776007) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2026-09-19 15:54:56.227 [warning] [backup tracker] suspended, ignoring unregister event file:///home/trang/bkcs/work/.vscode/sftp.json 
+2026-09-19 15:54:56.227 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-09-19 15:54:56.231 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-09-19 15:54:56.231 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'

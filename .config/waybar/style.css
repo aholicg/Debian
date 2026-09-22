@@ -137,14 +137,14 @@ button {
     }
 }
 
-#battery.critical:not(.charging) {
+#battery.critical:not(.charging):not(.plugged){
     background-color: #bf616a;
-    color: #eceff4;
-    animation-name: blink;
+    color: #eceff4
+    /* animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate; */
 }
 
 label:focus {

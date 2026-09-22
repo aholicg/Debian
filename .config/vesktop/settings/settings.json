@@ -231,16 +231,10 @@
         "ImplicitRelationships": {
             "enabled": false
         },
-        "InvisibleChat": {
-            "enabled": false
-        },
         "IrcColors": {
             "enabled": false
         },
         "KeepCurrentChannel": {
-            "enabled": false
-        },
-        "LastFMRichPresence": {
             "enabled": false
         },
         "LoadingQuotes": {
@@ -264,7 +258,7 @@
         "MessageLogger": {
             "enabled": false
         },
-        "MessageTags": {
+        "MoreQuickReactions": {
             "enabled": false
         },
         "MutualGroupDMs": {
@@ -307,9 +301,6 @@
             "enabled": false
         },
         "NoUnblockToJump": {
-            "enabled": false
-        },
-        "NormalizeMessageLinks": {
             "enabled": false
         },
         "NotificationVolume": {
@@ -533,7 +524,17 @@
         },
         "BadgeAPI": {
             "enabled": true
+        },
+        "CustomCommands": {
+            "enabled": false
+        },
+        "MusicRichPresence": {
+            "enabled": false
         }
+    },
+    "uiElements": {
+        "chatBarButtons": {},
+        "messagePopoverButtons": {}
     },
     "notifications": {
         "timeout": 5000,
@@ -545,6 +546,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1762365044645
-    }
+        "settingsSyncVersion": 1784134132775
+    },
+    "windowsMaterial": "none"
 }

@@ -1,0 +1,29 @@
+2026-09-22 13:29:39.570 [info] Agent Host process started successfully
+2026-09-22 13:29:39.570 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/trang/.config/Code/User'
+    at Ss.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:877:36782)
+    at async Ss.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:877:49601)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:877:49291
+2026-09-22 13:29:39.570 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/trang/.config/Code/User/settings.json'
+    at Ss.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:877:36782)
+    at async Ss.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:877:49601)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:877:49291
+2026-09-22 13:29:39.591 [info] AgentService initialized
+2026-09-22 13:29:39.606 [info] Registering agent provider: copilotcli
+2026-09-22 13:29:39.609 [info] Registering agent provider: claude
+2026-09-22 13:29:39.714 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-a9d25e886291/wKAqrzuBTVqmrVmBW7mt7w.sock
+2026-09-22 13:29:39.744 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-22 13:29:39.750 [info] [ProtocolServer] Initialize: clientId=5c58331e-43d3-4577-abe6-e3919b03d0c3, protocolVersions=[0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-22 13:29:42.610 [info] [Copilot] Listing sessions...
+2026-09-22 13:29:42.610 [info] [Copilot] Starting CopilotClient...
+2026-09-22 13:29:42.617 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-09-22 13:29:43.203 [info] [Copilot] Auth token updated
+2026-09-22 13:29:43.288 [info] [ClaudeProxyService] listening on http://127.0.0.1:46721
+2026-09-22 13:29:43.288 [info] [Claude] Auth token updated
+2026-09-22 13:29:43.628 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-22 13:29:43.641 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-22 13:29:44.727 [info] [Copilot] CopilotClient started successfully
+2026-09-22 13:29:44.741 [info] [Copilot] Found 0 sessions
+2026-09-22 13:29:45.476 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-09-22 13:29:46.062 [info] [Copilot] Listing models...
+2026-09-22 13:29:48.937 [info] [Claude] Models refreshed. Count: 0, 
+2026-09-22 13:29:55.769 [info] [Copilot] Found 1 models: Auto

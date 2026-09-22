@@ -5,7 +5,7 @@
 
 # ── Page appearance (paper) ────────────────────────────────
 set default-bg          "rgba(0, 0, 0, 0.8)"
-set recolor true
+set recolor false
 set recolor-darkcolor   "#000000"
 set recolor-lightcolor  "#fdf6e3"   # Warm cream paper (Solarized base3)
 set page-padding        0          # Breathing room around pages

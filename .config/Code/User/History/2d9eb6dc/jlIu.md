@@ -1,0 +1,8 @@
+1. Navigate to arXiv.org → Computer Science → Machine Learning (cs.LG). (Clicking "[ Begin Investigation ]" redirects directly to the target domain.)
+2. According to the challenge's description, Nguyen Minh Khoa's most recent paper is arXiv:2605.99847 (shown right at 2nd place in the web). ![image](https://hackmd.io/_uploads/r14c5pvvGl.png)
+3. His X (Twitter) account is easy to locate from the paper's author info.  ![image](https://hackmd.io/_uploads/ByTpqavwfe.png)
+4. His GitHub is linked in the pinned post on his X profile. ![image](https://hackmd.io/_uploads/BkD8javwMl.png)
+5. From there, the repository corresponding to his paper can be found. ![image](https://hackmd.io/_uploads/ryB2opwvGg.png)
+6. The README of the repo contains a Pastebin link, which was hinted by the challenge's description. ![image](https://hackmd.io/_uploads/rJqpopvDfx.png)
+7. Line 18 of the note contains a base64-encoded "masterkey." ![image](https://hackmd.io/_uploads/rkFe26DDze.png)
+8. Decoding it yields the flag. ![image](https://hackmd.io/_uploads/rko-2aPPzg.png)

@@ -1,0 +1,363 @@
+Note: This terminal execution was moved to the background using the ID 8ea47461-ced8-4cc3-b4b9-d4cbec2021cf
+Note: Command timed out after 30000ms. The command may still be running in terminal ID 8ea47461-ced8-4cc3-b4b9-d4cbec2021cf. You will be automatically notified on your next turn when it completes. Use get_terminal_output to check output before then, send_to_terminal to send further input, or kill_terminal to stop it. Do NOT use sleep or manual polling to wait. Evaluate the terminal output to determine if the command is waiting for input (e.g. a password prompt, confirmation, or interactive question). A normal shell prompt does NOT count as waiting for input. If it IS waiting for input, you MUST call the vscode_askQuestions tool to ask the user what values to provide. If you are certain about the exact sequence of upcoming prompts for this command (e.g. well-known interactive commands like npm init), include all of them in a single askQuestions call. Otherwise, ask only about the currently visible prompt. Do NOT respond with a text message asking the user — use the tool. Then send each answer one at a time using send_to_terminal with id "8ea47461-ced8-4cc3-b4b9-d4cbec2021cf", calling get_terminal_output between each to read the next prompt before sending the next answer.
+
+
+
+[... PREVIOUS OUTPUT TRUNCATED ...]
+
+0x100f40
+[mem mapped] 0x101000
+[mem invalid] access=21 addr=0x102000 size=1 value=0x0 rip=0x101ee4
+[mem mapped] 0x102000
+[mem invalid] access=21 addr=0x103000 size=1 value=0x0 rip=0x102fa6
+[mem mapped] 0x103000
+[mem invalid] access=21 addr=0x104000 size=1 value=0x0 rip=0x103f4a
+[mem mapped] 0x104000
+[mem invalid] access=21 addr=0x105000 size=1 value=0x0 rip=0x104eee
+[mem mapped] 0x105000
+[mem invalid] access=21 addr=0x106000 size=1 value=0x0 rip=0x105fb0
+[mem mapped] 0x106000
+[mem invalid] access=21 addr=0x107000 size=1 value=0x0 rip=0x106f54
+[mem mapped] 0x107000
+[mem invalid] access=21 addr=0x108000 size=1 value=0x0 rip=0x107ef8
+[mem mapped] 0x108000
+[mem invalid] access=21 addr=0x109000 size=1 value=0x0 rip=0x108fba
+[mem mapped] 0x109000
+[mem invalid] access=21 addr=0x10a000 size=1 value=0x0 rip=0x109f5e
+[mem mapped] 0x10a000
+[mem invalid] access=21 addr=0x10b000 size=1 value=0x0 rip=0x10af02
+[mem mapped] 0x10b000
+[mem invalid] access=21 addr=0x10c000 size=1 value=0x0 rip=0x10bfc4
+[mem mapped] 0x10c000
+[mem invalid] access=21 addr=0x10d000 size=1 value=0x0 rip=0x10cf68
+[mem mapped] 0x10d000
+[mem invalid] access=21 addr=0x10e000 size=1 value=0x0 rip=0x10df0c
+[mem mapped] 0x10e000
+[mem invalid] access=21 addr=0x10f000 size=1 value=0x0 rip=0x10efce
+[mem mapped] 0x10f000
+[mem invalid] access=21 addr=0x110000 size=1 value=0x0 rip=0x10ff72
+[mem mapped] 0x110000
+[mem invalid] access=21 addr=0x111000 size=1 value=0x0 rip=0x110f16
+[mem mapped] 0x111000
+[mem invalid] access=21 addr=0x112000 size=1 value=0x0 rip=0x111fd8
+[mem mapped] 0x112000
+[mem invalid] access=21 addr=0x113000 size=1 value=0x0 rip=0x112f7c
+[mem mapped] 0x113000
+[mem invalid] access=21 addr=0x114000 size=1 value=0x0 rip=0x113f20
+[mem mapped] 0x114000
+[mem invalid] access=21 addr=0x115000 size=1 value=0x0 rip=0x114fe2
+[mem mapped] 0x115000
+[mem invalid] access=21 addr=0x116000 size=1 value=0x0 rip=0x115f86
+[mem mapped] 0x116000
+[mem invalid] access=21 addr=0x117000 size=1 value=0x0 rip=0x116f2a
+[mem mapped] 0x117000
+[mem invalid] access=21 addr=0x118000 size=1 value=0x0 rip=0x117fec
+[mem mapped] 0x118000
+[mem invalid] access=21 addr=0x119000 size=1 value=0x0 rip=0x118f90
+[mem mapped] 0x119000
+[mem invalid] access=21 addr=0x11a000 size=1 value=0x0 rip=0x119f34
+[mem mapped] 0x11a000
+[mem invalid] access=21 addr=0x11b000 size=1 value=0x0 rip=0x11aff6
+[mem mapped] 0x11b000
+[mem invalid] access=21 addr=0x11c000 size=1 value=0x0 rip=0x11bf9a
+[mem mapped] 0x11c000
+[mem invalid] access=21 addr=0x11d000 size=1 value=0x0 rip=0x11cf3e
+[mem mapped] 0x11d000
+[mem invalid] access=21 addr=0x11e000 size=1 value=0x0 rip=0x11e000
+[mem mapped] 0x11e000
+[mem invalid] access=21 addr=0x11f000 size=1 value=0x0 rip=0x11efa4
+[mem mapped] 0x11f000
+[mem invalid] access=21 addr=0x120000 size=1 value=0x0 rip=0x11ff48
+[mem mapped] 0x120000
+[mem invalid] access=21 addr=0x121000 size=1 value=0x0 rip=0x120eec
+[mem mapped] 0x121000
+[mem invalid] access=21 addr=0x122000 size=1 value=0x0 rip=0x121fae
+[mem mapped] 0x122000
+[mem invalid] access=21 addr=0x123000 size=1 value=0x0 rip=0x122f52
+[mem mapped] 0x123000
+[mem invalid] access=21 addr=0x124000 size=1 value=0x0 rip=0x123ef6
+[mem mapped] 0x124000
+[mem invalid] access=21 addr=0x125000 size=1 value=0x0 rip=0x124fb8
+[mem mapped] 0x125000
+[mem invalid] access=21 addr=0x126000 size=1 value=0x0 rip=0x125f5c
+[mem mapped] 0x126000
+[mem invalid] access=21 addr=0x127000 size=1 value=0x0 rip=0x126f00
+[mem mapped] 0x127000
+[mem invalid] access=21 addr=0x128000 size=1 value=0x0 rip=0x127fc2
+[mem mapped] 0x128000
+[mem invalid] access=21 addr=0x129000 size=1 value=0x0 rip=0x128f66
+[mem mapped] 0x129000
+[mem invalid] access=21 addr=0x12a000 size=1 value=0x0 rip=0x129f0a
+[mem mapped] 0x12a000
+[mem invalid] access=21 addr=0x12b000 size=1 value=0x0 rip=0x12afcc
+[mem mapped] 0x12b000
+[mem invalid] access=21 addr=0x12c000 size=1 value=0x0 rip=0x12bf70
+[mem mapped] 0x12c000
+[mem invalid] access=21 addr=0x12d000 size=1 value=0x0 rip=0x12cf14
+[mem mapped] 0x12d000
+[mem invalid] access=21 addr=0x12e000 size=1 value=0x0 rip=0x12dfd6
+[mem mapped] 0x12e000
+[mem invalid] access=21 addr=0x12f000 size=1 value=0x0 rip=0x12ef7a
+[mem mapped] 0x12f000
+[mem invalid] access=21 addr=0x130000 size=1 value=0x0 rip=0x12ff1e
+[mem mapped] 0x130000
+[mem invalid] access=21 addr=0x131000 size=1 value=0x0 rip=0x130fe0
+[mem mapped] 0x131000
+[mem invalid] access=21 addr=0x132000 size=1 value=0x0 rip=0x131f84
+[mem mapped] 0x132000
+[mem invalid] access=21 addr=0x133000 size=1 value=0x0 rip=0x132f28
+[mem mapped] 0x133000
+[mem invalid] access=21 addr=0x134000 size=1 value=0x0 rip=0x133fea
+[mem mapped] 0x134000
+[mem invalid] access=21 addr=0x135000 size=1 value=0x0 rip=0x134f8e
+[mem mapped] 0x135000
+[mem invalid] access=21 addr=0x136000 size=1 value=0x0 rip=0x135f32
+[mem mapped] 0x136000
+[mem invalid] access=21 addr=0x137000 size=1 value=0x0 rip=0x136ff4
+[mem mapped] 0x137000
+[mem invalid] access=21 addr=0x138000 size=1 value=0x0 rip=0x137f98
+[mem mapped] 0x138000
+[mem invalid] access=21 addr=0x139000 size=1 value=0x0 rip=0x138f3c
+[mem mapped] 0x139000
+[mem invalid] access=21 addr=0x13a000 size=1 value=0x0 rip=0x139ffe
+[mem mapped] 0x13a000
+[mem invalid] access=21 addr=0x13b000 size=1 value=0x0 rip=0x13afa2
+[mem mapped] 0x13b000
+[mem invalid] access=21 addr=0x13c000 size=1 value=0x0 rip=0x13bf46
+[mem mapped] 0x13c000
+[mem invalid] access=21 addr=0x13d000 size=1 value=0x0 rip=0x13ceea
+[mem mapped] 0x13d000
+[mem invalid] access=21 addr=0x13e000 size=1 value=0x0 rip=0x13dfac
+[mem mapped] 0x13e000
+[mem invalid] access=21 addr=0x13f000 size=1 value=0x0 rip=0x13ef50
+[mem mapped] 0x13f000
+[mem invalid] access=21 addr=0x140000 size=1 value=0x0 rip=0x13fef4
+[mem mapped] 0x140000
+[mem invalid] access=21 addr=0x141000 size=1 value=0x0 rip=0x140fb6
+[mem mapped] 0x141000
+[mem invalid] access=21 addr=0x142000 size=1 value=0x0 rip=0x141f5a
+[mem mapped] 0x142000
+[mem invalid] access=21 addr=0x143000 size=1 value=0x0 rip=0x142efe
+[mem mapped] 0x143000
+[mem invalid] access=21 addr=0x144000 size=1 value=0x0 rip=0x143fc0
+[mem mapped] 0x144000
+[mem invalid] access=21 addr=0x145000 size=1 value=0x0 rip=0x144f64
+[mem mapped] 0x145000
+[mem invalid] access=21 addr=0x146000 size=1 value=0x0 rip=0x145f08
+[mem mapped] 0x146000
+[mem invalid] access=21 addr=0x147000 size=1 value=0x0 rip=0x146fca
+[mem mapped] 0x147000
+[mem invalid] access=21 addr=0x148000 size=1 value=0x0 rip=0x147f6e
+[mem mapped] 0x148000
+[mem invalid] access=21 addr=0x149000 size=1 value=0x0 rip=0x148f12
+[mem mapped] 0x149000
+[mem invalid] access=21 addr=0x14a000 size=1 value=0x0 rip=0x149fd4
+[mem mapped] 0x14a000
+[mem invalid] access=21 addr=0x14b000 size=1 value=0x0 rip=0x14af78
+[mem mapped] 0x14b000
+[mem invalid] access=21 addr=0x14c000 size=1 value=0x0 rip=0x14bf1c
+[mem mapped] 0x14c000
+[mem invalid] access=21 addr=0x14d000 size=1 value=0x0 rip=0x14cfde
+[mem mapped] 0x14d000
+[mem invalid] access=21 addr=0x14e000 size=1 value=0x0 rip=0x14df82
+[mem mapped] 0x14e000
+[mem invalid] access=21 addr=0x14f000 size=1 value=0x0 rip=0x14ef26
+[mem mapped] 0x14f000
+[mem invalid] access=21 addr=0x150000 size=1 value=0x0 rip=0x14ffe8
+[mem mapped] 0x150000
+[mem invalid] access=21 addr=0x151000 size=1 value=0x0 rip=0x150f8c
+[mem mapped] 0x151000
+[mem invalid] access=21 addr=0x152000 size=1 value=0x0 rip=0x151f30
+[mem mapped] 0x152000
+[mem invalid] access=21 addr=0x153000 size=1 value=0x0 rip=0x152ff2
+[mem mapped] 0x153000
+[mem invalid] access=21 addr=0x154000 size=1 value=0x0 rip=0x153f96
+[mem mapped] 0x154000
+[mem invalid] access=21 addr=0x155000 size=1 value=0x0 rip=0x154f3a
+[mem mapped] 0x155000
+[mem invalid] access=21 addr=0x156000 size=1 value=0x0 rip=0x155ffc
+[mem mapped] 0x156000
+[mem invalid] access=21 addr=0x157000 size=1 value=0x0 rip=0x156fa0
+[mem mapped] 0x157000
+[mem invalid] access=21 addr=0x158000 size=1 value=0x0 rip=0x157f44
+[mem mapped] 0x158000
+[mem invalid] access=21 addr=0x159000 size=1 value=0x0 rip=0x158ee8
+[mem mapped] 0x159000
+[mem invalid] access=21 addr=0x15a000 size=1 value=0x0 rip=0x159faa
+[mem mapped] 0x15a000
+[mem invalid] access=21 addr=0x15b000 size=1 value=0x0 rip=0x15af4e
+[mem mapped] 0x15b000
+[mem invalid] access=21 addr=0x15c000 size=1 value=0x0 rip=0x15bef2
+[mem mapped] 0x15c000
+[mem invalid] access=21 addr=0x15d000 size=1 value=0x0 rip=0x15cfb4
+[mem mapped] 0x15d000
+[mem invalid] access=21 addr=0x15e000 size=1 value=0x0 rip=0x15df58
+[mem mapped] 0x15e000
+[mem invalid] access=21 addr=0x15f000 size=1 value=0x0 rip=0x15eefc
+[mem mapped] 0x15f000
+[mem invalid] access=21 addr=0x160000 size=1 value=0x0 rip=0x15ffbe
+[mem mapped] 0x160000
+[mem invalid] access=21 addr=0x161000 size=1 value=0x0 rip=0x160f62
+[mem mapped] 0x161000
+[mem invalid] access=21 addr=0x162000 size=1 value=0x0 rip=0x161f06
+[mem mapped] 0x162000
+[mem invalid] access=21 addr=0x163000 size=1 value=0x0 rip=0x162fc8
+[mem mapped] 0x163000
+[mem invalid] access=21 addr=0x164000 size=1 value=0x0 rip=0x163f6c
+[mem mapped] 0x164000
+[mem invalid] access=21 addr=0x165000 size=1 value=0x0 rip=0x164f10
+[mem mapped] 0x165000
+[mem invalid] access=21 addr=0x166000 size=1 value=0x0 rip=0x165fd2
+[mem mapped] 0x166000
+[mem invalid] access=21 addr=0x167000 size=1 value=0x0 rip=0x166f76
+[mem mapped] 0x167000
+[mem invalid] access=21 addr=0x168000 size=1 value=0x0 rip=0x167f1a
+[mem mapped] 0x168000
+[mem invalid] access=21 addr=0x169000 size=1 value=0x0 rip=0x168fdc
+[mem mapped] 0x169000
+[mem invalid] access=21 addr=0x16a000 size=1 value=0x0 rip=0x169f80
+[mem mapped] 0x16a000
+[mem invalid] access=21 addr=0x16b000 size=1 value=0x0 rip=0x16af24
+[mem mapped] 0x16b000
+[mem invalid] access=21 addr=0x16c000 size=1 value=0x0 rip=0x16bfe6
+[mem mapped] 0x16c000
+[mem invalid] access=21 addr=0x16d000 size=1 value=0x0 rip=0x16cf8a
+[mem mapped] 0x16d000
+[mem invalid] access=21 addr=0x16e000 size=1 value=0x0 rip=0x16df2e
+[mem mapped] 0x16e000
+[mem invalid] access=21 addr=0x16f000 size=1 value=0x0 rip=0x16eff0
+[mem mapped] 0x16f000
+[mem invalid] access=21 addr=0x170000 size=1 value=0x0 rip=0x16ff94
+[mem mapped] 0x170000
+[mem invalid] access=21 addr=0x171000 size=1 value=0x0 rip=0x170f38
+[mem mapped] 0x171000
+[mem invalid] access=21 addr=0x172000 size=1 value=0x0 rip=0x171ffa
+[mem mapped] 0x172000
+[mem invalid] access=21 addr=0x173000 size=1 value=0x0 rip=0x172f9e
+[mem mapped] 0x173000
+[mem invalid] access=21 addr=0x174000 size=1 value=0x0 rip=0x173f42
+[mem mapped] 0x174000
+[mem invalid] access=21 addr=0x175000 size=1 value=0x0 rip=0x174ee6
+[mem mapped] 0x175000
+[mem invalid] access=21 addr=0x176000 size=1 value=0x0 rip=0x175fa8
+[mem mapped] 0x176000
+[mem invalid] access=21 addr=0x177000 size=1 value=0x0 rip=0x176f4c
+[mem mapped] 0x177000
+[mem invalid] access=21 addr=0x178000 size=1 value=0x0 rip=0x177ef0
+[mem mapped] 0x178000
+[mem invalid] access=21 addr=0x179000 size=1 value=0x0 rip=0x178fb2
+[mem mapped] 0x179000
+[mem invalid] access=21 addr=0x17a000 size=1 value=0x0 rip=0x179f56
+[mem mapped] 0x17a000
+[mem invalid] access=21 addr=0x17b000 size=1 value=0x0 rip=0x17aefa
+[mem mapped] 0x17b000
+[mem invalid] access=21 addr=0x17c000 size=1 value=0x0 rip=0x17bfbc
+[mem mapped] 0x17c000
+[mem invalid] access=21 addr=0x17d000 size=1 value=0x0 rip=0x17cf60
+[mem mapped] 0x17d000
+[mem invalid] access=21 addr=0x17e000 size=1 value=0x0 rip=0x17df04
+[mem mapped] 0x17e000
+[mem invalid] access=21 addr=0x17f000 size=1 value=0x0 rip=0x17efc6
+[mem mapped] 0x17f000
+[mem invalid] access=21 addr=0x180000 size=1 value=0x0 rip=0x17ff6a
+[mem mapped] 0x180000
+[mem invalid] access=21 addr=0x181000 size=1 value=0x0 rip=0x180f0e
+[mem mapped] 0x181000
+[mem invalid] access=21 addr=0x182000 size=1 value=0x0 rip=0x181fd0
+[mem mapped] 0x182000
+[mem invalid] access=21 addr=0x183000 size=1 value=0x0 rip=0x182f74
+[mem mapped] 0x183000
+[mem invalid] access=21 addr=0x184000 size=1 value=0x0 rip=0x183f18
+[mem mapped] 0x184000
+[mem invalid] access=21 addr=0x185000 size=1 value=0x0 rip=0x184fda
+[mem mapped] 0x185000
+[mem invalid] access=21 addr=0x186000 size=1 value=0x0 rip=0x185f7e
+[mem mapped] 0x186000
+[mem invalid] access=21 addr=0x187000 size=1 value=0x0 rip=0x186f22
+[mem mapped] 0x187000
+[mem invalid] access=21 addr=0x188000 size=1 value=0x0 rip=0x187fe4
+[mem mapped] 0x188000
+[mem invalid] access=21 addr=0x189000 size=1 value=0x0 rip=0x188f88
+[mem mapped] 0x189000
+[mem invalid] access=21 addr=0x18a000 size=1 value=0x0 rip=0x189f2c
+[mem mapped] 0x18a000
+[mem invalid] access=21 addr=0x18b000 size=1 value=0x0 rip=0x18afee
+[mem mapped] 0x18b000
+[mem invalid] access=21 addr=0x18c000 size=1 value=0x0 rip=0x18bf92
+[mem mapped] 0x18c000
+[mem invalid] access=21 addr=0x18d000 size=1 value=0x0 rip=0x18cf36
+[mem mapped] 0x18d000
+[mem invalid] access=21 addr=0x18e000 size=1 value=0x0 rip=0x18dff8
+[mem mapped] 0x18e000
+[mem invalid] access=21 addr=0x18f000 size=1 value=0x0 rip=0x18ef9c
+[mem mapped] 0x18f000
+[mem invalid] access=21 addr=0x190000 size=1 value=0x0 rip=0x18ff40
+[mem mapped] 0x190000
+[mem invalid] access=21 addr=0x191000 size=1 value=0x0 rip=0x190ee4
+[mem mapped] 0x191000
+[mem invalid] access=21 addr=0x192000 size=1 value=0x0 rip=0x191fa6
+[mem mapped] 0x192000
+[mem invalid] access=21 addr=0x193000 size=1 value=0x0 rip=0x192f4a
+[mem mapped] 0x193000
+[mem invalid] access=21 addr=0x194000 size=1 value=0x0 rip=0x193eee
+[mem mapped] 0x194000
+[mem invalid] access=21 addr=0x195000 size=1 value=0x0 rip=0x194fb0
+[mem mapped] 0x195000
+[mem invalid] access=21 addr=0x196000 size=1 value=0x0 rip=0x195f54
+[mem mapped] 0x196000
+[mem invalid] access=21 addr=0x197000 size=1 value=0x0 rip=0x196ef8
+[mem mapped] 0x197000
+[mem invalid] access=21 addr=0x198000 size=1 value=0x0 rip=0x197fba
+[mem mapped] 0x198000
+[mem invalid] access=21 addr=0x199000 size=1 value=0x0 rip=0x198f5e
+[mem mapped] 0x199000
+[mem invalid] access=21 addr=0x19a000 size=1 value=0x0 rip=0x199f02
+[mem mapped] 0x19a000
+[mem invalid] access=21 addr=0x19b000 size=1 value=0x0 rip=0x19afc4
+[mem mapped] 0x19b000
+[mem invalid] access=21 addr=0x19c000 size=1 value=0x0 rip=0x19bf68
+[mem mapped] 0x19c000
+[mem invalid] access=21 addr=0x19d000 size=1 value=0x0 rip=0x19cf0c
+[mem mapped] 0x19d000
+[mem invalid] access=21 addr=0x19e000 size=1 value=0x0 rip=0x19dfce
+[mem mapped] 0x19e000
+[mem invalid] access=21 addr=0x19f000 size=1 value=0x0 rip=0x19ef72
+[mem mapped] 0x19f000
+[mem invalid] access=21 addr=0x1a0000 size=1 value=0x0 rip=0x19ff16
+[mem mapped] 0x1a0000
+[mem invalid] access=21 addr=0x1a1000 size=1 value=0x0 rip=0x1a0fd8
+[mem mapped] 0x1a1000
+[mem invalid] access=21 addr=0x1a2000 size=1 value=0x0 rip=0x1a1f7c
+[mem mapped] 0x1a2000
+[mem invalid] access=21 addr=0x1a3000 size=1 value=0x0 rip=0x1a2f20
+[mem mapped] 0x1a3000
+[mem invalid] access=21 addr=0x1a4000 size=1 value=0x0 rip=0x1a3fe2
+[mem mapped] 0x1a4000
+[mem invalid] access=21 addr=0x1a5000 size=1 value=0x0 rip=0x1a4f86
+[mem mapped] 0x1a5000
+[mem invalid] access=21 addr=0x1a6000 size=1 value=0x0 rip=0x1a5f2a
+[mem mapped] 0x1a6000
+[mem invalid] access=21 addr=0x1a7000 size=1 value=0x0 rip=0x1a6fec
+[mem mapped] 0x1a7000
+[mem invalid] access=21 addr=0x1a8000 size=1 value=0x0 rip=0x1a7f90
+[mem mapped] 0x1a8000
+[mem invalid] access=21 addr=0x1a9000 size=1 value=0x0 rip=0x1a8f34
+[mem mapped] 0x1a9000
+[mem invalid] access=21 addr=0x1aa000 size=1 value=0x0 rip=0x1a9ff6
+[mem mapped] 0x1aa000
+[mem invalid] access=21 addr=0x1ab000 size=1 value=0x0 rip=0x1aaf9a
+[mem mapped] 0x1ab000
+[mem invalid] access=21 addr=0x1ac000 size=1 value=0x0 rip=0x1abf3e
+[mem mapped] 0x1ac000
+[mem invalid] access=21 addr=0x1ad000 size=1 value=0x0 rip=0x1ad000
+[mem mapped] 0x1ad000
+[mem invalid] access=21 addr=0x1ae000 size=1 value=0x0 rip=0x1adfa4
+[mem mapped] 0x1ae000
+[mem invalid] access=21 addr=0x1af000 size=1 value=0x0 rip=0x1aef48
+[mem mapped] 0x1af000
+[mem invalid] access=21 addr=0x1b0000 size=1 value=0x0 rip=0x1afeec
+[mem mapped] 0x1b0000
+[mem invalid] access=21 addr=0x1b1000 size=1 value=0x0 rip=0x1b0fae
+[mem mapped] 0x1b1000
+[mem invalid] access=21 addr=0x1b2000 size=1 value=0x0 rip=0x1b1f52
+[mem mapped] 0x1b2000

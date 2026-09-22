@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.png",
+         "16": "icon16.png",
+         "32": "icon32.png",
+         "48": "icon48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://*.studocu.com/*", "*://*.studocu.vn/*", "*://*.scribd.com/*", "*://*.slideshare.net/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "vi",
+   "description": "__MSG_extDescription__",
+   "host_permissions": [ "*://*.studocu.com/*", "*://*.studocu.vn/*", "*://*.scribd.com/*", "*://*.slideshare.net/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnwPDwecQ1lz8wSCrQKmj/8PCXdMcmth8Z+9pIvZalrVTaU8IZTPwSFK4HkrIfNI/Z9l4t6pWtt9WWKwq4q/nIsf2ULjzW7zzQ7qPjomzaBJlS8cgVP6K5MfnF4XlnjotK1Y5bgKUvA+IcWcVps0BvIE206DaPqdUdQYdn/TQ3nzx4qHOekHc1u/vvl6uUO1NrQw5+I7rRWU0sjFs+QfGjPDkih3KayvugGsj0tX3XH2zDG9KL7dqBhqY+CzaSCsuhGcEfca3hZkBVS/IX5w3k3DAbeX50MakAW9hpc1zC47u8fRSXRtfoQYy08rBe6AxcIcSBzu8OJWwdKfFQiXh5wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "cookies", "scripting", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.studocu.com/*", "*://*.studocu.vn/*", "*://*.scribd.com/*", "*://*.slideshare.net/*" ],
+      "resources": [ "viewer_styles.css" ]
+   } ]
+}

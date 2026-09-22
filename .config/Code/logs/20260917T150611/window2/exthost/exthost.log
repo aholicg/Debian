@@ -1,0 +1,5 @@
+2026-09-18 12:34:39.834 [info] Extension host with pid 357871 started
+2026-09-18 12:34:39.902 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-18 12:34:39.938 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-18 12:34:39.991 [info] Extension host terminating: received terminate message from renderer
+2026-09-18 12:34:39.999 [info] Extension host with pid 357871 exiting with code 0

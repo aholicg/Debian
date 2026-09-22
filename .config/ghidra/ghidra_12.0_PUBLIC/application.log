@@ -1,0 +1,297 @@
+2026-02-17 01:20:24 INFO  (LoggingInitialization) Using log config file: jar:file:/home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-02-17 01:20:24 INFO  (LoggingInitialization) Using log file: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/application.log  
+2026-02-17 01:20:24 INFO  (Preferences) Loading user preferences: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/preferences  
+2026-02-17 01:20:31 INFO  (ClassSearcher) Searching for classes...  
+2026-02-17 01:20:33 INFO  (ClassSearcher) Class search complete (1288 ms)  
+2026-02-17 01:20:33 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-02-17 01:20:33 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-02-17 01:20:33 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-02-17 01:20:33 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-02-17 01:20:33 INFO  (GhidraRun) User trang started Ghidra.  
+2026-02-17 01:20:33 INFO  (GhidraRun) User settings directory: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC  
+2026-02-17 01:20:33 INFO  (GhidraRun) User temp directory: /tmp/trang-ghidra  
+2026-02-17 01:20:33 INFO  (GhidraRun) User cache directory: /var/tmp/trang-ghidra  
+2026-02-17 01:20:33 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2026-02-17 01:20:33 DEBUG (DefaultProjectManager) 	no recent project directories found  
+2026-02-17 01:20:35 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2026-02-17 01:20:36 INFO  (GhidraRun) Ghidra startup complete (12805 ms)  
+2026-02-17 01:21:08 INFO  (DefaultProject) Creating project: /home/trang/Downloads/hsoft  
+2026-02-17 01:21:24 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/trang-ghidra/fscache2  
+2026-02-17 01:21:24 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2026-02-17 01:25:51 ERROR (SleighLanguage) Failed to parse Sleigh Specification (atmega256.pspec): invalid symbol definition: SCRSTRLH   
+2026-02-17 01:25:52 INFO  (LocalFileSystem) /v1.bin: file created (trang)  
+2026-02-17 01:26:11 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 01:26:11 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2026-02-17 01:26:12 DEBUG (FidAnalyzer) No FID Libraries apply for language avr8:LE:16:atmega256  
+2026-02-17 01:26:12 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/trang-ghidra/packed-db-cache  
+2026-02-17 01:26:12 DEBUG (PackedDatabaseCache) Caching packed database: /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-02-17 01:26:12 DEBUG (PackedDatabase) Unpacking database /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt -> /var/tmp/trang-ghidra/packed-db-cache/pdb366D1600/db.1.gbf  
+2026-02-17 01:26:12 DEBUG (PackedDatabaseCache) Cache update completed: /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-02-17 01:26:14 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-02-17 01:26:15 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.552 secs
+    Apply Data Archives                        1.837 secs
+    Basic Constant Reference Analyzer          0.089 secs
+    Call-Fixup Installer                       0.009 secs
+    Create Function                            0.000 secs
+    Decompiler Switch Analysis                 0.000 secs
+    Demangler GNU                              0.026 secs
+    Disassemble Entry Points                   0.400 secs
+    Embedded Media                             0.068 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.075 secs
+    Function Start Search                      0.010 secs
+    Non-Returning Functions - Discovered       0.052 secs
+    Reference                                  0.001 secs
+    Shared Return Calls                        0.039 secs
+    Stack                                      0.034 secs
+    Subroutine References                      0.007 secs
+-----------------------------------------------------
+     Total Time   3 secs
+-----------------------------------------------------
+  
+2026-02-17 01:26:15 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2026-02-17 01:26:15 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2026-02-17 01:26:15 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (3.857 secs)  
+2026-02-17 01:26:15 DEBUG (ToolTaskManager) Background processing complete (3.86 secs)  
+2026-02-17 01:27:09 INFO  (LocalFileSystem) /v2.bin: file created (trang)  
+2026-02-17 01:27:20 INFO  (LanguageProviderPlugin) File In-Use: Program v1.bin is in-use!
+Set language may not be done while the associated file is
+open or in-use.  Be sure the file is not open in a tool.  
+2026-02-17 01:27:25 INFO  (LocalFileSystem) /udf_7f0118bcf3244059673137: file created (trang)  
+2026-02-17 01:34:35 ERROR (DefaultLanguageTranslator) Translator can not map address spaces: [avr8:LE:16:atmega256 (Version 1)] -> [avr8:LE:16:default (Version 1)] {Default Translator}  
+2026-02-17 01:34:35 ERROR (SetLanguageTask) Set Language Failed: Incompatible Language: Language translation not supported  
+2026-02-17 01:34:43 INFO  (FileActionManager) Closed project: hsoft  
+2026-02-17 09:01:37 INFO  (LoggingInitialization) Using log config file: jar:file:/home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-02-17 09:01:37 INFO  (LoggingInitialization) Using log file: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/application.log  
+2026-02-17 09:01:37 INFO  (Preferences) Loading user preferences: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/preferences  
+2026-02-17 09:01:38 INFO  (ClassSearcher) Searching for classes...  
+2026-02-17 09:01:39 INFO  (ClassSearcher) Class search complete (1267 ms)  
+2026-02-17 09:01:39 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-02-17 09:01:39 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-02-17 09:01:39 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-02-17 09:01:39 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-02-17 09:01:39 INFO  (GhidraRun) User trang started Ghidra.  
+2026-02-17 09:01:39 INFO  (GhidraRun) User settings directory: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC  
+2026-02-17 09:01:39 INFO  (GhidraRun) User temp directory: /tmp/trang-ghidra  
+2026-02-17 09:01:39 INFO  (GhidraRun) User cache directory: /var/tmp/trang-ghidra  
+2026-02-17 09:01:41 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2026-02-17 09:01:41 INFO  (GhidraRun) Ghidra startup complete (4229 ms)  
+2026-02-17 09:02:06 INFO  (DefaultProject) Creating project: /home/trang/Downloads/test  
+2026-02-17 09:02:36 INFO  (LocalFileSystem) /v2.bin: file created (trang)  
+2026-02-17 09:02:52 INFO  (LocalFileSystem) /v1.bin: file created (trang)  
+2026-02-17 09:03:11 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/trang-ghidra/packed-db-cache  
+2026-02-17 09:03:11 DEBUG (PackedDatabaseCache) Using cached packed database: /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-02-17 09:03:16 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:03:16 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2026-02-17 09:03:16 DEBUG (FidAnalyzer) No FID Libraries apply for language avr8:LE:16:default  
+2026-02-17 09:03:16 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-02-17 09:03:17 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.452 secs
+    Apply Data Archives                        0.297 secs
+    Basic Constant Reference Analyzer          0.053 secs
+    Call-Fixup Installer                       0.001 secs
+    Create Function                            0.004 secs
+    Decompiler Switch Analysis                 0.001 secs
+    Demangler GNU                              0.050 secs
+    Disassemble Entry Points                   0.125 secs
+    Embedded Media                             0.043 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.022 secs
+    Function Start Search                      0.007 secs
+    Non-Returning Functions - Discovered       0.001 secs
+    Shared Return Calls                        0.008 secs
+    Stack                                      0.013 secs
+    Subroutine References                      0.000 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+  
+2026-02-17 09:03:17 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2026-02-17 09:03:17 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2026-02-17 09:03:17 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (1.205 secs)  
+2026-02-17 09:03:17 DEBUG (ToolTaskManager) Background processing complete (1.24 secs)  
+2026-02-17 09:07:06 INFO  (RecoveryMgr) Tue Feb 17 09:07:06 ICT 2026 Recovery snapshot created: /home/trang/Downloads/test.rep/idata/00/~00000000.db/snapshotA.grf  
+2026-02-17 09:10:19 INFO  (LocalFileSystem) /udf_7f011a9f14868050586799: file created (trang)  
+2026-02-17 09:10:27 INFO  (FileActionManager) Closed project: test  
+2026-02-17 09:10:35 INFO  (FileActionManager) Deleted project: test  
+2026-02-17 09:10:41 INFO  (FileActionManager) Deleted project: hsoft  
+2026-02-17 09:10:50 INFO  (DefaultProject) Creating project: /home/trang/Downloads/hsoft  
+2026-02-17 09:11:29 ERROR (SleighLanguage) Failed to parse Sleigh Specification (atmega256.pspec): invalid symbol definition: SCRSTRLH   
+2026-02-17 09:11:29 INFO  (LocalFileSystem) /v2.bin: file created (trang)  
+2026-02-17 09:11:34 DEBUG (PackedDatabaseCache) Using cached packed database: /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-02-17 09:11:37 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:11:37 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2026-02-17 09:11:37 DEBUG (FidAnalyzer) No FID Libraries apply for language avr8:LE:16:atmega256  
+2026-02-17 09:11:38 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-02-17 09:11:38 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2026-02-17 09:11:38 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2026-02-17 09:11:38 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (1.001 secs)  
+2026-02-17 09:11:38 DEBUG (ToolTaskManager) Background processing complete (1.002 secs)  
+2026-02-17 09:15:50 INFO  (RecoveryMgr) Tue Feb 17 09:15:50 ICT 2026 Recovery snapshot created: /home/trang/Downloads/hsoft.rep/idata/00/~00000000.db/snapshotA.grf  
+2026-02-17 09:32:06 ERROR (IndexedV1LocalFileSystem) Failed to flush index file java.io.FileNotFoundException: /home/trang/Downloads/test.rep/user/~index.tmp (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:224)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:364)
+	at ghidra.framework.store.local.IndexedLocalFileSystem.writeIndex(IndexedLocalFileSystem.java:295)
+	at ghidra.framework.store.local.IndexedLocalFileSystem.flushIndex(IndexedLocalFileSystem.java:268)
+	at ghidra.framework.store.local.IndexedLocalFileSystem.lambda$new$0(IndexedLocalFileSystem.java:124)
+	at generic.timer.GhidraSwinglessTimer$MyTimerTask.run(GhidraSwinglessTimer.java:224)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+ 
+2026-02-17 09:41:58 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:41:58 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:41:58 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.099 secs)  
+2026-02-17 09:41:58 DEBUG (ToolTaskManager) Background processing complete (0.102 secs)  
+2026-02-17 09:42:16 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:42:16 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:42:16 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.079 secs)  
+2026-02-17 09:42:16 DEBUG (ToolTaskManager) Background processing complete (0.08 secs)  
+2026-02-17 09:42:19 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:42:19 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:42:19 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.081 secs)  
+2026-02-17 09:42:19 DEBUG (ToolTaskManager) Background processing complete (0.081 secs)  
+2026-02-17 09:42:22 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:42:22 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:42:22 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.066 secs)  
+2026-02-17 09:42:22 DEBUG (ToolTaskManager) Background processing complete (0.068 secs)  
+2026-02-17 09:43:22 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:43:22 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:43:22 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.151 secs)  
+2026-02-17 09:43:22 DEBUG (ToolTaskManager) Background processing complete (0.151 secs)  
+2026-02-17 09:43:25 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:43:25 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:43:25 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.104 secs)  
+2026-02-17 09:43:25 DEBUG (ToolTaskManager) Background processing complete (0.139 secs)  
+2026-02-17 09:43:29 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:43:29 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:43:29 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.09 secs)  
+2026-02-17 09:43:29 DEBUG (ToolTaskManager) Background processing complete (0.09 secs)  
+2026-02-17 09:43:31 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:43:31 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:43:31 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.084 secs)  
+2026-02-17 09:43:31 DEBUG (ToolTaskManager) Background processing complete (0.117 secs)  
+2026-02-17 09:43:35 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:43:35 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:43:35 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.134 secs)  
+2026-02-17 09:43:35 DEBUG (ToolTaskManager) Background processing complete (0.135 secs)  
+2026-02-17 09:43:37 DEBUG (ToolTaskManager) Background processing started...  
+2026-02-17 09:43:37 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2026-02-17 09:43:37 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.078 secs)  
+2026-02-17 09:43:37 DEBUG (ToolTaskManager) Background processing complete (0.079 secs)  
+2026-02-17 09:45:50 INFO  (RecoveryMgr) Tue Feb 17 09:45:50 ICT 2026 Recovery snapshot created: /home/trang/Downloads/hsoft.rep/idata/00/~00000000.db/snapshotB.grf  
+2026-02-17 09:48:44 WARN  (DecompileCallback) Decompiling code:000034, pcode error at code:000055: Unable to resolve constructor at code:000055  
+2026-02-17 09:50:41 INFO  (LocalFileSystem) /udf_7f01194df5400681496105: file created (trang)  
+2026-03-05 20:32:52 INFO  (LoggingInitialization) Using log config file: jar:file:/home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-03-05 20:32:52 INFO  (LoggingInitialization) Using log file: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/application.log  
+2026-03-05 20:32:52 INFO  (Preferences) Loading user preferences: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/preferences  
+2026-03-05 20:32:53 INFO  (ClassSearcher) Searching for classes...  
+2026-03-05 20:32:54 INFO  (ClassSearcher) Class search complete (1330 ms)  
+2026-03-05 20:32:54 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-03-05 20:32:54 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-03-05 20:32:54 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-03-05 20:32:54 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-03-05 20:32:54 INFO  (GhidraRun) User trang started Ghidra.  
+2026-03-05 20:32:54 INFO  (GhidraRun) User settings directory: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC  
+2026-03-05 20:32:54 INFO  (GhidraRun) User temp directory: /tmp/trang-ghidra  
+2026-03-05 20:32:54 INFO  (GhidraRun) User cache directory: /var/tmp/trang-ghidra  
+2026-03-05 20:32:56 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2026-03-05 20:32:56 INFO  (GhidraRun) Ghidra startup complete (4609 ms)  
+2026-03-05 20:33:01 INFO  (LoggingInitialization) Using log config file: jar:file:/home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-03-05 20:33:01 INFO  (LoggingInitialization) Using log file: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/application.log  
+2026-03-05 20:33:01 INFO  (Preferences) Loading user preferences: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC/preferences  
+2026-03-05 20:33:01 INFO  (ClassSearcher) Searching for classes...  
+2026-03-05 20:33:02 INFO  (ClassSearcher) Class search complete (1227 ms)  
+2026-03-05 20:33:03 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-03-05 20:33:03 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-03-05 20:33:03 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-03-05 20:33:03 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-03-05 20:33:03 INFO  (GhidraRun) User trang started Ghidra.  
+2026-03-05 20:33:03 INFO  (GhidraRun) User settings directory: /home/trang/.config/ghidra/ghidra_12.0_PUBLIC  
+2026-03-05 20:33:03 INFO  (GhidraRun) User temp directory: /tmp/trang-ghidra  
+2026-03-05 20:33:03 INFO  (GhidraRun) User cache directory: /var/tmp/trang-ghidra  
+2026-03-05 20:33:04 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2026-03-05 20:33:04 INFO  (GhidraRun) Ghidra startup complete (3972 ms)  
+2026-03-05 20:33:13 INFO  (DefaultProject) Creating project: /home/trang/Downloads/ghost  
+2026-03-05 20:33:18 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/trang-ghidra/fscache2  
+2026-03-05 20:33:18 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2026-03-05 20:33:24 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2026-03-05 20:33:24 DEBUG (ElfHeader) Elf relocation table section .rel.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2026-03-05 20:33:24 DEBUG (ElfHeader) Elf relocation table section .rel.plt linked to symbol table section .dynsym affecting .got.plt  
+2026-03-05 20:33:28 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2026-03-05 20:33:28 DEBUG (ElfHeader) Elf relocation table section .rel.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2026-03-05 20:33:28 DEBUG (ElfHeader) Elf relocation table section .rel.plt linked to symbol table section .dynsym affecting .got.plt  
+2026-03-05 20:33:29 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_4.3 at 080aa05c  
+2026-03-05 20:33:29 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_3.2 at 080a8013  
+2026-03-05 20:33:29 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_3.7 at 080a8379  
+2026-03-05 20:33:29 DEBUG (ElfProgramBuilder) Discarding 2-byte alignment/filler segment_3.9 at 080a83ae  
+2026-03-05 20:33:29 INFO  (LocalFileSystem) /ghost: file created (trang)  
+2026-03-05 20:33:29 INFO  (ImporterUtilities) Additional info:
+Loading file:///home/trang/Downloads/ghost?MD5=3935c73aa6cbb56fe9daa0f1e96ef8c8...
+Skipping section [.eh_frame] with invalid size 0x0
+ELF Relocation Failure: R_386_COPY (5, 0x5) at 08653560 (Symbol = stdin) - Runtime copy not supported (4-bytes)
+ELF Relocation Failure: R_386_COPY (5, 0x5) at 08653564 (Symbol = stdout) - Runtime copy not supported (4-bytes)
+Converted 22 .plt section symbols to external thunks
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'ghost' to imported libraries...
+  [libc.so.6] -> not found in project
+  [libm.so.6] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/ghost] - 23 unresolved symbols, no external libraries configured - skipping
+  
+2026-03-05 20:33:35 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/trang-ghidra/packed-db-cache  
+2026-03-05 20:33:35 DEBUG (PackedDatabaseCache) Caching packed database: /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-03-05 20:33:35 DEBUG (PackedDatabase) Unpacking database /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt -> /var/tmp/trang-ghidra/packed-db-cache/pdbF5776AFE/db.1.gbf  
+2026-03-05 20:33:35 DEBUG (PackedDatabaseCache) Cache update completed: /home/trang/Downloads/ghidra_12.0_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-03-05 20:33:44 DEBUG (ToolTaskManager) Background processing started...  
+2026-03-05 20:33:44 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2026-03-05 20:33:49 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-03-05 20:33:56 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-03-05 20:33:56 INFO  (ExternalSymbolResolverAnalyzer) Resolving External Symbols of [/ghost] - 23 unresolved symbols, no external libraries configured - skipping  
+2026-03-05 20:35:07 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.967 secs
+    Apply Data Archives                        0.231 secs
+    Call Convention ID                         0.000 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.045 secs
+    Create Address Tables - One Time          42.461 secs
+    Create Function                            0.009 secs
+    Data Reference                            11.666 secs
+    Decompiler Switch Analysis                 0.128 secs
+    Decompiler Switch Analysis - One Time      0.275 secs
+    Demangler GNU                              0.016 secs
+    Disassemble Entry Points                   4.046 secs
+    ELF Scalar Operand References              1.789 secs
+    Embedded Media                             0.103 secs
+    External Entry References                  0.001 secs
+    External Symbol Resolver                   0.002 secs
+    Function ID                                0.476 secs
+    Function Start Pre Search                  0.025 secs
+    Function Start Search                      0.008 secs
+    Function Start Search After Code           0.007 secs
+    Function Start Search After Data           0.007 secs
+    Non-Returning Functions - Discovered       1.424 secs
+    Non-Returning Functions - Known            0.011 secs
+    Reference                                 11.463 secs
+    Shared Return Calls                        0.362 secs
+    Stack                                      0.800 secs
+    Subroutine References                      0.697 secs
+    X86 Function Callee Purge                  0.099 secs
+    x86 Constant Reference Analyzer            2.100 secs
+-----------------------------------------------------
+     Total Time   79 secs
+-----------------------------------------------------
+  
+2026-03-05 20:35:07 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2026-03-05 20:35:07 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2026-03-05 20:35:07 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (83.484 secs)  
+2026-03-05 20:35:07 DEBUG (ToolTaskManager) Background processing complete (83.488 secs)  
+2026-03-05 20:35:14 WARN  (DecompileCallback) Decompiling 080482ec, pcode error at 080a751a: Could not follow disassembly flow into non-existing memory at 080a751a  
+2026-03-05 20:36:23 INFO  (LocalFileSystem) /udf_7f01187fb51664492213302: file created (trang)  

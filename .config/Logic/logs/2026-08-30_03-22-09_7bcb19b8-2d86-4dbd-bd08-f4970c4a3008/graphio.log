@@ -1,0 +1,294 @@
+[2026-08-30 03:22:10.450] [main] [info] [saleae_log.cpp:354] Logfile path set to: /home/trang/.config/Logic/logs/2026-08-30_03-22-09_7bcb19b8-2d86-4dbd-bd08-f4970c4a3008/graphio.log
+[2026-08-30 03:22:10.450] [main] [critical] [saleae_log.cpp:357] Global logging level is set to: info
+[2026-08-30 03:22:11.090] [main] [info] [graph_server.cpp:832] Creating session -2
+[2026-08-30 03:22:11.116] [main] [info] [graph_server.cpp:890] DeleteGraphData SessionId: -2
+[2026-08-30 03:22:11.116] [main] [info] [graph_server.cpp:915] DeleteGraph( -2 )
+[2026-08-30 03:22:11.302] [main] [info] [graph_server.cpp:832] Creating session -1
+[2026-08-30 03:22:11.348] [usb] [info] [DevicesManager.cpp:169] Resetting DevicesManager
+[2026-08-30 03:22:11.387] [device] [info] [GenericDevice.cpp:65] Updating device state (Logic8/0xF4243) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-30 03:22:11.387] [device] [info] [GenericDevice.cpp:65] Updating device state (LogicPro8/0xF4244) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-30 03:22:11.387] [device] [info] [GenericDevice.cpp:65] Updating device state (LogicPro16/0xF4241) from DSInitializing(msg=, progress=0%) to DSReady()
+[2026-08-30 03:22:14.394] [main] [info] [graph_server.cpp:832] Creating session 0
+[2026-08-30 03:22:14.416] [main] [info] [data_collection_manager.cpp:423] Called SetWriteAllowed( true )
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:639] Starting deserialization for 1
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/0 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-0.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/1 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-1.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/2 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-2.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/3 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-3.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/4 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-4.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/5 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-5.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/6 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-6.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id=Logic/Digital/7 type=Digital path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-7.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:642]   Target: id= type=Trigger path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/trigger-store.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/0, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-0.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/1, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-1.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/2, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-2.bin
+[2026-08-30 03:22:14.426] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-0.bin
+[2026-08-30 03:22:14.426] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-1.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/3, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-3.bin
+[2026-08-30 03:22:14.426] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=189603
+[2026-08-30 03:22:14.426] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=1049084
+[2026-08-30 03:22:14.426] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.426] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/4, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-4.bin
+[2026-08-30 03:22:14.426] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/5, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-5.bin
+[2026-08-30 03:22:14.427] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-2.bin
+[2026-08-30 03:22:14.427] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 03:22:14.427] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.427] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/6, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-6.bin
+[2026-08-30 03:22:14.428] [main] [info] [data_collection_manager.cpp:679] Starting task for id=Logic/Digital/7, type=Digital, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-7.bin
+[2026-08-30 03:22:14.428] [main] [info] [data_collection_manager.cpp:679] Starting task for id=, type=Trigger, path=/tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/trigger-store.bin
+[2026-08-30 03:22:14.429] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-2.bin
+[2026-08-30 03:22:14.429] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-0.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-5.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 03:22:14.430] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-3.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-4.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 03:22:14.430] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.430] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-6.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 03:22:14.430] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-7.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:130] Deserializing data from file: /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/trigger-store.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=32
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/trigger-store.bin
+[2026-08-30 03:22:14.430] [store] [info] [data_collection_manager.cpp:154] Deserialization beginning, size=82
+[2026-08-30 03:22:14.430] [main] [info] [digital_data_collection_serialize.h:16] Loading data, version=4
+[2026-08-30 03:22:14.431] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-7.bin
+[2026-08-30 03:22:14.431] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-3.bin
+[2026-08-30 03:22:14.432] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-1.bin
+[2026-08-30 03:22:14.432] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-5.bin
+[2026-08-30 03:22:14.432] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-4.bin
+[2026-08-30 03:22:14.433] [store] [info] [data_collection_manager.cpp:181] Deserialization complete for /tmp/saleae-loading/55b5d6b4-206a-423f-bbb0-c9692221269c/digital-6.bin
+[2026-08-30 03:22:26.060] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2972.730 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:22:41.061] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3143.277 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:22:56.062] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3287.418 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:23:11.063] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3134.375 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:23:12.461] [main] [info] [analyzer_node.cpp:2061] named pipe connected
+[2026-08-30 03:23:12.461] [rendering.manager] [info] [rendering_manager_node_connections.cpp:14] Connecting analyzer API
+[2026-08-30 03:23:12.877] [main] [info] [analyzer_node.cpp:2026] all frames written to database
+[2026-08-30 03:23:26.064] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3254.980 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:23:41.066] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3215.230 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:23:56.067] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3254.520 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:24:11.068] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3204.848 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:24:26.070] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3236.117 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:24:41.071] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3235.867 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:24:56.073] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3157.098 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:25:11.075] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3077.078 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:25:26.076] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3043.199 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:25:41.078] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3034.602 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:25:56.079] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3044.086 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:26:11.080] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3028.453 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:26:26.082] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3016.820 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:26:41.083] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3110.211 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:26:56.084] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3008.770 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:27:11.086] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3015.539 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:27:26.087] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3029.391 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:27:41.089] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3044.145 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:27:56.090] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3009.340 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:28:11.092] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2967.301 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:28:26.094] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2905.305 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:28:41.097] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2905.039 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:28:56.098] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3061.340 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:29:11.099] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3064.609 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:29:26.100] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3058.516 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:29:41.101] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2959.184 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:29:56.102] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2980.461 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:30:11.106] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2863.527 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:30:26.107] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2841.070 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:30:41.108] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2994.090 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:30:56.109] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3040.977 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:31:11.111] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3048.371 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:31:26.112] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3053.941 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:31:41.113] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3053.961 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:31:56.114] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3038.086 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:32:11.115] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3057.574 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:32:26.117] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3040.887 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:32:41.118] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3133.117 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:32:56.119] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3132.887 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:33:11.120] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2983.562 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:33:26.122] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3053.590 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:33:41.123] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3044.832 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:33:56.127] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3043.539 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:34:11.130] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2955.465 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:34:26.132] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2983.867 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:34:41.133] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2878.613 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:34:56.134] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3059.289 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:35:11.135] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2989.383 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:35:26.137] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2838.707 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:35:41.138] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3005.000 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:35:56.139] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2985.578 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:36:11.140] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3011.477 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:36:26.143] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2995.641 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:36:41.144] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2993.695 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:36:56.145] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3007.484 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:37:11.146] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3004.227 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:37:26.148] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3031.297 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:37:41.149] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3020.754 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:37:56.150] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3014.559 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:38:11.151] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3025.746 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:38:26.152] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3025.328 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:38:41.153] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3008.766 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:38:56.160] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3023.059 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:39:11.162] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2951.582 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:39:26.167] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2964.840 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:39:41.168] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3034.105 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:39:56.169] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2958.078 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:40:11.171] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2849.449 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:40:26.172] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2849.949 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:40:41.173] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2679.965 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:40:56.174] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2802.785 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:41:11.176] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2792.176 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:41:26.177] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2809.516 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:41:41.178] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2759.547 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:41:56.180] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2770.820 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:42:11.181] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2783.578 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:42:26.182] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2855.918 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:42:41.183] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2837.066 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:42:56.184] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2771.559 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:43:11.186] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2770.977 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:43:26.187] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2762.512 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:43:41.188] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2742.082 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:43:56.189] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2783.895 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:44:11.190] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2762.277 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:44:26.191] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2801.277 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:44:41.192] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2832.609 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:44:56.194] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2835.191 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:45:11.195] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2826.855 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:45:26.196] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2824.051 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:45:41.197] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2833.453 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:45:56.198] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2856.656 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:46:11.199] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2730.582 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:46:26.200] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2759.363 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:46:41.202] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2800.281 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:46:56.203] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2848.832 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:47:11.204] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2848.719 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:47:26.205] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2839.453 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:47:41.206] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2866.543 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:47:56.208] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2787.098 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:48:11.209] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2731.312 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:48:26.210] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2700.992 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:48:41.211] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2694.977 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:48:56.212] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2688.066 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:49:11.214] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2749.199 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:49:26.215] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2740.152 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:49:41.216] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2741.039 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:49:56.217] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2795.051 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:50:11.218] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2756.094 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:50:26.220] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2775.391 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:50:41.222] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3021.180 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:50:56.227] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3122.945 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:51:11.236] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3198.594 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:51:26.238] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3184.375 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:51:41.240] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3163.715 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:51:56.242] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3130.883 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:52:11.244] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3232.766 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:52:26.246] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3179.742 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:52:41.248] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3045.129 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:52:56.251] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3046.441 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:53:11.252] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3087.602 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:53:26.253] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3097.875 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:53:41.254] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2996.352 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:53:56.256] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2978.562 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:54:11.257] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3016.469 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:54:26.258] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2896.410 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:54:41.259] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2909.758 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:54:56.260] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3001.082 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:55:11.262] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2991.824 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:55:26.263] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3012.289 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:55:41.264] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2942.930 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:55:56.265] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2972.090 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:56:11.266] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2994.223 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:56:26.267] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2991.867 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:56:41.268] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2970.762 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:56:56.269] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2998.883 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:57:11.270] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2946.605 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:57:26.272] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2926.254 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:57:41.273] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2921.535 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:57:56.274] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2969.738 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:58:11.275] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2923.996 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:58:26.276] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2946.906 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:58:41.277] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2973.809 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:58:56.279] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2831.762 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:59:11.280] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2857.648 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:59:26.282] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2811.758 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:59:41.283] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2839.293 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 03:59:56.284] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2934.414 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:00:11.291] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2764.117 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:00:26.292] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2833.902 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:00:41.293] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2833.266 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:00:56.294] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2974.715 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:01:11.296] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2930.711 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:01:26.297] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2752.184 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:01:41.298] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2815.984 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:01:56.299] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2861.902 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:02:11.300] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2769.953 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:02:26.301] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2861.348 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:02:41.304] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2402.254 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:02:56.303] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2422.793 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:03:11.304] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2497.188 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:03:26.306] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2429.406 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:03:41.309] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2529.098 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:03:56.310] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2569.184 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:04:11.312] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2583.816 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:04:26.312] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2677.191 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:04:41.315] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2635.883 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:04:56.317] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2609.734 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:05:11.318] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2561.676 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:05:26.319] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2622.352 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:05:41.320] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2557.125 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:05:56.321] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2570.785 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:06:11.322] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2716.938 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:06:26.323] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2525.098 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:06:41.325] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2186.246 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:06:56.327] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2458.141 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:07:11.328] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2463.199 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:07:26.329] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2490.367 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:07:41.331] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2540.785 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:07:56.332] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3035.504 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:08:11.333] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3061.418 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:08:26.334] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3046.422 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:08:41.336] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3057.734 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:08:56.337] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3054.129 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:09:11.338] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2844.715 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:09:26.341] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3029.098 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:09:41.342] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2964.895 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:09:56.343] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3001.559 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:10:11.347] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3149.992 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:10:26.348] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3011.094 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:10:41.350] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3016.355 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:10:56.352] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3071.566 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:11:11.353] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3068.570 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:11:26.354] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3096.090 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:11:41.355] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3009.691 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:11:56.356] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3114.844 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:12:11.358] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3038.836 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:12:26.359] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3060.508 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:12:41.360] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3085.125 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:12:56.361] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3092.676 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:13:11.362] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3107.676 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:13:26.364] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3143.129 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:13:41.365] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3132.996 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:13:56.366] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3149.703 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:14:11.367] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3070.215 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:14:26.369] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3161.195 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:14:41.370] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2902.480 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:14:56.371] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2948.402 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:15:11.372] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2939.188 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:15:26.374] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2941.031 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:15:41.376] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=2900.695 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:15:56.378] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3010.246 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:16:11.379] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3010.953 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:16:26.380] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3030.488 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:16:41.381] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3101.254 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:16:56.382] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3141.312 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:17:11.384] [monitor] [info] [graph_server.cpp:378] System Memory Usage: sys_total=7632.047 MB, sys_avail=3032.809 MB, proc_mem_usage=-0.000 MB
+[2026-08-30 04:17:11.729] [main] [info] [analyzer_node.cpp:615] joining database thread
+[2026-08-30 04:17:11.729] [main] [info] [analyzer_node.cpp:618] database thread joined
+[2026-08-30 04:17:11.729] [graph] [warning] [graph_server.cpp:546] Direct message handler exception: Pipe with specified id does not exist
+Data:
+{"type":"request","contents":{"id":63,"type":"Saleae::Graph::GraphActionData","runInParallel":false,"actions":[{"type":"Saleae::Graph::GraphActions::RemovePipe","id":1000003919}],"meta":{"sessionId":0,"destination":"GraphServer"}}}

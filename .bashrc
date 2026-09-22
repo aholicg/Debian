@@ -145,3 +145,27 @@ PS1="${WHITE}[ ${GREY}\u${WHITE}@${GREEN}\h ${YELLOW}\W ${WHITE}]\$ ${NC}"
 
 # --- End Custom Bash Prompt ---
 . "$HOME/.cargo/env"
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+alias read='mupdf -C FFF8E7 -S 12 -W 600'
+alias vol2='/home/trang/Downloads/volatility_2.6_lin64_standalone/volatility_2.6_lin64_standalone'
+alias del='mv -t /home/trang/trash/'
+alias floss='/home/trang/Downloads/floss'
+alias capa='/home/trang/Downloads/capa'
+alias upx='/home/trang/Downloads/upx-5.2.0-amd64_linux/upx'
+
+# Added by Antigravity CLI installer
+export PATH="/home/trang/.local/bin:$PATH"
+
+# opencode
+export PATH=/home/trang/.opencode/bin:$PATH
+
+# >>> grok installer >>>
+export PATH="$HOME/.grok/bin:$PATH"
+[[ -r "$HOME/.grok/completions/bash/grok.bash" ]] && source "$HOME/.grok/completions/bash/grok.bash"
+# <<< grok installer <<<
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export VAGRANT_DEFAULT_PROVIDER=libvirt

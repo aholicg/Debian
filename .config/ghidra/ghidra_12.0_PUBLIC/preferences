@@ -1,0 +1,26 @@
+#User Preferences
+#Thu Mar 05 20:36:23 ICT 2026
+G_FILE_CHOOSER.HEIGHT.Delete\ a\ Ghidra\ Project=595
+G_FILE_CHOOSER.HEIGHT.Select\ File\ to\ Import=595
+G_FILE_CHOOSER.HEIGHT.Select\ a\ Ghidra\ Project\ Directory=600
+G_FILE_CHOOSER.VIEW_STYLE.Delete\ a\ Ghidra\ Project=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Select\ File\ to\ Import=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Select\ a\ Ghidra\ Project\ Directory=SimpleView
+G_FILE_CHOOSER.WIDTH.Delete\ a\ Ghidra\ Project=798
+G_FILE_CHOOSER.WIDTH.Select\ File\ to\ Import=798
+G_FILE_CHOOSER.WIDTH.Select\ a\ Ghidra\ Project\ Directory=800
+GhidraShowWhatsNew=false
+LAST_USED_OPTIONS_CONFIG=Standard Defaults
+LastImportFile=/home/trang/Downloads/ghost
+LastOpenedProject=/home/trang/Downloads/ghost
+LastSelectedProjectDirectory=/home/trang/Downloads
+ProjectDirectory=/home/trang/Downloads/
+RECENT_0=/home/trang/Downloads
+RECENT_1=/home/trang
+RecentProjects=/home/trang/Downloads/ghost
+SHOW.HELP.NAVIGATION.AID=true
+SHOW_TIPS=false
+TIP_INDEX=2
+Theme=Class\:generic.theme.builtin.FlatLightTheme
+USER_AGREEMENT=ACCEPT
+ViewedProjects=

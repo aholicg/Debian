@@ -1,0 +1,18 @@
+2026-09-22 13:33:54.834 [info] Extension host with pid 13383 started
+2026-09-22 13:33:54.834 [info] Skipping acquiring lock for /home/trang/.config/Code/User/workspaceStorage/873d9a0ef642f38fa1a55062719720e0.
+2026-09-22 13:33:54.952 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-22 13:33:55.004 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-22 13:33:55.044 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-09-22 13:33:56.409 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-22 13:33:56.561 [info] ExtensionService#_doActivateExtension soict.bkcsftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2026-09-22 13:33:56.634 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-22 13:33:56.884 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-22 13:33:56.955 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-22 13:33:57.184 [info] Eager extensions activated
+2026-09-22 13:33:57.210 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 13:33:57.215 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 13:33:57.255 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 13:33:58.769 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at $1t.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1078:24389)
+2026-09-22 13:37:51.797 [info] Extension host terminating: received terminate message from renderer
+2026-09-22 13:37:51.841 [info] Extension host with pid 13383 exiting with code 0
